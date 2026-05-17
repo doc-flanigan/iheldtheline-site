@@ -5,7 +5,7 @@ const LINKS = [
   },
   {
     label: 'Buy Squadron 42 — RSI Store',
-    href: 'https://robertsspaceindustries.com/en/store/pledge/browse/sq42',
+    href: 'https://robertsspaceindustries.com/en/store/pledge/browse/game-packages',
   },
   {
     label: 'RSI Comm-Link — Dev Updates',
