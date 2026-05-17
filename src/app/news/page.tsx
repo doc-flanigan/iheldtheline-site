@@ -7,12 +7,12 @@ import { SITE } from '@/data/site'
 export const metadata: Metadata = {
   title: 'Squadron 42 Development Timeline — Latest News',
   description:
-    'Official Squadron 42 development updates covering the last 24 months. News sourced exclusively from Cloud Imperium Games communications, newest first.',
+    'Squadron 42 development updates and press coverage, sourced from official CIG communications and verified reporting, newest first.',
   alternates: { canonical: '/news' },
   openGraph: {
     title: 'Squadron 42 Development Timeline — Latest News',
     description:
-      'Official Squadron 42 development updates from CIG, newest first. Covering the last 24 months.',
+      'Squadron 42 development updates and press coverage from official CIG sources and verified reporting, newest first.',
     url: '/news',
   },
 }
@@ -46,8 +46,7 @@ export default function NewsPage() {
               </p>
               <h1 className="heading-display text-4xl sm:text-5xl mb-4">Squadron 42 News</h1>
               <p className="text-muted text-base">
-                Official development updates from Cloud Imperium Games, newest first. Covering the
-                last 24 months.
+                Development updates and reporting from official CIG sources and verified press coverage, newest first.
               </p>
             </header>
 
