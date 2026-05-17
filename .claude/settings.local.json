@@ -1,0 +1,23 @@
+{
+  "permissions": {
+    "allow": [
+      "Skill(superpowers:brainstorming)",
+      "Bash(bash *)",
+      "Skill(superpowers:writing-plans)",
+      "Skill(superpowers:subagent-driven-development)",
+      "Bash(git init *)",
+      "Bash(git branch *)",
+      "Bash(gh repo *)",
+      "Bash(npm install *)",
+      "Bash(timeout 20 npm run dev)",
+      "Bash(npx tsc *)",
+      "Bash(Get-ChildItem -Path \"src/app\" -Directory)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Test-Path \"E:\\\\Claude Code\\\\sc-portfolio\\\\iheldtheline-site\\\\src\\\\app\\\\about\\\\page.tsx\" ; \\(Get-Item \"E:\\\\Claude Code\\\\sc-portfolio\\\\iheldtheline-site\\\\src\\\\app\\\\about\\\\page.tsx\"\\).Length)",
+      "Bash(Get-ChildItem -Path \"E:\\\\Claude Code\\\\sc-portfolio\\\\iheldtheline-site\" -Force)",
+      "Bash(Select-Object Name)",
+      "Bash(npm run *)",
+      "Bash(node -e \"require\\('autoprefixer'\\)\")"
+    ]
+  }
+}

@@ -1,0 +1,26 @@
+export const SITE = {
+  name: 'I Held the Line',
+  tagline: 'Tracking Squadron 42 — the single-player campaign from Cloud Imperium Games',
+  url: 'https://iheldtheline.com',
+  description:
+    'The unofficial Squadron 42 fan site. Development news, official trailers, a complete FAQ, and a 2026 release-window tracker. Tracking CIG\'s single-player campaign since the Battle of Vega II.',
+  author: 'Doc_Flanigan',
+  keywords: [
+    'Squadron 42',
+    'Squadron 42 release date',
+    'Squadron 42 2026',
+    'Squadron 42 news',
+    'Squadron 42 trailers',
+    'Squadron 42 vs Star Citizen',
+    'when does Squadron 42 come out',
+    'Squadron 42 gameplay',
+    'Squadron 42 cast',
+    'Mark Hamill Squadron 42',
+    'Gary Oldman Squadron 42',
+    'Gillian Anderson Squadron 42',
+    'Henry Cavill Squadron 42',
+    'Andy Serkis Squadron 42',
+    'Cloud Imperium Games single player',
+    'CIG Squadron 42',
+  ],
+}
