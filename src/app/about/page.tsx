@@ -52,6 +52,37 @@ export default function AboutPage() {
           </p>
 
           <div className="border-t border-gold/10 pt-6 space-y-4">
+            <h2 className="heading-display text-xl">Photo Credits</h2>
+            <p>
+              Hero images courtesy of the Star Citizen community photography community:
+            </p>
+            <ul className="list-none space-y-1">
+              <li>
+                <a
+                  href="https://www.flickr.com/photos/wmk_gaming/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold hover:text-starwhite transition-colors"
+                >
+                  wmk
+                </a>{' '}
+                — Star Citizen photography on Flickr
+              </li>
+              <li>
+                <a
+                  href="https://www.hasgaha.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gold hover:text-starwhite transition-colors"
+                >
+                  hasgaha
+                </a>{' '}
+                — Star Citizen photography at hasgaha.com
+              </li>
+            </ul>
+          </div>
+
+          <div className="border-t border-gold/10 pt-6 space-y-4">
             <h2 className="heading-display text-xl">Disclaimer</h2>
             <p>
               iheldtheline.com is an unofficial fan site. It is not affiliated with, endorsed by,
