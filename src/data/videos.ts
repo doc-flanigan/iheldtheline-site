@@ -18,15 +18,6 @@ export const VIDEOS: VideoEntry[] = [
     duration: 'PT1H5M',
   },
   {
-    date: '2024-10-19',
-    title: 'Squadron 42 — Release Trailer | CitizenCon 2954',
-    description:
-      'A cinematic trailer released at CitizenCon 2954 alongside the live gameplay reveal, presenting a polished cut of in-engine footage and announcing the 2026 release window.',
-    thumbnailUrl: 'https://img.youtube.com/vi/KS2IDmjDbts/maxresdefault.jpg',
-    sourceUrl: 'https://www.youtube.com/watch?v=KS2IDmjDbts',
-    duration: 'PT3M30S',
-  },
-  {
     date: '2023-10-01',
     title: 'Squadron 42: I Held the Line — Feature-Complete Reveal | CitizenCon 2953',
     description:
