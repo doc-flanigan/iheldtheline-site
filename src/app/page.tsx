@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import ReleaseWindow from '@/components/ReleaseWindow'
 import { SITE } from '@/data/site'
+import CTAButton from '@/components/CTAButton'
 
 export const metadata: Metadata = {
   title: {
@@ -99,6 +100,16 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Referral CTA */}
+        <section className="border-t border-white/5 py-12 sm:py-16">
+          <div className="container-wide text-center">
+            <p className="text-muted text-sm mb-6">
+              Squadron 42 is coming — Star Citizen is playable right now.
+            </p>
+            <CTAButton trackingLabel="Homepage CTA" />
           </div>
         </section>
 
