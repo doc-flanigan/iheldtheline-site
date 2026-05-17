@@ -54,7 +54,7 @@ export default function AboutPage() {
           <div className="border-t border-gold/10 pt-6 space-y-4">
             <h2 className="heading-display text-xl">Photo Credits</h2>
             <p>
-              Hero images courtesy of the Star Citizen community photography community:
+              Hero images courtesy of the Star Citizen photography community:
             </p>
             <ul className="list-none space-y-1">
               <li>
