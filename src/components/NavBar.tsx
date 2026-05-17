@@ -2,6 +2,7 @@
 import Link from 'next/link'
 import { useState } from 'react'
 import { Menu, X } from 'lucide-react'
+import CTAButton from '@/components/CTAButton'
 
 const NAV_LINKS = [
   { href: '/', label: 'Home' },
@@ -19,24 +20,30 @@ export default function NavBar() {
       <nav className="container-wide flex items-center justify-between h-14" aria-label="Main navigation">
         <Link
           href="/"
-          className="font-display text-gold font-bold text-sm tracking-[0.15em] uppercase hover:text-goldDark transition-colors"
+          className="font-display text-gold font-bold text-sm tracking-[0.15em] uppercase hover:text-goldDark transition-colors shrink-0"
         >
           I Held the Line
         </Link>
 
         {/* Desktop */}
-        <ul className="hidden md:flex items-center gap-8" role="list">
-          {NAV_LINKS.map(({ href, label }) => (
-            <li key={href}>
-              <Link
-                href={href}
-                className="text-starwhite/80 hover:text-gold text-sm font-medium transition-colors"
-              >
-                {label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="hidden md:flex items-center gap-8">
+          <ul className="flex items-center gap-8" role="list">
+            {NAV_LINKS.map(({ href, label }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="text-starwhite/80 hover:text-gold text-sm font-medium transition-colors"
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <CTAButton
+            trackingLabel="NavBar CTA"
+            className="!px-4 !py-1.5 !text-xs"
+          />
+        </div>
 
         {/* Mobile toggle */}
         <button
@@ -51,22 +58,24 @@ export default function NavBar() {
 
       {/* Mobile drawer */}
       {open && (
-        <ul
-          className="md:hidden bg-navyLight border-t border-gold/20 px-4 py-3 flex flex-col gap-1"
-          role="list"
-        >
-          {NAV_LINKS.map(({ href, label }) => (
-            <li key={href}>
-              <Link
-                href={href}
-                className="block py-2 text-starwhite/80 hover:text-gold text-sm font-medium transition-colors"
-                onClick={() => setOpen(false)}
-              >
-                {label}
-              </Link>
-            </li>
-          ))}
-        </ul>
+        <div className="md:hidden bg-navyLight border-t border-gold/20 px-4 py-3 flex flex-col gap-1">
+          <ul className="flex flex-col gap-1" role="list">
+            {NAV_LINKS.map(({ href, label }) => (
+              <li key={href}>
+                <Link
+                  href={href}
+                  className="block py-2 text-starwhite/80 hover:text-gold text-sm font-medium transition-colors"
+                  onClick={() => setOpen(false)}
+                >
+                  {label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+          <div className="pt-3 pb-1">
+            <CTAButton trackingLabel="NavBar Mobile CTA" className="!text-xs w-full justify-center" />
+          </div>
+        </div>
       )}
     </header>
   )

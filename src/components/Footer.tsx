@@ -1,9 +1,10 @@
 import Image from 'next/image'
+import CTAButton from '@/components/CTAButton'
 import { SITE } from '@/data/site'
 
 const FRIEND_SITES = [
-  { label: 'Day One Citizen', href: 'https://www.dayonecitizen.com' },
-  { label: 'Free Fly Event',  href: 'https://www.freeflyevent.com' },
+  { label: 'Day One Citizen',   href: 'https://www.dayonecitizen.com' },
+  { label: 'Free Fly Event',    href: 'https://www.freeflyevent.com' },
   { label: 'Star Citizen Help', href: 'https://www.starcitizenhelp.com' },
 ]
 
@@ -12,6 +13,16 @@ export default function Footer() {
 
   return (
     <footer className="bg-navyLight border-t border-gold/20 mt-20">
+      {/* CTA strip */}
+      <div className="border-b border-gold/10 py-10">
+        <div className="container-wide flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-muted text-sm text-center sm:text-left">
+            Squadron 42 is coming — Star Citizen is playable right now.
+          </p>
+          <CTAButton trackingLabel="Footer CTA" className="shrink-0" />
+        </div>
+      </div>
+
       <div className="container-wide py-12">
         <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-8 mb-8">
           <div>
