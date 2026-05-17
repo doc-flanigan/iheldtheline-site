@@ -11,10 +11,10 @@ export const NEWS: NewsEntry[] = [
     date: '2026-05-06',
     headline: 'Chris Roberts Confirms 2026 Target, Cites Industry Scheduling Factors',
     summary:
-      'Cloud Imperium Games CEO Chris Roberts confirmed the team is aiming for an end-of-2026 release for Squadron 42 — a standalone single-player space-combat game — but stopped short of a guaranteed date. Roberts acknowledged that the studio is paying attention to other major releases in the industry when planning its launch window. He added that CIG would not run a long marketing campaign ahead of launch, noting that significant gameplay footage and trailers have already been published.',
-    sourceLabel: 'RSI Comm-Link',
+      'Chris Roberts stated in a May 2026 interview that Squadron 42 is targeting a release by the end of 2026, but he stopped short of a firm guarantee. He cited a major upcoming industry release — widely understood to refer to Grand Theft Auto VI — as something CIG is factoring into its launch-window planning. The May 6 Roadmap Roundup the same week was a routine community-team development update covering Alpha 4.8 feature progress.',
+    sourceLabel: 'This Week in Videogames',
     sourceUrl:
-      'https://robertsspaceindustries.com/en/comm-link/transmission/21162-Roadmap-Roundup-May-6-2026',
+      'https://opencritic.com/news/30770/star-citizen-lead-says-he-wants-squadron-42-out-this-year-but-gta-6-might-get-in-the-way',
   },
   {
     date: '2025-12-22',
@@ -28,9 +28,9 @@ export const NEWS: NewsEntry[] = [
     date: '2025-10-11',
     headline: 'CitizenCon Direct 2955: No Squadron 42 Segment; Team in Heads-Down Phase',
     summary:
-      'CitizenCon Direct 2955, a roughly two-hour digital showcase broadcast on 11 October 2025, focused entirely on Star Citizen multiplayer updates and contained no Squadron 42 segment. CIG explained that the Squadron 42 team was in a heads-down phase working toward the 2026 release and chose not to divert resources for a live presentation. The last major SQ42 content reveal remains the CitizenCon 2954 live gameplay demonstration from October 2024.',
-    sourceLabel: 'RSI Comm-Link',
-    sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20766-API',
+      'CitizenCon Direct 2955 aired on October 11, 2025 as a two-hour online-only event focused entirely on Star Citizen multiplayer updates. Squadron 42 had no segment; CIG explained the team was in a heads-down phase working toward the 2026 release and chose not to divert resources for the presentation. The last major SQ42 content reveal remains the CitizenCon 2954 live gameplay demonstration from October 2024.',
+    sourceLabel: 'PCGamesN',
+    sourceUrl: 'https://www.pcgamesn.com/star-citizen/squadron-42-citizencon-2025',
   },
   {
     date: '2025-09-09',
@@ -60,9 +60,9 @@ export const NEWS: NewsEntry[] = [
     date: '2025-01-01',
     headline: 'SQ42 Newsletter: Live Orchestra Recording of the Game Soundtrack Showcased',
     summary:
-      'The January 2025 Squadron 42 newsletter shared a video featuring the game\'s orchestral soundtrack recording session, with before-and-after comparisons between digitally generated score and a full live orchestra. The newsletter also included downloadable wallpapers of Commander Ryan Enright (Henry Cavill) and Captain Rachel MacLaren (Gillian Anderson), along with ringtones from the game\'s score.',
-    sourceLabel: 'RSI Comm-Link',
-    sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20401-API',
+      'The January 2025 Squadron 42 newsletter, titled "Echoes of the Verse," featured a video showcasing the game\'s orchestral soundtrack recording session at Abbey Road Studios — a 96-piece orchestra, 40-piece choir, and bagpipes recording over 164 minutes of original score. The newsletter also included downloadable Squadron 42 ship wallpapers and ringtones drawn from the game\'s score.',
+    sourceLabel: 'RSI Newsletter',
+    sourceUrl: 'https://mailchi.mp/cloudimperiumgames/squadron-42-newsletter-en-1232025',
   },
   {
     date: '2024-10-19',
@@ -109,9 +109,9 @@ export const NEWS: NewsEntry[] = [
     date: '2024-06-12',
     headline: 'SQ42 Monthly Report — May 2024: Opening Level Polish and Natural NPC Gaze',
     summary:
-      'The May 2024 report described a new technology developed for the opening level so that non-player characters glance naturally at the player, adjusting based on context and situation. AI characters were updated to stop automatically crouching and drawing weapons in crowd scenes where the behavior felt unrealistic. The cafeteria sequence was polished to reduce awkward idle time between interactions.',
+      'The May 2024 Squadron 42 monthly report introduced new "Look At" NPC gaze technology for the opening level, giving characters profiles to glance or stare based on context and situation. The report also covered improvements to NPC trolley-pushing and elevator interactions, zero-gravity animation refinements, and chapter 1 cinematic polish including helmet-removal and turret-interaction scenes.',
     sourceLabel: 'RSI Comm-Link',
-    sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20012-API',
+    sourceUrl: 'https://robertsspaceindustries.com/en/comm-link/transmission/20012-Squadron-42-Monthly-Report-May-2024',
   },
   {
     date: '2023-10-01',
