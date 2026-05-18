@@ -68,6 +68,7 @@ export const metadata: Metadata = {
     googleBot: { index: true, follow: true, 'max-image-preview': 'large' },
   },
   category: 'gaming',
+  verification: { other: { 'msvalidate.01': 'F3BFF6A50A2956D49E83258EABA956D4' } },
 }
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
