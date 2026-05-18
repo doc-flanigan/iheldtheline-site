@@ -28,3 +28,28 @@ Added 2026-05-17. Every referral CTA click fires a background POST to `/api/log`
 - [ ] Click CTA **with** adblocker enabled → Sheet row appears within 5s
 - [ ] Click CTA **with** adblocker enabled → Discord embed appears in #referral-clicks
 - [ ] Click CTA **without** adblocker → same as above
+
+---
+
+## SEO
+
+**Network role:** Squadron 42 funnel satellite
+**Search engine:** Both
+
+**Primary keywords:**
+- "squadron 42 release date"
+- "squadron 42 gameplay"
+- "squadron 42 story"
+- "is squadron 42 out yet"
+- "squadron 42 star citizen"
+- "squadron 42 single player campaign"
+
+**Cross-links this site must send (body copy only):**
+- → dayonecitizen.com: "Ready to jump into the full Star Citizen universe? Start here"
+- → freeflyevent.com: "Try Star Citizen free during a Free Fly event"
+- → screferralreward.com: "Get 50,000 UEC when you enlist"
+
+**Do not:**
+- Place cross-portfolio links in footers or link lists — editorial/body copy only
+
+**Full strategy:** `E:\Claude Code\sc-portfolio\docs\seo\README.md`
