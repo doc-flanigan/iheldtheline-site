@@ -3,7 +3,7 @@ export const SITE = {
   tagline: 'Tracking Squadron 42 — the single-player campaign from Cloud Imperium Games',
   url: 'https://iheldtheline.com',
   description:
-    'The unofficial Squadron 42 fan site. Development news, official trailers, a complete FAQ, and a 2026 release-window tracker. Tracking CIG\'s single-player campaign since the Battle of Vega II.',
+    'The unofficial Squadron 42 fan site. Development news, official trailers, a complete FAQ, and a 2026 release-window tracker.',
   author: 'Doc_Flanigan',
   keywords: [
     'Squadron 42',

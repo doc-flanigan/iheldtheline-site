@@ -31,7 +31,7 @@ export default function CTAButton({ trackingLabel, className = '' }: Props) {
     <a
       href={referralUrl}
       target="_blank"
-      rel="noopener noreferrer"
+      rel="noopener noreferrer sponsored"
       onClick={handleClick}
       className={`inline-flex items-center gap-2 rounded-full bg-gold text-navy font-semibold px-6 py-3 hover:bg-goldDark transition-colors ${className}`}
     >

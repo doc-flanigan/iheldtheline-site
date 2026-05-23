@@ -3,15 +3,23 @@ import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: 'About',
+  title: 'About This Site',
   description:
     'About iheldtheline.com — an unofficial Squadron 42 fan site created by Doc_Flanigan. Fan-site disclaimer, trademark notice, and contact information.',
   alternates: { canonical: '/about' },
   openGraph: {
-    title: 'About',
+    title: 'About This Site — I Held the Line',
     description:
       'About iheldtheline.com — an unofficial Squadron 42 fan site created by Doc_Flanigan. Fan-site disclaimer, trademark notice, and contact information.',
     url: '/about',
+    images: [
+      {
+        url: '/images/hero/hero-01.jpg',
+        width: 1920,
+        height: 1080,
+        alt: 'I Held the Line — Squadron 42 fan site',
+      },
+    ],
   },
 }
 

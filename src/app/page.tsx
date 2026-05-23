@@ -110,27 +110,14 @@ export default function Home() {
               Squadron 42 is coming — Star Citizen is playable right now.
             </p>
             <CTAButton trackingLabel="Homepage CTA" />
-            {/* SEO cross-links */}
+            {/* SEO cross-link: dayonecitizen */}
             <div className="mt-8 space-y-2 text-sm text-muted max-w-2xl mx-auto text-left">
               <p>
-                Ready to jump into the full Star Citizen universe?{' '}
+                New to Star Citizen?{' '}
                 <a href="https://dayonecitizen.com" className="text-gold underline hover:opacity-80" target="_blank" rel="noopener">
-                  DayOneCitizen.com
+                  Start at dayonecitizen.com
                 </a>{' '}
-                is the plain-English getting-started guide for new players.
-              </p>
-              <p>
-                <a href="https://freeflyevent.com" className="text-gold underline hover:opacity-80" target="_blank" rel="noopener">
-                  Free Fly events
-                </a>{' '}
-                let you try Star Citizen at no cost — check current event dates.
-              </p>
-              <p>
-                When you sign up, use a referral code at{' '}
-                <a href="https://screferralreward.com" className="text-gold underline hover:opacity-80" target="_blank" rel="noopener">
-                  screferralreward.com
-                </a>{' '}
-                to get 50,000 UEC added to your hangar.
+                — the plain-English getting-started guide for new players.
               </p>
             </div>
           </div>
