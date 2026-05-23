@@ -1,0 +1,96 @@
+<h2>Navigation Bar Style</h2>
+<p class="subtitle">The nav sits above the countdown-first hero. How should it look at page load vs. on scroll?</p>
+
+<div class="cards">
+
+  <!-- Option A: Transparent on load, solid on scroll -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;font-family:system-ui;border:1px solid #c8a04a33;overflow:hidden;">
+        <!-- Label -->
+        <div style="background:#c8a04a11;border-bottom:1px solid #c8a04a22;padding:4px 12px;font-size:8px;color:#c8a04a;letter-spacing:0.15em;">AT PAGE LOAD (hero visible)</div>
+        <!-- Transparent nav -->
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:rgba(10,26,58,0.3);backdrop-filter:blur(4px);">
+          <div style="color:#c8a04a;font-size:11px;font-weight:800;letter-spacing:0.05em;">I HELD THE LINE</div>
+          <div style="display:flex;gap:14px;">
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Home</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">News</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Videos</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">FAQ</span>
+          </div>
+        </div>
+        <!-- Hero peek -->
+        <div style="background:linear-gradient(to bottom,rgba(10,26,58,0.2),rgba(10,26,58,0.7));padding:18px 16px;text-align:center;">
+          <div style="color:#c8a04a;font-size:8px;letter-spacing:0.3em;margin-bottom:8px;">SQUADRON 42 · 2026 TARGET WINDOW</div>
+          <div style="display:flex;gap:6px;justify-content:center;margin-bottom:6px;">
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:6px 10px;"><div style="color:#e8eaf0;font-size:20px;font-weight:900;">247</div><div style="color:#c8a04a;font-size:7px;">DAYS</div></div>
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:6px 10px;"><div style="color:#e8eaf0;font-size:20px;font-weight:900;">14</div><div style="color:#c8a04a;font-size:7px;">HRS</div></div>
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:6px 10px;"><div style="color:#e8eaf0;font-size:20px;font-weight:900;">32</div><div style="color:#c8a04a;font-size:7px;">MIN</div></div>
+          </div>
+        </div>
+        <!-- Divider -->
+        <div style="background:#c8a04a11;border-top:1px solid #c8a04a22;border-bottom:1px solid #c8a04a22;padding:4px 12px;font-size:8px;color:#c8a04a;letter-spacing:0.15em;">AFTER SCROLLING (hero out of view)</div>
+        <!-- Solid nav on scroll -->
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:#0d1b3e;border-bottom:1px solid #c8a04a33;">
+          <div style="color:#c8a04a;font-size:11px;font-weight:800;letter-spacing:0.05em;">I HELD THE LINE</div>
+          <div style="display:flex;gap:14px;">
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Home</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">News</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Videos</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">FAQ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Transparent → Solid</h3>
+      <p>Semi-transparent with blur over the hero, transitions to solid navy on scroll. Cinematic — lets the background image breathe. The countdown feels more immersive. Needs a small scroll listener (minimal JS).</p>
+    </div>
+  </div>
+
+  <!-- Option B: Always solid -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;font-family:system-ui;border:1px solid #c8a04a33;overflow:hidden;">
+        <!-- Label -->
+        <div style="background:#c8a04a11;border-bottom:1px solid #c8a04a22;padding:4px 12px;font-size:8px;color:#c8a04a;letter-spacing:0.15em;">ALWAYS (same at load and on scroll)</div>
+        <!-- Always solid nav -->
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:#0d1b3e;border-bottom:2px solid #c8a04a;">
+          <div style="color:#c8a04a;font-size:11px;font-weight:800;letter-spacing:0.05em;">I HELD THE LINE</div>
+          <div style="display:flex;gap:14px;">
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Home</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">News</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Videos</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">FAQ</span>
+          </div>
+        </div>
+        <!-- Hero peek -->
+        <div style="background:linear-gradient(to bottom,rgba(10,26,58,0.5),rgba(10,26,58,0.85));padding:18px 16px;text-align:center;">
+          <div style="color:#c8a04a;font-size:8px;letter-spacing:0.3em;margin-bottom:8px;">SQUADRON 42 · 2026 TARGET WINDOW</div>
+          <div style="display:flex;gap:6px;justify-content:center;margin-bottom:6px;">
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:6px 10px;"><div style="color:#e8eaf0;font-size:20px;font-weight:900;">247</div><div style="color:#c8a04a;font-size:7px;">DAYS</div></div>
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:6px 10px;"><div style="color:#e8eaf0;font-size:20px;font-weight:900;">14</div><div style="color:#c8a04a;font-size:7px;">HRS</div></div>
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:6px 10px;"><div style="color:#e8eaf0;font-size:20px;font-weight:900;">32</div><div style="color:#c8a04a;font-size:7px;">MIN</div></div>
+          </div>
+        </div>
+        <!-- Same solid nav -->
+        <div style="background:#c8a04a11;border-top:1px solid #c8a04a22;border-bottom:1px solid #c8a04a22;padding:4px 12px;font-size:8px;color:#c8a04a;letter-spacing:0.15em;">AFTER SCROLLING</div>
+        <div style="display:flex;align-items:center;justify-content:space-between;padding:10px 16px;background:#0d1b3e;border-bottom:2px solid #c8a04a;">
+          <div style="color:#c8a04a;font-size:11px;font-weight:800;letter-spacing:0.05em;">I HELD THE LINE</div>
+          <div style="display:flex;gap:14px;">
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Home</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">News</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">Videos</span>
+            <span style="color:#e8eaf0;font-size:9px;opacity:0.85;">FAQ</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Always Solid Navy</h3>
+      <p>Solid navy with a gold bottom border, no change on scroll. Simpler, zero JS for nav behavior. The gold border clearly separates site chrome from hero content. Cleaner and more consistent across all pages.</p>
+    </div>
+  </div>
+
+</div>
+<p class="subtitle" style="margin-top:24px;">Check <strong>http://localhost:59244</strong> — click a nav style, then confirm in the terminal.</p>

@@ -1,0 +1,89 @@
+<h2>Hero — No Specific Release Date</h2>
+<p class="subtitle">CIG has only confirmed "2026." The hero needs to be honest about that. Three approaches:</p>
+
+<div class="cards">
+
+  <!-- Option A: Count to Dec 31 2026, clearly labelled -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;padding:20px 16px;font-family:system-ui;min-height:220px;display:flex;flex-direction:column;justify-content:center;border:1px solid #c8a04a33;text-align:center;">
+        <div style="color:#c8a04a;font-size:8px;letter-spacing:0.3em;text-transform:uppercase;margin-bottom:10px;">SQUADRON 42</div>
+        <div style="display:flex;gap:6px;justify-content:center;margin-bottom:8px;">
+          <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:8px 12px;">
+            <div style="color:#e8eaf0;font-size:26px;font-weight:900;line-height:1;">229</div>
+            <div style="color:#c8a04a;font-size:7px;letter-spacing:0.1em;">DAYS</div>
+          </div>
+          <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:8px 12px;">
+            <div style="color:#e8eaf0;font-size:26px;font-weight:900;line-height:1;">09</div>
+            <div style="color:#c8a04a;font-size:7px;letter-spacing:0.1em;">HRS</div>
+          </div>
+          <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:4px;padding:8px 12px;">
+            <div style="color:#e8eaf0;font-size:26px;font-weight:900;line-height:1;">44</div>
+            <div style="color:#c8a04a;font-size:7px;letter-spacing:0.1em;">MIN</div>
+          </div>
+        </div>
+        <div style="color:#8892a4;font-size:9px;margin-bottom:4px;">until end of CIG's 2026 release window (Dec 31, 2026)</div>
+        <div style="color:#c8a04a55;font-size:8px;margin-bottom:14px;">No specific date has been announced · this counts to end of year</div>
+        <div style="border-top:1px solid #c8a04a22;padding-top:12px;">
+          <div style="color:#e8eaf0;font-size:16px;font-weight:800;">I Held the Line</div>
+          <div style="color:#8892a4;font-size:10px;margin-top:4px;">Tracking Squadron 42 development</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Count to Dec 31, 2026</h3>
+      <p>Still shows live digits, but clearly labels it as "until end of CIG's 2026 window." Honest — CIG said 2026, so counting to year-end is defensible. Keeps the drama of the countdown-first layout.</p>
+    </div>
+  </div>
+
+  <!-- Option B: "2026" as the giant centerpiece, no digits -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;padding:20px 16px;font-family:system-ui;min-height:220px;display:flex;flex-direction:column;justify-content:center;border:1px solid #c8a04a33;text-align:center;">
+        <div style="color:#c8a04a;font-size:8px;letter-spacing:0.3em;text-transform:uppercase;margin-bottom:8px;">SQUADRON 42 · TARGET RELEASE</div>
+        <div style="font-size:72px;font-weight:900;color:#c8a04a;line-height:1;margin-bottom:4px;text-shadow:0 0 40px rgba(200,160,74,0.3);">2026</div>
+        <div style="color:#8892a4;font-size:10px;margin-bottom:16px;">CIG's stated release year · no specific date announced</div>
+        <div style="border-top:1px solid #c8a04a22;padding-top:12px;">
+          <div style="color:#e8eaf0;font-size:16px;font-weight:800;">I Held the Line</div>
+          <div style="color:#8892a4;font-size:10px;margin-top:4px;">Tracking Squadron 42 — the single-player campaign from Cloud Imperium Games</div>
+        </div>
+        <div style="margin-top:14px;">
+          <div style="display:inline-block;background:#c8a04a;color:#0a1a3a;font-size:10px;font-weight:700;padding:8px 18px;border-radius:4px;">Read the latest news →</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — "2026" as the Hero</h3>
+      <p>Giant gold "2026" is the centrepiece. No ticking digits — completely honest, zero ambiguity. Still dramatic. Simpler component (no client JS for the hero). Best if you want to avoid any implied precision.</p>
+    </div>
+  </div>
+
+  <!-- Option C: Days-remaining-in-2026 progress bar -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;padding:20px 16px;font-family:system-ui;min-height:220px;display:flex;flex-direction:column;justify-content:center;border:1px solid #c8a04a33;text-align:center;">
+        <div style="color:#c8a04a;font-size:8px;letter-spacing:0.3em;text-transform:uppercase;margin-bottom:10px;">SQUADRON 42 · 2026 RELEASE WINDOW</div>
+        <div style="color:#e8eaf0;font-size:16px;font-weight:800;margin-bottom:6px;">I Held the Line</div>
+        <div style="color:#8892a4;font-size:10px;margin-bottom:16px;">Tracking the single-player campaign from Cloud Imperium Games</div>
+        <!-- Progress bar -->
+        <div style="background:#0d1b3e;border:1px solid #c8a04a33;border-radius:6px;padding:14px;">
+          <div style="display:flex;justify-content:space-between;margin-bottom:6px;">
+            <span style="color:#c8a04a;font-size:8px;">Jan 2026</span>
+            <span style="color:#8892a4;font-size:8px;">229 days remaining in window</span>
+            <span style="color:#c8a04a;font-size:8px;">Dec 2026</span>
+          </div>
+          <div style="background:#0a1a3a;border-radius:4px;height:8px;overflow:hidden;">
+            <div style="background:linear-gradient(to right,#c8a04a,#d4af37);height:100%;width:37%;border-radius:4px;"></div>
+          </div>
+          <div style="color:#8892a4;font-size:8px;margin-top:6px;">37% through 2026 · no specific date has been announced</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Year Progress Bar</h3>
+      <p>Shows how far through 2026 we are — a subtle "window closing" tension without implying a date. The site title leads, bar sits below. Unique, honest, and still creates a sense of anticipation.</p>
+    </div>
+  </div>
+
+</div>
+<p class="subtitle" style="margin-top:24px;">Click your pick, then confirm in the terminal.</p>

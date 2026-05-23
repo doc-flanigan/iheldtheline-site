@@ -13,6 +13,14 @@ export const metadata: Metadata = {
     description:
       'Every official Squadron 42 video from CIG — trailers, gameplay reveals, CitizenCon presentations.',
     url: '/videos',
+    images: [
+      {
+        url: '/images/hero/hero-01.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Official Squadron 42 videos and trailers from Cloud Imperium Games',
+      },
+    ],
   },
 }
 

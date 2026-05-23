@@ -3,7 +3,7 @@
 ## Quick Reference
 ```
 Domain:         iheldtheline.com
-Referral codes: STAR-GCQJ-N6NC / STAR-RXW4-JPN3 / STAR-C2GJ-XSSS (rotating)
+Referral codes: STAR-GCQJ-N6NC / STAR-C2GJ-XSSS (rotating)
 Hub:            https://dayonecitizen.com
 Conventions:    E:\Claude Code\sc-portfolio\SHARED_CONVENTIONS.md
 ```

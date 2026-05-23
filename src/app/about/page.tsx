@@ -7,6 +7,12 @@ export const metadata: Metadata = {
   description:
     'About iheldtheline.com — an unofficial Squadron 42 fan site created by Doc_Flanigan. Fan-site disclaimer, trademark notice, and contact information.',
   alternates: { canonical: '/about' },
+  openGraph: {
+    title: 'About',
+    description:
+      'About iheldtheline.com — an unofficial Squadron 42 fan site created by Doc_Flanigan. Fan-site disclaimer, trademark notice, and contact information.',
+    url: '/about',
+  },
 }
 
 export default function AboutPage() {

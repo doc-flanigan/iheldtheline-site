@@ -14,6 +14,14 @@ export const metadata: Metadata = {
     description:
       'Squadron 42 development updates and press coverage from official CIG sources and verified reporting, newest first.',
     url: '/news',
+    images: [
+      {
+        url: '/images/hero/hero-01.jpg',
+        width: 1200,
+        height: 630,
+        alt: 'Squadron 42 development timeline and latest news',
+      },
+    ],
   },
 }
 

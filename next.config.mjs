@@ -8,6 +8,16 @@ const nextConfig = {
       { protocol: 'https', hostname: 'i.ytimg.com' },
     ],
   },
+  async redirects() {
+    return [
+      {
+        source: '/:path*',
+        has: [{ type: 'host', value: 'www.iheldtheline.com' }],
+        destination: 'https://iheldtheline.com/:path*',
+        permanent: true,
+      },
+    ];
+  },
 }
 
 export default nextConfig

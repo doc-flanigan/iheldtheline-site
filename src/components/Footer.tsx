@@ -2,12 +2,6 @@ import Image from 'next/image'
 import CTAButton from '@/components/CTAButton'
 import { SITE } from '@/data/site'
 
-const FRIEND_SITES = [
-  { label: 'Day One Citizen',   href: 'https://www.dayonecitizen.com' },
-  { label: 'Free Fly Event',    href: 'https://www.freeflyevent.com' },
-  { label: 'Star Citizen Help', href: 'https://www.starcitizenhelp.com' },
-]
-
 export default function Footer() {
   const year = new Date().getFullYear()
 
@@ -30,26 +24,6 @@ export default function Footer() {
               I Held the Line
             </p>
             <p className="text-muted text-xs">{SITE.tagline}</p>
-          </div>
-
-          <div className="flex flex-col gap-3">
-            <p className="text-xs font-semibold uppercase tracking-[0.15em] text-muted">
-              SC Community
-            </p>
-            <ul className="space-y-1">
-              {FRIEND_SITES.map(({ label, href }) => (
-                <li key={href}>
-                  <a
-                    href={href}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="text-xs text-muted hover:text-gold transition-colors"
-                  >
-                    {label}
-                  </a>
-                </li>
-              ))}
-            </ul>
           </div>
 
           <a
@@ -77,6 +51,9 @@ export default function Footer() {
           <p className="text-muted text-xs leading-relaxed">
             Star Citizen™ and Squadron 42™ are trademarks of Cloud Imperium Rights LLC. All game
             assets © Cloud Imperium Rights LLC.
+          </p>
+          <p className="text-muted text-xs leading-relaxed">
+            Affiliate disclosure: If you create a Star Citizen account using referral code STAR-GCQJ-N6NC, the site owner may receive an in-game bonus. Your 50,000 aUEC new-player bonus is not affected.
           </p>
           <p className="text-muted text-xs">
             © {year} iheldtheline.com — created by {SITE.author}

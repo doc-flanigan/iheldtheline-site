@@ -1,0 +1,113 @@
+<h2>Hero Section Layout</h2>
+<p class="subtitle">The first thing visitors see. All three use the navy + gold palette and a full-bleed background image. Which layout feels right for "I Held the Line"?</p>
+
+<div class="cards">
+
+  <!-- Option A -->
+  <div class="card" data-choice="a" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;padding:24px 20px;font-family:system-ui;min-height:260px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #c8a04a33;position:relative;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,26,58,0.4),rgba(10,26,58,0.85));z-index:0;"></div>
+        <div style="position:relative;z-index:1;text-align:center;">
+          <div style="color:#c8a04a;font-size:10px;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:10px;">SQUADRON 42 FAN SITE</div>
+          <div style="color:#e8eaf0;font-size:22px;font-weight:800;line-height:1.2;margin-bottom:6px;">I Held the Line</div>
+          <div style="color:#c8a04a;font-size:13px;margin-bottom:16px;font-style:italic;">"At Vega, we held."</div>
+          <div style="color:#a0aec0;font-size:11px;max-width:280px;margin:0 auto;">The single-player campaign that started it all. Track development, watch the trailers, read the lore.</div>
+        </div>
+        <!-- Countdown centered -->
+        <div style="position:relative;z-index:1;background:rgba(200,160,74,0.1);border:1px solid #c8a04a;border-radius:8px;padding:12px;text-align:center;margin-top:14px;">
+          <div style="color:#c8a04a;font-size:9px;letter-spacing:0.2em;text-transform:uppercase;margin-bottom:6px;">TARGET RELEASE WINDOW</div>
+          <div style="display:flex;gap:16px;justify-content:center;">
+            <div style="text-align:center;"><div style="color:#e8eaf0;font-size:20px;font-weight:800;">247</div><div style="color:#8892a4;font-size:9px">DAYS</div></div>
+            <div style="text-align:center;"><div style="color:#e8eaf0;font-size:20px;font-weight:800;">14</div><div style="color:#8892a4;font-size:9px">HRS</div></div>
+            <div style="text-align:center;"><div style="color:#e8eaf0;font-size:20px;font-weight:800;">32</div><div style="color:#8892a4;font-size:9px">MIN</div></div>
+          </div>
+          <div style="color:#8892a4;font-size:9px;margin-top:6px;">CIG's stated target · subject to change</div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>A — Centered Command</h3>
+      <p>Headline, tagline, and body copy centered on a full-bleed image. Countdown timer below as a gold-bordered panel. Clean, cinematic, familiar. Like dayonecitizen.com but grander.</p>
+    </div>
+  </div>
+
+  <!-- Option B -->
+  <div class="card" data-choice="b" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;padding:24px 20px;font-family:system-ui;min-height:260px;display:flex;flex-direction:column;justify-content:center;border:1px solid #c8a04a33;position:relative;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:linear-gradient(to right,rgba(10,26,58,0.95) 50%,rgba(10,26,58,0.4));z-index:0;"></div>
+        <div style="position:relative;z-index:1;display:flex;align-items:center;gap:20px;">
+          <!-- Left: text -->
+          <div style="flex:1;">
+            <div style="color:#c8a04a;font-size:9px;letter-spacing:0.25em;text-transform:uppercase;margin-bottom:8px;">SQUADRON 42</div>
+            <div style="color:#e8eaf0;font-size:20px;font-weight:800;line-height:1.2;margin-bottom:6px;">I Held<br/>the Line</div>
+            <div style="color:#a0aec0;font-size:11px;line-height:1.5;margin-bottom:12px;">Track development of the single-player campaign. News, trailers, and the full story.</div>
+            <div style="display:inline-block;background:#c8a04a;color:#0a1a3a;font-size:10px;font-weight:700;padding:8px 16px;border-radius:4px;">Explore the Site →</div>
+          </div>
+          <!-- Right: countdown -->
+          <div style="width:140px;flex-shrink:0;background:rgba(10,26,58,0.9);border:1px solid #c8a04a;border-radius:8px;padding:14px;text-align:center;">
+            <div style="color:#c8a04a;font-size:8px;letter-spacing:0.15em;text-transform:uppercase;margin-bottom:8px;">2026 TARGET</div>
+            <div style="color:#e8eaf0;font-size:28px;font-weight:800;line-height:1;">247</div>
+            <div style="color:#8892a4;font-size:9px;margin-bottom:8px;">days remaining</div>
+            <div style="border-top:1px solid #c8a04a33;padding-top:8px;">
+              <div style="display:flex;justify-content:space-around;">
+                <div><div style="color:#e8eaf0;font-size:13px;font-weight:700;">14</div><div style="color:#8892a4;font-size:8px">hrs</div></div>
+                <div style="color:#c8a04a;font-size:13px;">:</div>
+                <div><div style="color:#e8eaf0;font-size:13px;font-weight:700;">32</div><div style="color:#8892a4;font-size:8px">min</div></div>
+              </div>
+            </div>
+            <div style="color:#8892a4;font-size:8px;margin-top:6px;line-height:1.3;">Subject to change</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>B — Briefing Room Split</h3>
+      <p>Text and CTA on the left (with a dark gradient overlay), countdown widget floating on the right. Asymmetric, tactical feel — like a mission briefing slide. Countdown is immediately visible and prominent.</p>
+    </div>
+  </div>
+
+  <!-- Option C -->
+  <div class="card" data-choice="c" onclick="toggleSelect(this)">
+    <div class="card-image">
+      <div style="background:#0a1a3a;padding:24px 20px;font-family:system-ui;min-height:260px;display:flex;flex-direction:column;justify-content:center;border:1px solid #c8a04a33;position:relative;overflow:hidden;">
+        <div style="position:absolute;inset:0;background:linear-gradient(to bottom,rgba(10,26,58,0.3),rgba(10,26,58,0.9));z-index:0;"></div>
+        <!-- Countdown as the BIG centerpiece -->
+        <div style="position:relative;z-index:1;text-align:center;">
+          <div style="color:#c8a04a;font-size:9px;letter-spacing:0.3em;text-transform:uppercase;margin-bottom:12px;">SQUADRON 42 · 2026 TARGET WINDOW</div>
+          <div style="display:flex;gap:8px;justify-content:center;margin-bottom:12px;">
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:6px;padding:10px 14px;min-width:52px;">
+              <div style="color:#e8eaf0;font-size:28px;font-weight:900;line-height:1;">247</div>
+              <div style="color:#c8a04a;font-size:8px;letter-spacing:0.1em">DAYS</div>
+            </div>
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:6px;padding:10px 14px;min-width:52px;">
+              <div style="color:#e8eaf0;font-size:28px;font-weight:900;line-height:1;">14</div>
+              <div style="color:#c8a04a;font-size:8px;letter-spacing:0.1em">HRS</div>
+            </div>
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:6px;padding:10px 14px;min-width:52px;">
+              <div style="color:#e8eaf0;font-size:28px;font-weight:900;line-height:1;">32</div>
+              <div style="color:#c8a04a;font-size:8px;letter-spacing:0.1em">MIN</div>
+            </div>
+            <div style="background:rgba(200,160,74,0.12);border:1px solid #c8a04a55;border-radius:6px;padding:10px 14px;min-width:52px;">
+              <div style="color:#e8eaf0;font-size:28px;font-weight:900;line-height:1;">09</div>
+              <div style="color:#c8a04a;font-size:8px;letter-spacing:0.1em">SEC</div>
+            </div>
+          </div>
+          <div style="color:#8892a4;font-size:10px;margin-bottom:14px;">CIG's stated target window · subject to change</div>
+          <div style="border-top:1px solid #c8a04a22;padding-top:12px;">
+            <div style="color:#e8eaf0;font-size:18px;font-weight:800;margin-bottom:4px;">I Held the Line</div>
+            <div style="color:#c8a04a;font-size:11px;">Tracking Squadron 42 — the single-player campaign from Cloud Imperium Games</div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="card-body">
+      <h3>C — Countdown First</h3>
+      <p>The countdown IS the hero — massive digit blocks dominate the fold, with the site title below. High drama, treats the release window as the most important signal on the page. Best for visitors who are already tracking development.</p>
+    </div>
+  </div>
+
+</div>
+
+<p class="subtitle" style="margin-top:24px;">Click your preferred layout, then let me know in the terminal. Or describe what you want changed.</p>
