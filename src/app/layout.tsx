@@ -4,6 +4,8 @@ import { Analytics } from '@vercel/analytics/next'
 import NavBar from '@/components/NavBar'
 import Footer from '@/components/Footer'
 import { SITE } from '@/data/site'
+import GoogleAnalytics from '@/components/GoogleAnalytics'
+import CookieBanner from '@/components/CookieBanner'
 import './globals.css'
 
 const inter = Inter({
@@ -99,6 +101,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         {children}
         <Footer />
         <Analytics />
+        <GoogleAnalytics />
+        <CookieBanner />
         <script
           type="application/ld+json"
           dangerouslySetInnerHTML={{ __html: JSON.stringify(orgJsonLd) }}
