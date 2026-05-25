@@ -6,15 +6,15 @@ import CTAButton from '@/components/CTAButton'
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'Squadron 42 Release Date & News 2026 — I Held the Line',
+    absolute: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
   },
   description:
-    'Track Squadron 42\'s 2026 release window — live development news, official trailers, a complete cast FAQ, and a day-count for CIG\'s target year. The unofficial fan site.',
+    '"I held the line" — what long-time Star Citizen backers say while waiting for Squadron 42 to ship. Track the 2026 release window with live dev news, official trailers, cast FAQ, and a day-count. Unofficial fan site.',
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'Squadron 42 Release Date & News 2026 — I Held the Line',
+    title: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
     description:
-      'Unofficial fan site tracking Squadron 42 development. News, trailers, FAQ, and 2026 release window tracker.',
+      '"I held the line" — the Star Citizen backer pledge to wait for Squadron 42. Live dev news, trailers, cast FAQ, and 2026 release window tracker.',
     url: '/',
   },
 }

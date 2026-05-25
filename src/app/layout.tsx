@@ -28,7 +28,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   metadataBase: new URL(SITE.url),
   title: {
-    default: 'Squadron 42 Release Date & News 2026 — I Held the Line',
+    default: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
     template: '%s | iheldtheline.com',
   },
   description: SITE.description,
@@ -45,7 +45,7 @@ export const metadata: Metadata = {
     type: 'website',
     siteName: SITE.name,
     url: SITE.url,
-    title: 'Squadron 42 Release Date & News 2026 — I Held the Line',
+    title: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
     description: SITE.description,
     images: [
       {
@@ -58,7 +58,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    title: 'Squadron 42 Release Date & News 2026 — I Held the Line',
+    title: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
     description: SITE.description,
     images: ['/images/brand/og-image.png'],
   },
