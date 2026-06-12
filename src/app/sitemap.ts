@@ -1,6 +1,5 @@
 import type { MetadataRoute } from 'next'
 import { SITE } from '@/data/site'
-import { NEWS } from '@/data/news'
 
 const NEWS_SLUGS = [
   'chris-roberts-2026-target-gta6',
