@@ -4,10 +4,12 @@ export type NewsEntry = {
   summary: string     // 2-3 sentences, plain English
   sourceLabel: string // e.g. 'RSI Comm-Link'
   sourceUrl: string
+  slug?: string
 }
 
 export const NEWS: NewsEntry[] = [
   {
+    slug: 'chris-roberts-2026-target-gta6',
     date: '2026-05-06',
     headline: 'Chris Roberts Confirms 2026 Target, Cites Industry Scheduling Factors',
     summary:
@@ -17,6 +19,7 @@ export const NEWS: NewsEntry[] = [
       'https://opencritic.com/news/30770/star-citizen-lead-says-he-wants-squadron-42-out-this-year-but-gta-6-might-get-in-the-way',
   },
   {
+    slug: 'chairmans-letter-2025-40-hours-feature-playable',
     date: '2025-12-22',
     headline: "Chairman's Letter 2025: All SQ42 Chapters Fully Playable, 40+ Hours Confirmed",
     summary:
@@ -25,6 +28,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20960-API',
   },
   {
+    slug: 'citizencon-direct-2955-no-sq42-segment',
     date: '2025-10-11',
     headline: 'CitizenCon Direct 2955: No Squadron 42 Segment; Team in Heads-Down Phase',
     summary:
@@ -33,6 +37,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://www.pcgamesn.com/star-citizen/squadron-42-citizencon-2025',
   },
   {
+    slug: 'q3-2025-newsletter-odin-system',
     date: '2025-09-09',
     headline: "SQ42 Q3 2025 Newsletter: Odin System Revealed, Development Tracking Toward 2026",
     summary:
@@ -41,6 +46,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20745-API',
   },
   {
+    slug: 'sq42-newsletter-may-2025-42nd-squadron',
     date: '2025-05-01',
     headline: 'SQ42 Newsletter: Ships and Crew of the 42nd Squadron',
     summary:
@@ -49,6 +55,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20613-API',
   },
   {
+    slug: 'sq42-newsletter-march-2025-vanduul-contest',
     date: '2025-03-25',
     headline: 'SQ42 Newsletter: Vanduul Language Codebreaker Contest Launched',
     summary:
@@ -57,6 +64,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20432-API',
   },
   {
+    slug: 'sq42-newsletter-january-2025-abbey-road',
     date: '2025-01-01',
     headline: 'SQ42 Newsletter: Live Orchestra Recording of the Game Soundtrack Showcased',
     summary:
@@ -65,6 +73,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://mailchi.mp/cloudimperiumgames/squadron-42-newsletter-en-1232025',
   },
   {
+    slug: 'citizencon-2954-gameplay-reveal-2026-window',
     date: '2024-10-19',
     headline:
       'CitizenCon 2954: First-Ever Live Gameplay Reveal of Squadron 42; 2026 Release Window Announced',
@@ -74,6 +83,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20262-API',
   },
   {
+    slug: 'monthly-report-september-2024',
     date: '2024-10-09',
     headline: 'SQ42 Monthly Report — September 2024: Narrative Polish, Zero-G Traversal, Environment Art',
     summary:
@@ -82,6 +92,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20235-API',
   },
   {
+    slug: 'monthly-report-august-2024',
     date: '2024-09-11',
     headline: 'SQ42 Monthly Report — August 2024: AI Companion Polish and New Test System',
     summary:
@@ -90,6 +101,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20154-API',
   },
   {
+    slug: 'monthly-report-july-2024',
     date: '2024-08-14',
     headline: 'SQ42 Monthly Report — July 2024: AI Groups System and Combat Communication',
     summary:
@@ -98,6 +110,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20107-API',
   },
   {
+    slug: 'monthly-report-june-2024',
     date: '2024-07-10',
     headline: 'SQ42 Monthly Report — June 2024: NPC Interaction System and Ship AI',
     summary:
@@ -106,6 +119,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20051-API',
   },
   {
+    slug: 'monthly-report-may-2024',
     date: '2024-06-12',
     headline: 'SQ42 Monthly Report — May 2024: Opening Level Polish and Natural NPC Gaze',
     summary:
@@ -114,6 +128,7 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/en/comm-link/transmission/20012-Squadron-42-Monthly-Report-May-2024',
   },
   {
+    slug: 'citizencon-2953-i-held-the-line-feature-complete',
     date: '2023-10-01',
     headline: 'CitizenCon 2953: "I Held the Line" Trailer Released; Squadron 42 Declared Feature-Complete',
     summary:

@@ -28,6 +28,27 @@ const SECTION_CARDS = [
     cta: 'Read the timeline →',
   },
   {
+    href: '/cast',
+    label: 'Cast',
+    description:
+      'Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and John Rhys-Davies — the full confirmed cast with roles and official sources.',
+    cta: 'Meet the cast →',
+  },
+  {
+    href: '/release-date',
+    label: 'Release Date Tracker',
+    description:
+      'Every official CIG statement on the Squadron 42 release window, in one place. 2026 target confirmed.',
+    cta: 'Track the date →',
+  },
+  {
+    href: '/sq42-vs-star-citizen',
+    label: 'SQ42 vs Star Citizen',
+    description:
+      'Single-player or multiplayer? One purchase or two? The key differences explained from official CIG sources.',
+    cta: 'See the differences →',
+  },
+  {
     href: '/videos',
     label: 'Official Videos',
     description:

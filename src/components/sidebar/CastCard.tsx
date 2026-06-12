@@ -1,13 +1,6 @@
 import Image from 'next/image'
-
-const CAST = [
-  { actor: 'Mark Hamill',       character: 'Steve "Old Man" Colton', img: '/images/cast/mark-hamill.jpg' },
-  { actor: 'Gary Oldman',       character: 'Admiral Ernst Bishop',   img: '/images/cast/gary-oldman.jpg' },
-  { actor: 'Gillian Anderson',  character: 'Capt. Rachel MacLaren',  img: '/images/cast/gillian-anderson.jpg' },
-  { actor: 'Henry Cavill',      character: 'Cmdr. Ryan Enright',     img: '/images/cast/henry-cavill.jpg' },
-  { actor: 'Andy Serkis',       character: 'Vanduul character',      img: '/images/cast/andy-serkis.jpg' },
-  { actor: 'John Rhys-Davies',  character: 'Role TBA',               img: '/images/cast/john-rhys-davies.jpg' },
-]
+import Link from 'next/link'
+import { CAST } from '@/data/cast'
 
 export default function CastCard() {
   return (
@@ -16,19 +9,23 @@ export default function CastCard() {
         Confirmed Cast
       </h2>
       <ul className="space-y-3">
-        {CAST.map(({ actor, character, img }) => (
-          <li key={actor} className="flex items-center gap-3">
-            <Image
-              src={img}
-              alt={actor}
-              width={36}
-              height={48}
-              className="rounded object-cover shrink-0"
-            />
-            <div className="flex flex-col">
-              <span className="text-sm text-starwhite leading-tight">{actor}</span>
-              <span className="text-xs text-muted">{character}</span>
-            </div>
+        {CAST.map(({ slug, actor, character, img }) => (
+          <li key={slug}>
+            <Link href={`/cast/${slug}`} className="flex items-center gap-3 group">
+              <Image
+                src={img}
+                alt={actor}
+                width={36}
+                height={48}
+                className="rounded object-cover shrink-0"
+              />
+              <div className="flex flex-col">
+                <span className="text-sm text-starwhite leading-tight group-hover:text-gold transition-colors">
+                  {actor}
+                </span>
+                <span className="text-xs text-muted">{character}</span>
+              </div>
+            </Link>
           </li>
         ))}
       </ul>
