@@ -3,7 +3,8 @@
 ## Quick Reference
 ```
 Domain:         iheldtheline.com
-Referral codes: STAR-GCQJ-N6NC / STAR-C2GJ-XSSS (rotating)
+Referral code:  STAR-GCQJ-N6NC (single — rotation discontinued 2026-06-28)
+Enlist URL:     https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
 Hub:            https://dayonecitizen.com
 Conventions:    E:\Claude Code\sc-portfolio\SHARED_CONVENTIONS.md
 ```
@@ -19,7 +20,7 @@ Added 2026-05-17. Every referral CTA click fires a background POST to `/api/log`
 **Key files:**
 - `src/app/api/log/route.ts` — server-side handler (parallel Sheet + Discord calls)
 - `src/components/CTAButton.tsx` — `handleClick` fires the fetch on CTA click
-- `src/lib/referral-rotator.ts` — round-robin referral code selection
+- `src/lib/referral-rotator.ts` — referral URL builder (single code STAR-GCQJ-N6NC; rotation discontinued 2026-06-28, function/export names retained for back-compat)
 
 > **Note:** Endpoint was renamed from `/api/track-click` → `/api/log` because adblocker filter lists (EasyPrivacy, uBlock Origin) blocked the original URL pattern client-side.
 
@@ -38,8 +39,9 @@ Added 2026-05-17. Every referral CTA click fires a background POST to `/api/log`
 **Search engines:** Google + AI answer engines.
 
 **STATUS:** KEEP as a low-maintenance brand/community page — do NOT sunset/301
-(decided 2026-06-29). Commercial intent is low; value is brand/links, not
-conversions. But traffic may spike as Star Citizen / Squadron 42 marketing ramps
+(decided 2026-06-29). On-page search intent is low/informational, so the primary
+value here is brand/links/authority — but the referral CTA stays active for the
+conversions that do come (see below). Traffic may spike as Star Citizen / Squadron 42 marketing ramps
 up later in 2026 — keep the page fast, indexable, and citation-ready so it can
 absorb that attention without ongoing upkeep.
 **Primary intent:** community / lore around the "hold the line" moment — informational,
@@ -47,7 +49,10 @@ not buyer intent. Treat as an authority/brand asset that links toward the hub.
 
 **Cross-links this site must send:**
 - → dayonecitizen.com only (footer + "new to Star Citizen?"). Do NOT link to satellites.
-- Referral CTA is optional/secondary here given low buyer intent.   <!-- confirm code -->
+- Referral CTA stays ACTIVE and prominent — driving enlist referrals is the primary
+  business purpose of every SC site, this one included, even though on-page intent is
+  informational. Target: https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
+  (single code — see Quick Reference). Confirmed against `referral-rotator.ts` / `CTAButton.tsx` 2026-06-29.
 
 **GEO / AI citation (structured-data + indexing only):**
 - Article/Breadcrumb JSON-LD with real author/publisher and accurate dates.
