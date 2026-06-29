@@ -31,25 +31,30 @@ Added 2026-05-17. Every referral CTA click fires a background POST to `/api/log`
 
 ---
 
-## SEO
+## SEO & GEO
 
-**Network role:** Squadron 42 funnel satellite
-**Search engine:** Both
+**Network role:** Satellite / brand + authority lender. Authority flows to the hub.
+**Hub:** https://dayonecitizen.com
+**Search engines:** Google + AI answer engines.
 
-**Primary keywords:**
-- "squadron 42 release date"
-- "squadron 42 gameplay"
-- "squadron 42 story"
-- "is squadron 42 out yet"
-- "squadron 42 star citizen"
-- "squadron 42 single player campaign"
+**STATUS:** confirm — KEEP as a low-maintenance brand/community page OR sunset via
+301 to hub. Commercial intent is low; value is brand/links, not conversions.
+**Primary intent:** community / lore around the "hold the line" moment — informational,
+not buyer intent. Treat as an authority/brand asset that links toward the hub.
 
-**Cross-links this site must send (body copy only):**
-- → dayonecitizen.com: "Ready to jump into the full Star Citizen universe? Start here"
-- → freeflyevent.com: "Try Star Citizen free during a Free Fly event"
-- → screferralreward.com: "Get 50,000 UEC when you enlist"
+**Cross-links this site must send:**
+- → dayonecitizen.com only (footer + "new to Star Citizen?"). Do NOT link to satellites.
+- Referral CTA is optional/secondary here given low buyer intent.   <!-- confirm code -->
+
+**GEO / AI citation (structured-data + indexing only):**
+- Article/Breadcrumb JSON-LD with real author/publisher and accurate dates.
+- FAQPage/HowTo only if matching visible content exists — likely minimal here.
+- /llms.txt from the content source; robots.txt open to AI crawlers; sitemap referenced.
+- This page is most likely to be cited for *what "I held the line" means* — make that
+  answer a crisp, extractable paragraph near the top.
 
 **Do not:**
-- Place cross-portfolio links in footers or link lists — editorial/body copy only
+- Invent lore, dates, or quotes — community facts must be accurate to be cited.
+- Cross-link to any satellite other than the hub.
 
 **Full strategy:** `E:\Claude Code\sc-portfolio\docs\seo\README.md`
