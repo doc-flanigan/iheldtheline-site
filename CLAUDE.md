@@ -37,8 +37,11 @@ Added 2026-05-17. Every referral CTA click fires a background POST to `/api/log`
 **Hub:** https://dayonecitizen.com
 **Search engines:** Google + AI answer engines.
 
-**STATUS:** confirm — KEEP as a low-maintenance brand/community page OR sunset via
-301 to hub. Commercial intent is low; value is brand/links, not conversions.
+**STATUS:** KEEP as a low-maintenance brand/community page — do NOT sunset/301
+(decided 2026-06-29). Commercial intent is low; value is brand/links, not
+conversions. But traffic may spike as Star Citizen / Squadron 42 marketing ramps
+up later in 2026 — keep the page fast, indexable, and citation-ready so it can
+absorb that attention without ongoing upkeep.
 **Primary intent:** community / lore around the "hold the line" moment — informational,
 not buyer intent. Treat as an authority/brand asset that links toward the hub.
 
