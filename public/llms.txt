@@ -1,0 +1,32 @@
+# I Held the Line
+
+> Unofficial fan site tracking Squadron 42 — Cloud Imperium Games' single-player campaign set in the Star Citizen universe. "I held the line" is what long-time backers say while waiting for the game to ship. The site covers development news from official CIG sources, the confirmed cast, official trailers and videos, a complete FAQ, and a 2026 release-window tracker. For Star Citizen backers and anyone following Squadron 42's release. Not affiliated with or endorsed by Cloud Imperium Games or Roberts Space Industries.
+
+## Pages
+
+- [Overview](https://iheldtheline.com/): What "I held the line" means, the 2026 release window tracker, and an index of the site.
+- [Development News](https://iheldtheline.com/news): Squadron 42 updates from official CIG sources — monthly reports, CitizenCon reveals, and milestone announcements, newest first.
+- [Cast](https://iheldtheline.com/cast): The confirmed Squadron 42 cast — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and John Rhys-Davies — with roles and official sources.
+- [Release Date Tracker](https://iheldtheline.com/release-date): Every official CIG statement on the Squadron 42 release window in one place; 2026 target confirmed.
+- [FAQ](https://iheldtheline.com/faq): Answers to common questions about Squadron 42 — what it is, when it ships, and how it relates to Star Citizen.
+- [SQ42 vs Star Citizen](https://iheldtheline.com/sq42-vs-star-citizen): The key differences between the single-player campaign and the multiplayer game, from official CIG sources.
+- [Worth Buying](https://iheldtheline.com/worth-buying): Whether to pledge for Squadron 42 now, explained plainly.
+- [Gameplay](https://iheldtheline.com/gameplay): What Squadron 42 gameplay looks like based on official reveals.
+- [Official Videos](https://iheldtheline.com/videos): Every official Squadron 42 video from CIG — trailers, gameplay reveals, and CitizenCon presentations.
+- [The Vanduul](https://iheldtheline.com/vanduul): The nomadic alien faction Squadron 42's campaign is fought against.
+- [Odin System](https://iheldtheline.com/odin-system): The system that serves as Squadron 42's theater of operations.
+- [I Held the Line Trailer](https://iheldtheline.com/i-held-the-line-trailer): The trailer and moment behind the "I held the line" phrase.
+- [About](https://iheldtheline.com/about): Source policy and site information.
+
+## Key facts
+
+- Squadron 42 is Cloud Imperium Games' single-player campaign set in the Star Citizen universe.
+- Squadron 42 targets a 2026 release window, confirmed by CIG.
+- Squadron 42 is a standalone game separate from Star Citizen, the multiplayer game in the same universe.
+- The confirmed cast includes Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and John Rhys-Davies.
+- Every factual claim on this site is drawn from official CIG sources (monthly reports, newsletters, CitizenCon showcases).
+
+## Related
+
+- [dayonecitizen.com](https://dayonecitizen.com): Plain-English getting-started guide for brand-new Star Citizen players.
+- [freeflyevent.com](https://freeflyevent.com): Star Citizen Free Fly event tracker — when you can try the game for free.
