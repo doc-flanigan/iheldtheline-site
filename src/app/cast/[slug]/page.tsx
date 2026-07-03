@@ -83,9 +83,9 @@ export default async function CastMemberPage({
               <Image
                 src={member.img}
                 alt={member.actor}
-                width={96}
-                height={128}
-                className="rounded object-cover shrink-0 bg-navyLight"
+                width={168}
+                height={224}
+                className="rounded-lg object-cover shrink-0 bg-navyLight"
               />
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-2">
