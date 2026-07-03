@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
     description:
       'Everything officially confirmed about the Vanduul alien faction in Squadron 42, from RSI comm-links and newsletters.',
     url: '/vanduul',
+    images: [
+      {
+        url: '/images/headers/vanduul.jpg',
+        width: 1920,
+        height: 1080,
+        alt: 'A Vanduul fighter with a long blade-like wing and red-lit cockpit banking through dark space, engines flaring behind it.',
+      },
+    ],
   },
 }
 
@@ -32,20 +41,16 @@ export default function VanduulPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Enemy Faction"
+        title="The Vanduul"
+        description="The primary antagonist faction in Squadron 42. Everything below is sourced exclusively from official Cloud Imperium Games communications."
+        image="/images/headers/vanduul.jpg"
+        imageAlt="A Vanduul fighter with a long blade-like wing and red-lit cockpit banking through dark space, engines flaring behind it."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Enemy Faction
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">The Vanduul</h1>
-              <p className="text-muted text-base">
-                The primary antagonist faction in Squadron 42. Everything below is sourced
-                exclusively from official Cloud Imperium Games communications.
-              </p>
-            </header>
-
             <div className="max-w-2xl space-y-10">
               <section>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">

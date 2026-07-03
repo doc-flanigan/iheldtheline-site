@@ -1,6 +1,22 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import CTAButton from '@/components/CTAButton'
 import { SITE } from '@/data/site'
+
+const EXPLORE_LINKS = [
+  { href: '/news', label: 'Development News' },
+  { href: '/release-date', label: 'Release Date Tracker' },
+  { href: '/gameplay', label: 'Gameplay Systems' },
+  { href: '/cast', label: 'Cast' },
+  { href: '/videos', label: 'Official Videos' },
+  { href: '/i-held-the-line-trailer', label: '"I Held the Line" Video' },
+  { href: '/vanduul', label: 'The Vanduul' },
+  { href: '/odin-system', label: 'The Odin System' },
+  { href: '/sq42-vs-star-citizen', label: 'SQ42 vs Star Citizen' },
+  { href: '/worth-buying', label: 'Worth Buying?' },
+  { href: '/faq', label: 'FAQ' },
+  { href: '/about', label: 'About' },
+]
 
 export default function Footer() {
   const year = new Date().getFullYear()
@@ -19,12 +35,42 @@ export default function Footer() {
 
       <div className="container-wide py-12">
         <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-8 mb-8">
-          <div>
+          <div className="max-w-xs">
             <p className="font-display text-gold font-bold text-sm tracking-[0.15em] uppercase mb-1">
               I Held the Line
             </p>
             <p className="text-muted text-xs">{SITE.tagline}</p>
+            <p className="text-muted text-xs mt-4 leading-relaxed">
+              New to Star Citizen?{' '}
+              <a
+                href="https://dayonecitizen.com"
+                target="_blank"
+                rel="noopener"
+                className="text-gold hover:text-goldDark transition-colors"
+              >
+                Start at dayonecitizen.com
+              </a>{' '}
+              — the plain-English getting-started guide.
+            </p>
           </div>
+
+          <nav aria-label="Explore the site">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+              Explore
+            </p>
+            <ul className="grid grid-cols-2 gap-x-8 gap-y-2">
+              {EXPLORE_LINKS.map(({ href, label }) => (
+                <li key={href}>
+                  <Link
+                    href={href}
+                    className="text-muted text-xs hover:text-starwhite transition-colors"
+                  >
+                    {label}
+                  </Link>
+                </li>
+              ))}
+            </ul>
+          </nav>
 
           <a
             href="https://robertsspaceindustries.com"

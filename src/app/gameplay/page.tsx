@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
@@ -12,6 +13,14 @@ export const metadata: Metadata = {
     description:
       'Official gameplay systems confirmed for Squadron 42 — seamless transitions, AI squad combat, zero-G traversal, and more.',
     url: '/gameplay',
+    images: [
+      {
+        url: '/images/headers/gameplay.jpg',
+        width: 1920,
+        height: 823,
+        alt: 'Three fighter ships flying in close formation beneath pink sunset clouds, high above a misty landscape of lakes and pine forests.',
+      },
+    ],
   },
 }
 
@@ -31,22 +40,16 @@ export default function GameplayPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Gameplay"
+        title="Squadron 42 Gameplay Systems"
+        description="What CIG has officially confirmed about how Squadron 42 plays. All details sourced from official comm-links, monthly reports, and CitizenCon presentations."
+        image="/images/headers/gameplay.jpg"
+        imageAlt="Three fighter ships flying in close formation beneath pink sunset clouds, high above a misty landscape of lakes and pine forests."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Gameplay
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">
-                Squadron 42 Gameplay Systems
-              </h1>
-              <p className="text-muted text-base">
-                What CIG has officially confirmed about how Squadron 42 plays. All details sourced
-                from official comm-links, monthly reports, and CitizenCon presentations.
-              </p>
-            </header>
-
             <div className="max-w-2xl space-y-12">
               <section>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">

@@ -17,7 +17,7 @@ export default function CastCard() {
                 alt={actor}
                 width={36}
                 height={48}
-                className="rounded object-cover shrink-0"
+                className="rounded object-cover shrink-0 bg-navyLight"
               />
               <div className="flex flex-col">
                 <span className="text-sm text-starwhite leading-tight group-hover:text-gold transition-colors">

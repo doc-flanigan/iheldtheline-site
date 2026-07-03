@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
@@ -12,6 +13,14 @@ export const metadata: Metadata = {
     description:
       'All official CIG release-window statements for Squadron 42, from feature-complete in 2023 to the 2026 target.',
     url: '/release-date',
+    images: [
+      {
+        url: '/images/headers/release-date.jpg',
+        width: 1920,
+        height: 822,
+        alt: 'Close-up of a Star Citizen capital ship\'s armored engine section erupting in orange thruster flame as blue light streaks past in deep space.',
+      },
+    ],
   },
 }
 
@@ -69,22 +78,16 @@ export default function ReleaseDatePage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Release Date Tracker"
+        title="Squadron 42 Release Date"
+        description="Every official statement from Cloud Imperium Games on the Squadron 42 release window. No speculation — CIG sources only."
+        image="/images/headers/release-date.jpg"
+        imageAlt="Close-up of a Star Citizen capital ship's armored engine section erupting in orange thruster flame as blue light streaks past in deep space."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Release Date Tracker
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">
-                Squadron 42 Release Date
-              </h1>
-              <p className="text-muted text-base">
-                Every official statement from Cloud Imperium Games on the Squadron 42 release
-                window. No speculation — CIG sources only.
-              </p>
-            </header>
-
             {/* What we know summary */}
             <div className="card-surface p-6 mb-14 max-w-2xl">
               <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-4">

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
@@ -14,10 +15,10 @@ export const metadata: Metadata = {
     url: '/about',
     images: [
       {
-        url: '/images/hero/hero-01.jpg',
+        url: '/images/headers/about.jpg',
         width: 1920,
         height: 1080,
-        alt: 'I Held the Line — Squadron 42 fan site',
+        alt: 'A crew member walks beneath a sleek black-and-white fighter parked in a dim hangar, a boarding ladder resting against its open cockpit.',
       },
     ],
   },
@@ -39,16 +40,15 @@ export default function AboutPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="About"
+        title="About This Site"
+        image="/images/headers/about.jpg"
+        imageAlt="A crew member walks beneath a sleek black-and-white fighter parked in a dim hangar, a boarding ladder resting against its open cockpit."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-12 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                About
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">About This Site</h1>
-            </header>
-
             <div className="max-w-2xl space-y-6 text-muted text-base leading-relaxed">
               <p>
                 <strong className="text-starwhite">iheldtheline.com</strong> is an unofficial fan

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import PageHeader from '@/components/PageHeader'
 import VideoCard from '@/components/VideoCard'
 import { VIDEOS } from '@/data/videos'
 import { SITE } from '@/data/site'
@@ -15,10 +16,10 @@ export const metadata: Metadata = {
     url: '/videos',
     images: [
       {
-        url: '/images/hero/hero-01.jpg',
-        width: 1200,
-        height: 630,
-        alt: 'Official Squadron 42 videos and trailers from Cloud Imperium Games',
+        url: '/images/headers/videos.jpg',
+        width: 1920,
+        height: 1080,
+        alt: 'A Star Citizen military fighter fires its nose cannon in a muzzle flash while banking over a cloud-covered planet in orbit.',
       },
     ],
   },
@@ -44,20 +45,14 @@ export default function VideosPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
-        <header className="mb-16 max-w-2xl">
-          <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-            Official Videos
-          </p>
-          <h1 className="heading-display text-4xl sm:text-5xl mb-4">
-            Squadron 42 Videos & Trailers
-          </h1>
-          <p className="text-muted text-base">
-            Every official video from Cloud Imperium Games — trailers, gameplay reveals,
-            CitizenCon presentations, and cinematic clips. Clicking opens the official source.
-          </p>
-        </header>
-
+      <PageHeader
+        eyebrow="Official Videos"
+        title="Squadron 42 Videos & Trailers"
+        description="Every official video from Cloud Imperium Games — trailers, gameplay reveals, CitizenCon presentations, and cinematic clips. Clicking opens the official source."
+        image="/images/headers/videos.jpg"
+        imageAlt="A Star Citizen military fighter fires its nose cannon in a muzzle flash while banking over a cloud-covered planet in orbit."
+      />
+      <main className="container-wide py-12 sm:py-16">
         {sorted.length === 0 ? (
           <p className="text-muted">No videos yet — check back soon.</p>
         ) : (
