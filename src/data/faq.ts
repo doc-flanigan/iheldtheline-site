@@ -26,7 +26,7 @@ export const FAQ: FaqItem[] = [
   {
     question: 'Who is in the cast of Squadron 42?',
     answer:
-      'CIG has officially confirmed the following actors: Mark Hamill as Steve "Old Man" Colton, Gary Oldman as Admiral Ernst Bishop, Gillian Anderson as Captain Rachel MacLaren, Henry Cavill as Commander Ryan Enright, Andy Serkis as a Vanduul character, and John Rhys-Davies. All performances were recorded with full motion-capture technology.',
+      'CIG has officially confirmed the following actors: Mark Hamill as Steve "Old Man" Colton, Gary Oldman as Admiral Ernst Bishop, Gillian Anderson as Captain Rachel MacLaren, Henry Cavill as Commander Ryan Enright, Andy Serkis as a Vanduul character, plus Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies in roles not yet officially named. All performances were recorded with full motion-capture technology.',
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20401-API',
   },
   {

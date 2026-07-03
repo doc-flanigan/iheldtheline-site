@@ -9,7 +9,7 @@ import { SITE } from '@/data/site'
 export const metadata: Metadata = {
   title: 'Squadron 42 Cast — Mark Hamill, Gary Oldman, Gillian Anderson & More',
   description:
-    'The confirmed cast of Squadron 42 — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and John Rhys-Davies. Roles, characters, and official CIG sources.',
+    'The confirmed cast of Squadron 42 — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies. Roles, characters, and official CIG sources.',
   alternates: { canonical: '/cast' },
   openGraph: {
     title: 'Squadron 42 Cast — Mark Hamill, Gary Oldman, Gillian Anderson & More',

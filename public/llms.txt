@@ -6,7 +6,7 @@
 
 - [Overview](https://iheldtheline.com/): What "I held the line" means, the 2026 release window tracker, and an index of the site.
 - [Development News](https://iheldtheline.com/news): Squadron 42 updates from official CIG sources — monthly reports, CitizenCon reveals, and milestone announcements, newest first.
-- [Cast](https://iheldtheline.com/cast): The confirmed Squadron 42 cast — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and John Rhys-Davies — with roles and official sources.
+- [Cast](https://iheldtheline.com/cast): The confirmed Squadron 42 cast — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies — with roles and official sources.
 - [Release Date Tracker](https://iheldtheline.com/release-date): Every official CIG statement on the Squadron 42 release window in one place; 2026 target confirmed.
 - [FAQ](https://iheldtheline.com/faq): Answers to common questions about Squadron 42 — what it is, when it ships, and how it relates to Star Citizen.
 - [SQ42 vs Star Citizen](https://iheldtheline.com/sq42-vs-star-citizen): The key differences between the single-player campaign and the multiplayer game, from official CIG sources.
@@ -23,7 +23,7 @@
 - Squadron 42 is Cloud Imperium Games' single-player campaign set in the Star Citizen universe.
 - Squadron 42 targets a 2026 release window, confirmed by CIG.
 - Squadron 42 is a standalone game separate from Star Citizen, the multiplayer game in the same universe.
-- The confirmed cast includes Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and John Rhys-Davies.
+- The confirmed cast includes Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies.
 - Every factual claim on this site is drawn from official CIG sources (monthly reports, newsletters, CitizenCon showcases).
 
 ## Related
