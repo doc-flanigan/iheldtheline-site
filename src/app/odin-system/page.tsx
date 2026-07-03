@@ -58,9 +58,9 @@ export default function OdinSystemPage() {
           <div className="flex-1 min-w-0">
             <div className="max-w-2xl space-y-10">
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   What Is the Odin System?
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   The Odin system is the primary star system in which Squadron 42&apos;s campaign
                   takes place. It is centered on a white dwarf star — a dense stellar remnant — and
@@ -80,9 +80,9 @@ export default function OdinSystemPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Key Locations
-                </p>
+                </h2>
                 <div className="space-y-6">
                   <div className="card-surface p-5">
                     <p className="text-starwhite font-semibold text-sm mb-2">
@@ -137,9 +137,9 @@ export default function OdinSystemPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   The Conflict
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   The Odin system is the setting for the ongoing conflict between the United Empire
                   of Earth Navy — the military organization the player joins — and the Vanduul alien

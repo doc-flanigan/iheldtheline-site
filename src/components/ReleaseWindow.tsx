@@ -18,12 +18,18 @@ function getProgressPercent(): number {
   return Math.min(100, Math.max(0, (elapsed / total) * 100))
 }
 
+function isWindowPassed(): boolean {
+  return new Date().getTime() > new Date(RELEASE.windowEnd + 'T23:59:59').getTime()
+}
+
 export default function ReleaseWindow() {
   const [daysRemaining, setDaysRemaining] = useState<number | null>(null)
   const [progress, setProgress] = useState(0)
+  const [windowPassed, setWindowPassed] = useState(false)
 
   useEffect(() => {
     setDaysRemaining(getDaysRemaining())
+    setWindowPassed(isWindowPassed())
     // Small delay lets the CSS transition animate on mount
     const id = setTimeout(() => setProgress(getProgressPercent()), 50)
     return () => clearTimeout(id)
@@ -55,9 +61,11 @@ export default function ReleaseWindow() {
         <div className="flex justify-between text-xs text-muted mb-2">
           <span>Jan {RELEASE.year}</span>
           <span>
-            {daysRemaining !== null
-              ? `${daysRemaining} day${daysRemaining !== 1 ? 's' : ''} remaining`
-              : `${RELEASE.year} window`}
+            {windowPassed
+              ? 'Window ended — awaiting new date'
+              : daysRemaining !== null
+                ? `${daysRemaining} day${daysRemaining !== 1 ? 's' : ''} remaining`
+                : `${RELEASE.year} window`}
           </span>
           <span>Dec {RELEASE.year}</span>
         </div>
@@ -76,7 +84,9 @@ export default function ReleaseWindow() {
           />
         </div>
 
-        <p className="text-muted text-xs mt-4 leading-relaxed">{RELEASE.disclaimer}</p>
+        <p className="text-muted text-xs mt-4 leading-relaxed">
+          {windowPassed ? RELEASE.windowPassedNote : RELEASE.disclaimer}
+        </p>
       </div>
     </section>
   )

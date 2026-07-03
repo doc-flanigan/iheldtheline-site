@@ -52,9 +52,9 @@ export default function GameplayPage() {
           <div className="flex-1 min-w-0">
             <div className="max-w-2xl space-y-12">
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Seamless Transitions
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 features seamless transitions between on-foot gameplay, spacecraft
                   interiors, space flight, and planetary surfaces — with no loading screens
@@ -75,9 +75,9 @@ export default function GameplayPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   AI Companions and Squad Combat
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 features squad-based combat with AI companions fighting alongside the
                   player. Monthly development reports describe an AI Groups system that clusters
@@ -100,9 +100,9 @@ export default function GameplayPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Zero-G Traversal
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Zero-gravity movement is a confirmed gameplay mechanic in Squadron 42. The
                   CitizenCon 2954 gameplay reveal included zero-G sequences during the prologue
@@ -122,9 +122,9 @@ export default function GameplayPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Living NPC Crew
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   The capital ship aboard which the player serves functions as a living environment
                   populated with NPCs going about their daily routines. Monthly development reports
@@ -148,9 +148,9 @@ export default function GameplayPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Space Combat
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Space combat includes formation flying with the 42nd Squadron — as shown in the
                   CitizenCon 2953 &quot;I Held the Line&quot; showcase. Ship AI received updates to
@@ -172,9 +172,9 @@ export default function GameplayPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Narrative and Cinematics
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 uses an interrupt system that lets scripted story events blend
                   seamlessly into gameplay without breaking immersion. The facial animation team

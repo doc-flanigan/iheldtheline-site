@@ -99,9 +99,9 @@ export default async function CastMemberPage({
 
             <section className="max-w-2xl space-y-8">
               <div>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Role in Squadron 42
-                </p>
+                </h2>
                 <p className="text-muted text-base leading-relaxed">{member.bio}</p>
                 <p className="mt-3">
                   <a
@@ -117,9 +117,9 @@ export default async function CastMemberPage({
 
               {member.slug === 'mark-hamill' && (
                 <div>
-                  <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                  <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                     Behind the Scenes
-                  </p>
+                  </h2>
                   <p className="text-muted text-sm leading-relaxed">
                     Cloud Imperium Games released a behind-the-scenes video of Hamill&apos;s
                     motion-capture recording session in November 2015, along with a short character
@@ -139,9 +139,9 @@ export default async function CastMemberPage({
               )}
 
               <div className="card-surface p-5">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-2">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-2">
                   About the Game
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 is a standalone single-player campaign set in the Star Citizen
                   universe. CIG has confirmed a 2026 release target. All cast performances were

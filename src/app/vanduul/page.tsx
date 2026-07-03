@@ -53,9 +53,9 @@ export default function VanduulPage() {
           <div className="flex-1 min-w-0">
             <div className="max-w-2xl space-y-10">
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Who Are the Vanduul?
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   The Vanduul are a hostile alien species that serves as the primary enemy faction
                   in Squadron 42. The player, as a new recruit in the United Empire of Earth Navy,
@@ -77,9 +77,9 @@ export default function VanduulPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   The Vanduul Language
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   The March 2025 Squadron 42 subscriber newsletter focused on the Vanduul and
                   revealed that CIG has developed a constructed language for the species. The
@@ -101,9 +101,9 @@ export default function VanduulPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Andy Serkis as a Vanduul Character
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Andy Serkis — known for his motion-capture work on major film productions — is
                   confirmed as part of the Squadron 42 cast, portraying a Vanduul character. His
@@ -132,9 +132,9 @@ export default function VanduulPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   In the Campaign
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   The CitizenCon 2954 gameplay reveal showed the player&apos;s first encounter
                   with the Vanduul during the game&apos;s prologue — a confrontation aboard the
