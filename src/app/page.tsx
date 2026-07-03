@@ -40,7 +40,7 @@ const SECTION_CARDS = [
     href: '/cast',
     label: 'Cast',
     description:
-      'Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and John Rhys-Davies — the full confirmed cast with roles and official sources.',
+      'Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, and more — all ten confirmed cast members with roles and official sources.',
     cta: 'Meet the cast →',
   },
   {
