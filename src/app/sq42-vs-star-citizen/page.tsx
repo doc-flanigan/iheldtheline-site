@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
@@ -12,6 +13,14 @@ export const metadata: Metadata = {
     description:
       'Key differences between Squadron 42 and Star Citizen — single-player vs multiplayer, one purchase vs two, and more.',
     url: '/sq42-vs-star-citizen',
+    images: [
+      {
+        url: '/images/headers/sq42-vs-star-citizen.jpg',
+        width: 1920,
+        height: 1079,
+        alt: "Viewed from beneath a UEE fighter's missile-laden wing, an enemy ship erupts in a burst of sparks and flame against a cratered moon.",
+      },
+    ],
   },
 }
 
@@ -36,22 +45,16 @@ export default function Sq42VsStarCitizenPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Comparison"
+        title="Squadron 42 vs Star Citizen"
+        description="Two games, one universe. Here's how they differ — from official CIG sources only."
+        image="/images/headers/sq42-vs-star-citizen.jpg"
+        imageAlt="Viewed from beneath a UEE fighter's missile-laden wing, an enemy ship erupts in a burst of sparks and flame against a cratered moon."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Comparison
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">
-                Squadron 42 vs Star Citizen
-              </h1>
-              <p className="text-muted text-base">
-                Two games, one universe. Here&apos;s how they differ — from official CIG sources
-                only.
-              </p>
-            </header>
-
             {/* Comparison table */}
             <div className="max-w-2xl mb-14 overflow-x-auto">
               <table className="w-full text-sm border-collapse">

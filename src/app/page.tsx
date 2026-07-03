@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import ReleaseWindow from '@/components/ReleaseWindow'
 import { SITE } from '@/data/site'
+import { NEWS } from '@/data/news'
 import CTAButton from '@/components/CTAButton'
 
 export const metadata: Metadata = {
@@ -16,6 +17,14 @@ export const metadata: Metadata = {
     description:
       '"I held the line" — the Star Citizen backer pledge to wait for Squadron 42. Live dev news, trailers, cast FAQ, and 2026 release window tracker.',
     url: '/',
+    images: [
+      {
+        url: '/images/brand/og-image.png',
+        width: 1200,
+        height: 630,
+        alt: 'I Held the Line — tracking Squadron 42 development',
+      },
+    ],
   },
 }
 
@@ -62,9 +71,52 @@ const SECTION_CARDS = [
       'What is Squadron 42? Who\'s in the cast? When does it release? Is it included with Star Citizen? Answers from official CIG communications only.',
     cta: 'Read the FAQ →',
   },
+  {
+    href: '/gameplay',
+    label: 'Gameplay Systems',
+    description:
+      'Seamless transitions, AI squad companions, zero-G traversal, and a living NPC crew — every confirmed gameplay system, sourced from official CIG reports.',
+    cta: 'See the systems →',
+  },
+  {
+    href: '/i-held-the-line-trailer',
+    label: '"I Held the Line" Video',
+    description:
+      'The CitizenCon 2953 cinematic that gave this site its name — where the backer community\'s long wait for Squadron 42 was honored on stage.',
+    cta: 'Watch the video →',
+  },
+  {
+    href: '/vanduul',
+    label: 'The Vanduul',
+    description:
+      'The alien enemy of Squadron 42 — who the Vanduul are, their ships, and their role in the campaign, from official CIG lore and reveals.',
+    cta: 'Know the enemy →',
+  },
+  {
+    href: '/odin-system',
+    label: 'The Odin System',
+    description:
+      'Squadron 42\'s setting — a white-dwarf star system home to Fortune\'s Cross station and The Coil, revealed in the Q3 2025 subscriber newsletter.',
+    cta: 'Explore the system →',
+  },
+  {
+    href: '/worth-buying',
+    label: 'Worth Buying?',
+    description:
+      'Thinking about buying in before Squadron 42 ships? What you get today, what\'s still coming, and how the two games are sold.',
+    cta: 'Read the breakdown →',
+  },
 ]
 
 export default function Home() {
+  const latest = NEWS[0]
+  const latestDate = new Date(`${latest.date}T00:00:00Z`).toLocaleDateString('en-US', {
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+    timeZone: 'UTC',
+  })
+
   const breadcrumbJsonLd = {
     '@context': 'https://schema.org',
     '@type': 'BreadcrumbList',
@@ -121,6 +173,48 @@ export default function Home() {
                 </p>
               </div>
             </div>
+          </div>
+        </section>
+
+        {/* Latest development update */}
+        <section className="border-t border-white/5 bg-navyLight py-16 sm:py-20">
+          <div className="container-wide">
+            <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+              Latest Update
+            </p>
+            <article className="card-surface p-7 max-w-3xl">
+              <time dateTime={latest.date} className="text-muted text-xs">
+                {latestDate} · {latest.sourceLabel}
+              </time>
+              <h2 className="heading-display text-2xl mt-2 mb-3">{latest.headline}</h2>
+              <p className="text-muted text-sm leading-relaxed mb-5">{latest.summary}</p>
+              <Link
+                href={latest.slug ? `/news/${latest.slug}` : '/news'}
+                className="text-gold text-sm font-semibold hover:text-goldDark transition-colors"
+              >
+                Read the full update →
+              </Link>
+            </article>
+          </div>
+        </section>
+
+        {/* "I held the line" quote band */}
+        <section className="relative overflow-hidden border-t border-white/5 bg-navy bg-[url('/images/headers/i-held-the-line-trailer.jpg')] bg-cover bg-center">
+          <div className="absolute inset-0 bg-navy/85 pointer-events-none" />
+          <div className="relative container-wide py-16 sm:py-24 text-center">
+            <p className="heading-display text-3xl sm:text-4xl mb-4">
+              &ldquo;I held the line.&rdquo;
+            </p>
+            <p className="text-starwhite/80 text-sm leading-relaxed max-w-2xl mx-auto mb-6">
+              The phrase long-time backers use while waiting for Squadron 42 — honored on stage at
+              CitizenCon 2953, when CIG declared the game feature-complete.
+            </p>
+            <Link
+              href="/i-held-the-line-trailer"
+              className="text-gold text-sm font-semibold hover:text-goldDark transition-colors"
+            >
+              Watch the &ldquo;I Held the Line&rdquo; video →
+            </Link>
           </div>
         </section>
 

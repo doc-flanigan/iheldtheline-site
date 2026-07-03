@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { CAST } from '@/data/cast'
 import { SITE } from '@/data/site'
@@ -15,6 +16,14 @@ export const metadata: Metadata = {
     description:
       'Every confirmed cast member in Squadron 42 with their character, role, and official CIG source.',
     url: '/cast',
+    images: [
+      {
+        url: '/images/headers/cast.jpg',
+        width: 1920,
+        height: 1080,
+        alt: 'A female Star Citizen pilot in a dark flight helmet with glowing cyan accents, her face warmly lit inside a dim ship interior.',
+      },
+    ],
   },
 }
 
@@ -34,20 +43,16 @@ export default function CastPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Confirmed Cast"
+        title="Squadron 42 Cast"
+        description="Squadron 42 features a star-studded cast with full motion-capture performances throughout. All cast members confirmed via official Cloud Imperium Games sources."
+        image="/images/headers/cast.jpg"
+        imageAlt="A female Star Citizen pilot in a dark flight helmet with glowing cyan accents, her face warmly lit inside a dim ship interior."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Confirmed Cast
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">Squadron 42 Cast</h1>
-              <p className="text-muted text-base">
-                Squadron 42 features a star-studded cast with full motion-capture performances
-                throughout. All cast members confirmed via official Cloud Imperium Games sources.
-              </p>
-            </header>
-
             <div className="grid gap-6 sm:grid-cols-2 max-w-3xl">
               {CAST.map((member) => (
                 <Link
@@ -60,7 +65,7 @@ export default function CastPage() {
                     alt={member.actor}
                     width={56}
                     height={72}
-                    className="rounded object-cover shrink-0"
+                    className="rounded object-cover shrink-0 bg-navyLight"
                   />
                   <div>
                     <h2 className="text-starwhite font-bold text-base leading-tight group-hover:text-gold transition-colors">

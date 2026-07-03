@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import Link from 'next/link'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
     description:
       "Everything officially confirmed about the Odin system in Squadron 42 — Fortune's Cross, The Coil, and the white dwarf.",
     url: '/odin-system',
+    images: [
+      {
+        url: '/images/headers/odin-system.jpg',
+        width: 1920,
+        height: 1080,
+        alt: "Two dark Aegis Eclipse stealth bombers flying in formation high above a planet's pale blue, cloud-mottled surface.",
+      },
+    ],
   },
 }
 
@@ -37,20 +46,16 @@ export default function OdinSystemPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Game Setting"
+        title="The Odin System"
+        description="The primary star system setting for Squadron 42, revealed in the Q3 2025 subscriber newsletter. All details sourced from official CIG communications."
+        image="/images/headers/odin-system.jpg"
+        imageAlt="Two dark Aegis Eclipse stealth bombers flying in formation high above a planet's pale blue, cloud-mottled surface."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Game Setting
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">The Odin System</h1>
-              <p className="text-muted text-base">
-                The primary star system setting for Squadron 42, revealed in the Q3 2025
-                subscriber newsletter. All details sourced from official CIG communications.
-              </p>
-            </header>
-
             <div className="max-w-2xl space-y-10">
               <section>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">

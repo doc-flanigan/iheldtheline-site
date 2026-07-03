@@ -26,6 +26,14 @@ export async function generateMetadata({
       title: entry.headline,
       description: entry.summary.slice(0, 160),
       url: `/news/${slug}`,
+      images: [
+        {
+          url: '/images/brand/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: 'I Held the Line — tracking Squadron 42 development',
+        },
+      ],
     },
   }
 }

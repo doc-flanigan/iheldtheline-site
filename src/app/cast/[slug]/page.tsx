@@ -27,6 +27,14 @@ export async function generateMetadata({
       title: `${member.actor} in Squadron 42 — ${member.character}`,
       description: `${member.actor} plays ${member.character} in Squadron 42.`,
       url: `/cast/${slug}`,
+      images: [
+        {
+          url: '/images/brand/og-image.png',
+          width: 1200,
+          height: 630,
+          alt: 'I Held the Line — tracking Squadron 42 development',
+        },
+      ],
     },
   }
 }
@@ -77,7 +85,7 @@ export default async function CastMemberPage({
                 alt={member.actor}
                 width={96}
                 height={128}
-                className="rounded object-cover shrink-0"
+                className="rounded object-cover shrink-0 bg-navyLight"
               />
               <div>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-2">

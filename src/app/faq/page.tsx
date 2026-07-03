@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import FaqItem from '@/components/FaqItem'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { FAQ } from '@/data/faq'
 import { SITE } from '@/data/site'
@@ -14,6 +15,14 @@ export const metadata: Metadata = {
     description:
       'Common Squadron 42 questions answered from official CIG sources — release date, cast, system requirements, Star Citizen differences.',
     url: '/faq',
+    images: [
+      {
+        url: '/images/headers/faq.jpg',
+        width: 1920,
+        height: 804,
+        alt: "A pilot looks out from a fighter cockpit at a UEE Navy capital ship and its escorts cruising above a planet's horizon.",
+      },
+    ],
   },
 }
 
@@ -50,19 +59,16 @@ export default function FaqPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="FAQ"
+        title="Squadron 42 — Common Questions"
+        description="Answers verified against official Cloud Imperium Games sources only."
+        image="/images/headers/faq.jpg"
+        imageAlt="A pilot looks out from a fighter cockpit at a UEE Navy capital ship and its escorts cruising above a planet's horizon."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">FAQ</p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">
-                Squadron 42 — Common Questions
-              </h1>
-              <p className="text-muted text-base">
-                Answers verified against official Cloud Imperium Games sources only.
-              </p>
-            </header>
-
             {FAQ.length === 0 ? (
               <p className="text-muted">FAQ coming soon.</p>
             ) : (

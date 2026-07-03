@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import Image from 'next/image'
 import Link from 'next/link'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
 
@@ -14,6 +15,14 @@ export const metadata: Metadata = {
     description:
       'Everything shown in the I Held the Line Squadron 42 showcase: squad combat, formation flying, feature-complete announcement.',
     url: '/i-held-the-line-trailer',
+    images: [
+      {
+        url: '/images/headers/i-held-the-line-trailer.jpg',
+        width: 1920,
+        height: 804,
+        alt: 'A massive UEE Navy capital ship cruises in low orbit above a hazy planet, with a second warship trailing near the glowing horizon.',
+      },
+    ],
   },
 }
 
@@ -38,25 +47,20 @@ export default function IHeldTheLineTrailerPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Showcase Breakdown"
+        title={<>&quot;I Held the Line&quot;</>}
+        description="The 26-minute gameplay showcase that introduced the phrase — and confirmed Squadron 42 had reached feature-complete status."
+        image="/images/headers/i-held-the-line-trailer.jpg"
+        imageAlt="A massive UEE Navy capital ship cruises in low orbit above a hazy planet, with a second warship trailing near the glowing horizon."
+      >
+        <p className="text-starwhite text-lg font-semibold mt-4">
+          Squadron 42 CitizenCon 2953 — October 2023
+        </p>
+      </PageHeader>
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-12 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Showcase Breakdown
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">
-                &quot;I Held the Line&quot;
-              </h1>
-              <p className="text-starwhite text-lg font-semibold mb-3">
-                Squadron 42 CitizenCon 2953 — October 2023
-              </p>
-              <p className="text-muted text-base">
-                The 26-minute gameplay showcase that introduced the phrase — and confirmed Squadron
-                42 had reached feature-complete status.
-              </p>
-            </header>
-
             {/* Video link card */}
             <div className="max-w-2xl mb-14">
               <a

@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import CTAButton from '@/components/CTAButton'
 import { SITE } from '@/data/site'
@@ -13,6 +14,14 @@ export const metadata: Metadata = {
     description:
       'Everything CIG has officially confirmed about what Squadron 42 includes — campaign length, cast, gameplay, and how to buy.',
     url: '/worth-buying',
+    images: [
+      {
+        url: '/images/headers/worth-buying.jpg',
+        width: 1920,
+        height: 1080,
+        alt: 'A grey heavy fighter with a manned top turret and open side hatch races low over an orange desert blurred by speed.',
+      },
+    ],
   },
 }
 
@@ -37,22 +46,16 @@ export default function WorthBuyingPage() {
         type="application/ld+json"
         dangerouslySetInnerHTML={{ __html: JSON.stringify(breadcrumbJsonLd) }}
       />
-      <main className="container-wide py-16 sm:py-24">
+      <PageHeader
+        eyebrow="Buyer's Guide"
+        title="Is Squadron 42 Worth Buying?"
+        description="What CIG has officially confirmed you'll get. No hype — just the facts from official sources."
+        image="/images/headers/worth-buying.jpg"
+        imageAlt="A grey heavy fighter with a manned top turret and open side hatch races low over an orange desert blurred by speed."
+      />
+      <main className="container-wide py-12 sm:py-16">
         <div className="flex gap-12 items-start">
           <div className="flex-1 min-w-0">
-            <header className="mb-16 max-w-2xl">
-              <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-                Buyer&apos;s Guide
-              </p>
-              <h1 className="heading-display text-4xl sm:text-5xl mb-4">
-                Is Squadron 42 Worth Buying?
-              </h1>
-              <p className="text-muted text-base">
-                What CIG has officially confirmed you&apos;ll get. No hype — just the facts from
-                official sources.
-              </p>
-            </header>
-
             <div className="max-w-2xl space-y-10">
               <section>
                 <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
