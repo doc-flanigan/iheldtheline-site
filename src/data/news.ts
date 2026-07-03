@@ -9,6 +9,16 @@ export type NewsEntry = {
 
 export const NEWS: NewsEntry[] = [
   {
+    slug: 'sq42-q2-2026-newsletter-uees-stanton-crew',
+    date: '2026-06-30',
+    headline: 'SQ42 Q2 2026 Newsletter: More Crew of the UEES Stanton Introduced',
+    summary:
+      'The Q2 2026 Squadron 42 newsletter went out to subscribers on June 30, introducing more members of the crew serving aboard the UEES Stanton — characters players will serve alongside during the campaign. The newsletter itself is only viewable by players opted into the SQ42 mailing list; the official "This Week in Star Citizen" post announcing it is the public source. No new development milestone or release-date update was shared.',
+    sourceLabel: 'RSI Comm-Link',
+    sourceUrl:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/21226-This-Week-In-Star-Citizen',
+  },
+  {
     slug: 'chris-roberts-2026-target-gta6',
     date: '2026-05-06',
     headline: 'Chris Roberts Confirms 2026 Target, Cites Industry Scheduling Factors',

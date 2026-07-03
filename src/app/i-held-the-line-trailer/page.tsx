@@ -105,9 +105,9 @@ export default function IHeldTheLineTrailerPage() {
 
             <div className="max-w-2xl space-y-10">
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   What Is &quot;I Held the Line&quot;?
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   &quot;I Held the Line&quot; is both the title of the CitizenCon 2953 Squadron 42
                   showcase and a phrase used by long-time Star Citizen backers who have waited years
@@ -118,9 +118,9 @@ export default function IHeldTheLineTrailerPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   The Feature-Complete Announcement
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Alongside the showcase, CIG announced that Squadron 42 had reached
                   feature-complete status — meaning all planned gameplay features had been
@@ -141,9 +141,9 @@ export default function IHeldTheLineTrailerPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   What the Showcase Showed
-                </p>
+                </h2>
                 <ul className="space-y-3 text-sm text-muted leading-relaxed">
                   <li className="flex gap-3">
                     <span className="text-gold shrink-0">—</span>
@@ -182,9 +182,9 @@ export default function IHeldTheLineTrailerPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Why It Matters
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   The &quot;I Held the Line&quot; showcase was the last major Squadron 42 content
                   reveal before the first live gameplay demonstration at CitizenCon 2954 in October

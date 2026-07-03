@@ -103,9 +103,9 @@ export default function Sq42VsStarCitizenPage() {
 
             <div className="max-w-2xl space-y-10">
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Single-player vs Multiplayer
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 is a fully single-player experience — a story-driven military
                   campaign with a beginning, middle, and end. You play alone, offline if you choose.
@@ -126,9 +126,9 @@ export default function Sq42VsStarCitizenPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Separate Purchases
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 and Star Citizen are sold as distinct products on the Roberts Space
                   Industries store. Some historical pledge packages bundled both together, but they
@@ -147,9 +147,9 @@ export default function Sq42VsStarCitizenPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Same Universe, Same Engine
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Both games are set in the same fictional universe — the United Empire of Earth
                   (UEE) — and are built on the same proprietary engine (Star Engine). Ships,

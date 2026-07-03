@@ -78,7 +78,7 @@ export default function CastPage() {
               ))}
             </div>
 
-            <p className="mt-10 text-xs text-muted/60">
+            <p className="mt-10 text-xs text-muted">
               Source:{' '}
               <a
                 href="https://robertsspaceindustries.com/comm-link/SCW/20401-API"

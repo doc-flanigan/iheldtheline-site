@@ -58,9 +58,9 @@ export default function WorthBuyingPage() {
           <div className="flex-1 min-w-0">
             <div className="max-w-2xl space-y-10">
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   What You Get
-                </p>
+                </h2>
                 <ul className="space-y-3 text-sm text-muted leading-relaxed">
                   <li className="flex gap-3">
                     <span className="text-gold shrink-0 mt-0.5">—</span>
@@ -151,9 +151,9 @@ export default function WorthBuyingPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Who It&apos;s For
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 is aimed at players who want a cinematic single-player space game
                   with a strong story and AAA production values — think of it as a spiritual
@@ -163,9 +163,9 @@ export default function WorthBuyingPage() {
               </section>
 
               <section>
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   How to Buy
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed mb-4">
                   Squadron 42 is sold exclusively through the Roberts Space Industries store.
                   Check the RSI store for current pricing and package options — prices are set by
@@ -183,9 +183,9 @@ export default function WorthBuyingPage() {
               </section>
 
               <section className="card-surface p-6">
-                <p className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
                   Want to Play Now?
-                </p>
+                </h2>
                 <p className="text-muted text-sm leading-relaxed mb-5">
                   Squadron 42 isn&apos;t out yet. But Star Citizen — the multiplayer companion
                   game set in the same universe — is playable right now. Use a referral code to
