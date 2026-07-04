@@ -1,0 +1,662 @@
+{
+ "generatedAt": "2026-07-04",
+ "count": 82,
+ "items": [
+  {
+   "id": 12877,
+   "period": "2013-02",
+   "year": 2013,
+   "title": "Squadron 42 Wallpapers and Survey Update",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/12877-Squadron-42-Wallpapers-And-Survey-Update",
+   "kind": "post"
+  },
+  {
+   "id": 13389,
+   "period": "2013-11",
+   "year": 2013,
+   "title": "Letter from the Chairman: $29 Million! Squadron 42!",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/13389-Letter-From-The-Chairman-29-Million-Squadron-42",
+   "kind": "post"
+  },
+  {
+   "id": 13585,
+   "period": "2014-02",
+   "year": 2014,
+   "title": "Gallery: Squadron 42 Concept Art",
+   "url": "https://robertsspaceindustries.com/en/comm-link/engineering/13585-Gallery-Squadron-42-Concept-Art",
+   "kind": "post"
+  },
+  {
+   "id": 15068,
+   "period": "2015-11",
+   "year": 2015,
+   "title": "Squadron 42: BTS - Character Pipeline",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/15068-Squadron-42-BTS-Character-Pipeline",
+   "kind": "post"
+  },
+  {
+   "id": 15069,
+   "period": "2015-11",
+   "year": 2015,
+   "title": "Squadron 42: Behind the Scenes - Mark Hamill",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/15069-Squadron-42-Behind-The-Scenes-Mark-Hamill",
+   "kind": "post"
+  },
+  {
+   "id": 15254,
+   "period": "2016-03",
+   "year": 2016,
+   "title": "Squadron 42: Meet Andy Serkis",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/15254-Squadron-42-Meet-Andy-Serkis",
+   "kind": "post"
+  },
+  {
+   "id": 15482,
+   "period": "2016-08",
+   "year": 2016,
+   "title": "Squadron 42 Hoodies Now Available!",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/15482-Squadron-42-Hoodies-Now-Available",
+   "kind": "post"
+  },
+  {
+   "id": 16792,
+   "period": "September 2018",
+   "year": 2018,
+   "title": "Squadron 42 Monthly Report: September 2018",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/16792-Squadron-42-Monthly-Report-September-2018",
+   "kind": "report"
+  },
+  {
+   "id": 16801,
+   "period": "2018-10",
+   "year": 2018,
+   "title": "Squadron 42 - CitizenCon Trailer",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/16801-Squadron-42-CitizenCon-Trailer",
+   "kind": "post"
+  },
+  {
+   "id": 16919,
+   "period": "December 2018",
+   "year": 2018,
+   "title": "Squadron 42 Monthly Report: December 2018",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/16919-Squadron-42-Monthly-Report-December-2018",
+   "kind": "report"
+  },
+  {
+   "id": 16966,
+   "period": "January 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: January 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/16966-Squadron-42-Monthly-Report-January-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17031,
+   "period": "February 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: February 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17031-Squadron-42-Monthly-Report-February-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17065,
+   "period": "March 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: March 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17065-Squadron-42-Monthly-Report-March-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17086,
+   "period": "April 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: April 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17086-Squadron-42-Monthly-Report-April-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17116,
+   "period": "May 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: May 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17116-Squadron-42-Monthly-Report-May-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17144,
+   "period": "June 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: June 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17144-Squadron-42-Monthly-Report-June-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17187,
+   "period": "July 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: July 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17187-Squadron-42-Monthly-Report-July-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17232,
+   "period": "August 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: August 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17232-Squadron-42-Monthly-Report-August-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17276,
+   "period": "September 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: September 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17276-Squadron-42-Monthly-Report-September-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17349,
+   "period": "October 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: October 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17349-Squadron-42-Monthly-Report-October-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17405,
+   "period": "2019-12",
+   "year": 2019,
+   "title": "Squadron 42 Holiday Sneak Peek",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17405-Squadron-42-Holiday-Sneak-Peek",
+   "kind": "post"
+  },
+  {
+   "id": 17432,
+   "period": "November & December 2019",
+   "year": 2019,
+   "title": "Squadron 42 Monthly Report: November & December 2019",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17432-Squadron-42-Monthly-Report-November-December-2019",
+   "kind": "report"
+  },
+  {
+   "id": 17459,
+   "period": "January 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: January 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17459-Squadron-42-Monthly-Report-January-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17510,
+   "period": "February 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: February 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17510-Squadron-42-Monthly-Report-February-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17545,
+   "period": "March 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: March 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17545-Squadron-42-Monthly-Report-March-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17590,
+   "period": "April 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: April 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17590-Squadron-42-Monthly-Report-April-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17641,
+   "period": "May 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: May 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17641-Squadron-42-Monthly-Report-May-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17673,
+   "period": "June 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: June 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17673-Squadron-42-Monthly-Report-June-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17721,
+   "period": "July 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: July 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17721-Squadron-42-Monthly-Report-July-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17727,
+   "period": "2020-08",
+   "year": 2020,
+   "title": "Star Citizen & Squadron 42 Roadmap Update",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17727-Star-Citizen-Squadron-42-Roadmap-Update",
+   "kind": "post"
+  },
+  {
+   "id": 17759,
+   "period": "August 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: August 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17759-Squadron-42-Monthly-Report-August-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17816,
+   "period": "2020-10",
+   "year": 2020,
+   "title": "Squadron 42 Update: The Briefing Room",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17816-Squadron-42-Update-The-Briefing-Room",
+   "kind": "post"
+  },
+  {
+   "id": 17829,
+   "period": "September 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: September 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17829-Squadron-42-Monthly-Report-September-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17863,
+   "period": "October 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: October 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17863-Squadron-42-Monthly-Report-October-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17958,
+   "period": "November & December 2020",
+   "year": 2020,
+   "title": "Squadron 42 Monthly Report: November & December 2020",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17958-Squadron-42-Monthly-Report-November-December-2020",
+   "kind": "report"
+  },
+  {
+   "id": 17987,
+   "period": "January 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: January 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/17987-Squadron-42-Monthly-Report-January-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18025,
+   "period": "February 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: February 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18025-Squadron-42-Monthly-Report-February-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18078,
+   "period": "March 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: March 2021",
+   "url": "https://robertsspaceindustries.com/comm-link/transmission/18078-Squadron-42-Monthly-Report-March-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18122,
+   "period": "April 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: April 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18122-Squadron-42-Monthly-Report-April-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18180,
+   "period": "May 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: May 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18180-Squadron-42-Monthly-Report-May-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18233,
+   "period": "June 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: June 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18233-Squadron-42-Monthly-Report-June-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18264,
+   "period": "July 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: July 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18264-Squadron-42-Monthly-Report-July-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18300,
+   "period": "August 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: August 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18300-Squadron-42-Monthly-Report-August-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18356,
+   "period": "September 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: September 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18356-Squadron-42-Monthly-Report-September-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18388,
+   "period": "October 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: October 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18388-Squadron-42-Monthly-Report-October-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18519,
+   "period": "November & December 2021",
+   "year": 2021,
+   "title": "Squadron 42 Monthly Report: November & December 2021",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18519-Squadron-42-Monthly-Report-November-December-2021",
+   "kind": "report"
+  },
+  {
+   "id": 18547,
+   "period": "January 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: January 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18547-Squadron-42-Monthly-Report-January-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18580,
+   "period": "February 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: February 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18580-Squadron-42-Monthly-Report-February-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18621,
+   "period": "March 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: March 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18621-Squadron-42-Monthly-Report-March-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18657,
+   "period": "April 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: April 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18657-Squadron-42-Monthly-Report-April-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18725,
+   "period": "May 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: May 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18725-Squadron-42-Monthly-Report-May-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18786,
+   "period": "June 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: June 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18786-Squadron-42-Monthly-Report-June-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18820,
+   "period": "July 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: July 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18820-Squadron-42-Monthly-Report-July-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18877,
+   "period": "August 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: August 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18877-Squadron-42-Monthly-Report-August-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18926,
+   "period": "September 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: September 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18926-Squadron-42-Monthly-Report-September-2022",
+   "kind": "report"
+  },
+  {
+   "id": 18982,
+   "period": "October 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: October 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/18982-Squadron-42-Monthly-Report-October-2022",
+   "kind": "report"
+  },
+  {
+   "id": 19095,
+   "period": "November & December 2022",
+   "year": 2022,
+   "title": "Squadron 42 Monthly Report: November & December 2022",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19095-Squadron-42-Monthly-Report-November-December-2022",
+   "kind": "report"
+  },
+  {
+   "id": 19109,
+   "period": "January 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: January 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19109-Squadron-42-Monthly-Report-January-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19160,
+   "period": "February 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: February 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19160-Squadron-42-Monthly-Report-February-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19221,
+   "period": "March 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: March 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19221-Squadron-42-Monthly-Report-March-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19283,
+   "period": "April 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: April 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19283-Squadron-42-Monthly-Report-April-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19323,
+   "period": "May 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: May 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19323-Squadron-42-Monthly-Report-May-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19373,
+   "period": "June 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: June 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19373-Squadron-42-Monthly-Report-June-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19404,
+   "period": "July 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: July 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19404-Squadron-42-Monthly-Report-July-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19453,
+   "period": "2023-10",
+   "year": 2023,
+   "title": "Squadron 42: I Held the Line",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19453-Squadron-42-I-Held-The-Line",
+   "kind": "post"
+  },
+  {
+   "id": 19474,
+   "period": "August 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: August 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19474-Squadron-42-Monthly-Report-August-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19518,
+   "period": "September 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: September 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19518-Squadron-42-Monthly-Report-September-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19584,
+   "period": "October 2023",
+   "year": 2023,
+   "title": "Squadron 42 Monthly Report: October 2023",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19584-Squadron-42-Monthly-Report-October-2023",
+   "kind": "report"
+  },
+  {
+   "id": 19747,
+   "period": "January 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: January 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19747-Squadron-42-Monthly-Report-January-2024",
+   "kind": "report"
+  },
+  {
+   "id": 19836,
+   "period": "February 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: February 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19836-Squadron-42-Monthly-Report-February-2024",
+   "kind": "report"
+  },
+  {
+   "id": 19911,
+   "period": "March 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: March 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19911-Squadron-42-Monthly-Report-March-2024",
+   "kind": "report"
+  },
+  {
+   "id": 19956,
+   "period": "April 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: April 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/19956-Squadron-42-Monthly-Report-April-2024",
+   "kind": "report"
+  },
+  {
+   "id": 20012,
+   "period": "May 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: May 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20012-Squadron-42-Monthly-Report-May-2024",
+   "kind": "report"
+  },
+  {
+   "id": 20051,
+   "period": "June 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: June 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20051-Squadron-42-Monthly-Report-June-2024",
+   "kind": "report"
+  },
+  {
+   "id": 20107,
+   "period": "July 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: July 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20107-Squadron-42-Monthly-Report-July-2024",
+   "kind": "report"
+  },
+  {
+   "id": 20154,
+   "period": "August 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: August 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20154-Squadron-42-Monthly-Report-August-2024",
+   "kind": "report"
+  },
+  {
+   "id": 20235,
+   "period": "September 2024",
+   "year": 2024,
+   "title": "Squadron 42 Monthly Report: September 2024",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20235-Squadron-42-Monthly-Report-September-2024",
+   "kind": "report"
+  },
+  {
+   "id": 20401,
+   "period": "2026-05",
+   "year": 2026,
+   "title": "Squadron 42 Newsletter: Echoes of the Verse",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20401-Squadron-42-Newsletter-Echoes-Of-The-Verse",
+   "kind": "newsletter"
+  },
+  {
+   "id": 20432,
+   "period": "2026-05",
+   "year": 2026,
+   "title": "Squadron 42 March Newsletter Comm-Link",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20432-Squadron-42-March-Newsletter-Comm-Link",
+   "kind": "newsletter"
+  },
+  {
+   "id": 20613,
+   "period": "2026-05",
+   "year": 2026,
+   "title": "Squadron 42 May Newsletter Comm-Link",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20613-Squadron-42-May-Newsletter-Comm-Link",
+   "kind": "newsletter"
+  },
+  {
+   "id": 20745,
+   "period": "Q3 2025",
+   "year": 2025,
+   "title": "Squadron 42 Q3 2025 Newsletter Comm-Link",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20745-Squadron-42-Q3-2025-Newsletter-Comm-Link",
+   "kind": "newsletter"
+  },
+  {
+   "id": 20936,
+   "period": "Q4 2025",
+   "year": 2025,
+   "title": "Squadron 42 Q4 2025 Newsletter Comm-Link",
+   "url": "https://robertsspaceindustries.com/en/comm-link/transmission/20936-Squadron-42-Q4-2025-Newsletter-Comm-Link",
+   "kind": "newsletter"
+  }
+ ]
+}

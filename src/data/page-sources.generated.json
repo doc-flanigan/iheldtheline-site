@@ -230,7 +230,69 @@
         ]
       }
     ],
+    "/news": [
+      {
+        "id": "sq42-2016-window-missed",
+        "claim": "A 2016 release window for Squadron 42 was promoted at CitizenCon 2015; the game did not ship in 2016, its expected CitizenCon 2946 demo was pulled, and CIG adopted a no-hard-dates stance thereafter.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/15587-Monthly-Studio-Report-October-2016",
+          "https://robertsspaceindustries.com/comm-link/transmission/15603-Letter-From-The-Chairman"
+        ]
+      },
+      {
+        "id": "sq42-announced-oct-2012",
+        "claim": "Squadron 42 was announced together with Star Citizen by Chris Roberts at GDC Online in Austin on October 10, 2012, as the campaign's Wing Commander-style single-player component.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/12730-A-Message-From-Chris-Roberts",
+          "https://www.kickstarter.com/projects/cig/star-citizen"
+        ]
+      },
+      {
+        "id": "sq42-done-when-done-2020",
+        "claim": "In an October 10, 2020 Letter from the Chairman, Chris Roberts said Squadron 42 would not release that year and gave no date: 'it will be done when it is done.'",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/17805-Letter-From-The-Chairman"
+        ]
+      },
+      {
+        "id": "sq42-monthly-reports-series",
+        "claim": "Dedicated Squadron 42 Monthly Reports ran as an official comm-link series from the September 2018 edition (cross-posted November 2018, comm-link 16792) through September 2024, publishing continuously — including through 2022–2023, when it was cross-posted from the SQ42 newsletter.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/16792-Squadron-42-Monthly-Report-September-2018",
+          "https://robertsspaceindustries.com/en/comm-link/transmission/18547-Squadron-42-Monthly-Report-January-2022"
+        ]
+      },
+      {
+        "id": "sq42-vertical-slice-dec-2017",
+        "claim": "The first extended Squadron 42 gameplay — the 'vertical slice' demo — was shown publicly in CIG's Holiday Special, published on the official Star Citizen YouTube channel on December 22, 2017.",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=tpVzJiarjvc"
+        ]
+      }
+    ],
     "/release-date": [
+      {
+        "id": "sq42-2016-window-missed",
+        "claim": "A 2016 release window for Squadron 42 was promoted at CitizenCon 2015; the game did not ship in 2016, its expected CitizenCon 2946 demo was pulled, and CIG adopted a no-hard-dates stance thereafter.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/15587-Monthly-Studio-Report-October-2016",
+          "https://robertsspaceindustries.com/comm-link/transmission/15603-Letter-From-The-Chairman"
+        ]
+      },
+      {
+        "id": "sq42-done-when-done-2020",
+        "claim": "In an October 10, 2020 Letter from the Chairman, Chris Roberts said Squadron 42 would not release that year and gave no date: 'it will be done when it is done.'",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/17805-Letter-From-The-Chairman"
+        ]
+      },
       {
         "id": "sq42-feature-complete-oct-2023",
         "claim": "Squadron 42 was declared feature-complete in October 2023, announced at CitizenCon 2953 — all planned gameplay features implemented, project moved to polishing.",
