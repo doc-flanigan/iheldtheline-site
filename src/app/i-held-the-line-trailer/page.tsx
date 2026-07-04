@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
+import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
@@ -206,6 +207,8 @@ export default function IHeldTheLineTrailerPage() {
           <Sidebar />
         </div>
       </main>
+
+      <PageSources route="/i-held-the-line-trailer" />
     </>
   )
 }

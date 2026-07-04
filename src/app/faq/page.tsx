@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import FaqItem from '@/components/FaqItem'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
+import { PageSources } from '@/components/PageSources'
 import { FAQ } from '@/data/faq'
 import { SITE } from '@/data/site'
 
@@ -83,6 +84,8 @@ export default function FaqPage() {
           <Sidebar />
         </div>
       </main>
+
+      <PageSources route="/faq" />
     </>
   )
 }

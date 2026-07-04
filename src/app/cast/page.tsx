@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
+import { PageSources } from '@/components/PageSources'
 import { CAST } from '@/data/cast'
 import { SITE } from '@/data/site'
 
@@ -94,6 +95,8 @@ export default function CastPage() {
           <Sidebar />
         </div>
       </main>
+
+      <PageSources route="/cast" />
     </>
   )
 }

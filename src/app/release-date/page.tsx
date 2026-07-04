@@ -1,6 +1,7 @@
 import type { Metadata } from 'next'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
+import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
@@ -167,6 +168,8 @@ export default function ReleaseDatePage() {
           <Sidebar />
         </div>
       </main>
+
+      <PageSources route="/release-date" />
     </>
   )
 }

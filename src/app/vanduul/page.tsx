@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
+import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
@@ -165,6 +166,8 @@ export default function VanduulPage() {
           <Sidebar />
         </div>
       </main>
+
+      <PageSources route="/vanduul" />
     </>
   )
 }

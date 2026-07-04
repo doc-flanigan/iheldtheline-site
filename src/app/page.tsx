@@ -4,6 +4,7 @@ import ReleaseWindow from '@/components/ReleaseWindow'
 import { SITE } from '@/data/site'
 import { NEWS } from '@/data/news'
 import CTAButton from '@/components/CTAButton'
+import { PageSources } from '@/components/PageSources'
 
 export const metadata: Metadata = {
   title: {
@@ -267,6 +268,8 @@ export default function Home() {
           </div>
         </section>
       </main>
+
+      <PageSources route="/" />
     </>
   )
 }
