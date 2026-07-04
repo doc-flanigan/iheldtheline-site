@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { SITE } from '@/data/site'
@@ -53,8 +54,7 @@ export default function AboutPage() {
               <p>
                 <strong className="text-starwhite">iheldtheline.com</strong> is an unofficial fan
                 site dedicated to tracking Squadron 42 — the single-player campaign from Cloud
-                Imperium Games. The name references the Battle of Vega II, the in-fiction event that
-                opens the Squadron 42 storyline.
+                Imperium Games.
               </p>
               <p>
                 This site is run by <strong className="text-starwhite">{SITE.author}</strong>, a
@@ -67,6 +67,26 @@ export default function AboutPage() {
                 Cloud Imperium Games and Roberts Space Industries communications. Nothing is invented
                 or extrapolated from community rumour.
               </p>
+
+              <div className="border-t border-gold/10 pt-6 space-y-4">
+                <h2 className="heading-display text-xl">Why &ldquo;I Held the Line&rdquo;?</h2>
+                <p>
+                  The name comes from Admiral Ernst Bishop — the Gary Oldman character whose two
+                  speeches frame Squadron 42. His address to the UEE Senate declares the war the
+                  campaign is set in, and in the game&apos;s prologue he says the words themselves
+                  to the 2nd Fleet: <em className="text-starwhite">&ldquo;I held the line.&rdquo;</em>{' '}
+                  It&apos;s also what long-time backers have said to each other through every year
+                  of the wait.
+                </p>
+                <p>
+                  <Link
+                    href="/bishops-speech"
+                    className="text-gold hover:text-goldDark transition-colors"
+                  >
+                    The full story of both speeches — and where to watch them →
+                  </Link>
+                </p>
+              </div>
 
               <div className="border-t border-gold/10 pt-6 space-y-4">
                 <h2 className="heading-display text-xl">Photo Credits</h2>

@@ -10,6 +10,7 @@ const EXPLORE_LINKS = [
   { href: '/cast', label: 'Cast' },
   { href: '/videos', label: 'Official Videos' },
   { href: '/i-held-the-line-trailer', label: '"I Held the Line" Video' },
+  { href: '/bishops-speech', label: "Bishop's Speeches" },
   { href: '/vanduul', label: 'The Vanduul' },
   { href: '/odin-system', label: 'The Odin System' },
   { href: '/sq42-vs-star-citizen', label: 'SQ42 vs Star Citizen' },
