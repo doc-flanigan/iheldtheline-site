@@ -2,6 +2,7 @@ import type { Metadata } from 'next'
 import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
+import SpeechQuote from '@/components/SpeechQuote'
 import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
@@ -75,6 +76,10 @@ export default function VanduulPage() {
                     Source: RSI Comm-Link — CitizenCon 2954 Gameplay Reveal →
                   </a>
                 </p>
+                <SpeechQuote
+                  quote="We cannot give the Vanduul any more ground."
+                  className="mt-6"
+                />
               </section>
 
               <section>

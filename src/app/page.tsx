@@ -4,6 +4,7 @@ import ReleaseWindow from '@/components/ReleaseWindow'
 import { SITE } from '@/data/site'
 import { NEWS } from '@/data/news'
 import CTAButton from '@/components/CTAButton'
+import SpeechQuote from '@/components/SpeechQuote'
 import { PageSources } from '@/components/PageSources'
 
 export const metadata: Metadata = {
@@ -173,6 +174,10 @@ export default function Home() {
                   no specific date has been announced.
                 </p>
               </div>
+              <SpeechQuote
+                quote="…without victory there can be no survival!"
+                className="mt-8"
+              />
             </div>
           </div>
         </section>
@@ -210,12 +215,20 @@ export default function Home() {
               The phrase long-time backers use while waiting for Squadron 42 — honored on stage at
               CitizenCon 2953, when CIG declared the game feature-complete.
             </p>
-            <Link
-              href="/i-held-the-line-trailer"
-              className="text-gold text-sm font-semibold hover:text-goldDark transition-colors"
-            >
-              Watch the &ldquo;I Held the Line&rdquo; video →
-            </Link>
+            <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
+              <Link
+                href="/i-held-the-line-trailer"
+                className="text-gold text-sm font-semibold hover:text-goldDark transition-colors"
+              >
+                Watch the &ldquo;I Held the Line&rdquo; video →
+              </Link>
+              <Link
+                href="/bishops-speech"
+                className="text-gold text-sm font-semibold hover:text-goldDark transition-colors"
+              >
+                The speech where the line was drawn →
+              </Link>
+            </div>
           </div>
         </section>
 

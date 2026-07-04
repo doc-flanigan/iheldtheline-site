@@ -4,6 +4,14 @@
   "routes": {
     "/": [
       {
+        "id": "bishop-speech-cinematic-2015",
+        "claim": "'Bishop's Speech' — Admiral Ernst Bishop (Gary Oldman) urging the UEE Senate to commit to war against the Vanduul — is the opening cinematic of Squadron 42, debuted at CitizenCon 2015 and published on the official Star Citizen YouTube channel on October 10, 2015 (4:13).",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=8EC4WHPxnrk"
+        ]
+      },
+      {
         "id": "sq42-cast-oldman-bishop",
         "claim": "Gary Oldman plays Admiral Ernst Bishop in Squadron 42.",
         "status": "verified",
@@ -26,6 +34,33 @@
         "status": "verified",
         "sources": [
           "https://robertsspaceindustries.com/en/comm-link/transmission/19453-Squadron-42-I-Held-The-Line"
+        ]
+      }
+    ],
+    "/bishops-speech": [
+      {
+        "id": "bishop-speech-cinematic-2015",
+        "claim": "'Bishop's Speech' — Admiral Ernst Bishop (Gary Oldman) urging the UEE Senate to commit to war against the Vanduul — is the opening cinematic of Squadron 42, debuted at CitizenCon 2015 and published on the official Star Citizen YouTube channel on October 10, 2015 (4:13).",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=8EC4WHPxnrk"
+        ]
+      },
+      {
+        "id": "bishop-speech-in-sq42-prologue",
+        "claim": "Bishop's Senate speech appears in-engine in the Squadron 42 prologue — shown at approximately 14:56–17:40 of the official 'Squadron 42 CitizenCon 2954 Live Gameplay Reveal' video (Star Citizen YouTube channel, published October 19, 2024).",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=1H-0x4xk2Xk"
+        ]
+      },
+      {
+        "id": "sq42-cast-oldman-bishop",
+        "claim": "Gary Oldman plays Admiral Ernst Bishop in Squadron 42.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/comm-link/SCW/20401-API",
+          "https://robertsspaceindustries.com/en/comm-link/transmission/14995-Monthly-Studio-Report-September-2015"
         ]
       }
     ],
@@ -163,6 +198,14 @@
     ],
     "/i-held-the-line-trailer": [
       {
+        "id": "bishop-speech-cinematic-2015",
+        "claim": "'Bishop's Speech' — Admiral Ernst Bishop (Gary Oldman) urging the UEE Senate to commit to war against the Vanduul — is the opening cinematic of Squadron 42, debuted at CitizenCon 2015 and published on the official Star Citizen YouTube channel on October 10, 2015 (4:13).",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=8EC4WHPxnrk"
+        ]
+      },
+      {
         "id": "sq42-feature-complete-oct-2023",
         "claim": "Squadron 42 was declared feature-complete in October 2023, announced at CitizenCon 2953 — all planned gameplay features implemented, project moved to polishing.",
         "status": "verified",
@@ -198,6 +241,14 @@
       }
     ],
     "/vanduul": [
+      {
+        "id": "bishop-speech-cinematic-2015",
+        "claim": "'Bishop's Speech' — Admiral Ernst Bishop (Gary Oldman) urging the UEE Senate to commit to war against the Vanduul — is the opening cinematic of Squadron 42, debuted at CitizenCon 2015 and published on the official Star Citizen YouTube channel on October 10, 2015 (4:13).",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=8EC4WHPxnrk"
+        ]
+      },
       {
         "id": "sq42-cast-serkis-vanduul",
         "claim": "Andy Serkis plays a Vanduul character in Squadron 42 (specific character not officially named).",

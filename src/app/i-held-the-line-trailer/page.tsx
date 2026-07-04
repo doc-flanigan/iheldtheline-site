@@ -3,6 +3,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
+import SpeechQuote from '@/components/SpeechQuote'
 import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
@@ -116,6 +117,15 @@ export default function IHeldTheLineTrailerPage() {
                   most significant Squadron 42 content reveal between the 2017 Holiday Special and
                   the live CitizenCon 2954 gameplay demonstration in 2024.
                 </p>
+                <p className="text-muted text-sm leading-relaxed mt-3">
+                  The <em>idea</em> behind the phrase is older. It goes back to the scene that
+                  opens the game itself — Admiral Bishop&apos;s address to the UEE Senate, in which
+                  he demands humanity stop retreating before the Vanduul.
+                </p>
+                <SpeechQuote
+                  quote="But I am here to tell you that we are at war!"
+                  className="mt-6"
+                />
               </section>
 
               <section>

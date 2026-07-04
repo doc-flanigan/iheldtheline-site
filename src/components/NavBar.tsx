@@ -8,6 +8,7 @@ const NAV_LINKS = [
   { href: '/', label: 'Home' },
   { href: '/news', label: 'News' },
   { href: '/cast', label: 'Cast' },
+  { href: '/bishops-speech', label: "Bishop's Speech" },
   { href: '/release-date', label: 'Release Date' },
   { href: '/videos', label: 'Videos' },
   { href: '/faq', label: 'FAQ' },
