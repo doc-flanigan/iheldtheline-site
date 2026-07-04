@@ -7,9 +7,9 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: "Bishop's Speech — Squadron 42's Senate Address, Explained",
+  title: "Bishop's Speeches — Squadron 42's Senate Address & Fleet Speech, Explained",
   description:
-    "Admiral Ernst Bishop's Senate speech — performed by Gary Oldman — is the scene that opens Squadron 42 and the reason this site is named I Held the Line. What the speech says, where to watch both official versions, and how it connects to the famous phrase.",
+    "Admiral Ernst Bishop — performed by Gary Oldman — gives Squadron 42 its two defining speeches: the Senate address that declares war on the Vanduul, and the fleet address where he says 'I held the line.' What each speech says, and where to watch both officially.",
   alternates: { canonical: '/bishops-speech' },
   keywords: [
     'bishop speech star citizen',
@@ -17,12 +17,13 @@ export const metadata: Metadata = {
     'gary oldman squadron 42 speech',
     'admiral bishop speech',
     'we are at war speech star citizen',
+    'i held the line speech',
     'i held the line meaning',
   ],
   openGraph: {
-    title: "Bishop's Speech — Squadron 42's Senate Address, Explained",
+    title: "Bishop's Speeches — Squadron 42's Senate Address & Fleet Speech",
     description:
-      "The Gary Oldman Senate speech that opens Squadron 42: what it says, both official versions, and how it connects to 'I held the line'.",
+      "The two Gary Oldman speeches that frame Squadron 42: the Senate war declaration, and the fleet address where Bishop says 'I held the line.'",
     url: '/bishops-speech',
     images: ['/images/headers/i-held-the-line-trailer.jpg'],
   },
@@ -34,7 +35,7 @@ const PROLOGUE_URL = 'https://www.youtube.com/watch?v=1H-0x4xk2Xk&t=896s'
 const faqs = [
   {
     q: "What is Bishop's speech in Squadron 42?",
-    a: "It is the address Admiral Ernst Bishop delivers to an emergency session of the UEE Senate after the Vanduul attack on Vega II, urging humanity to stop calling two hundred years of Vanduul attacks 'raids' and commit to open war. It is the opening cinematic of Squadron 42 and the game's defining scene.",
+    a: "'Bishop's speech' usually refers to the address Admiral Ernst Bishop delivers to an emergency session of the UEE Senate after the Vanduul attack on Vega II, urging humanity to stop calling two hundred years of Vanduul attacks 'raids' and commit to open war — the opening cinematic of Squadron 42. Bishop gives a second famous speech in the game's prologue, addressing the 2nd Fleet and the 42nd Squadron, where he says 'I held the line.'",
   },
   {
     q: "Who performs Bishop's speech?",
@@ -45,16 +46,16 @@ const faqs = [
     a: 'At CitizenCon 2015. Cloud Imperium Games published the cinematic on the official Star Citizen YouTube channel on October 10, 2015, describing it as the opening cinematic for Squadron 42.',
   },
   {
-    q: "Is Bishop's speech in the actual game?",
-    a: "Yes. The CitizenCon 2954 live gameplay reveal (October 2024) showed the speech running in-engine as part of the Squadron 42 prologue — it appears around the 15-minute mark of the official video.",
+    q: 'How many speeches does Bishop give in Squadron 42?',
+    a: "Two have been shown officially: the Senate speech (the 2015 opening cinematic, where he demands war against the Vanduul) and the fleet speech (his address to the 2nd Fleet and the 42nd Squadron in the game's prologue, shown in-engine at CitizenCon 2954 at roughly 14:56–17:40 of the official video).",
   },
   {
     q: "Does Bishop say 'I held the line' in the speech?",
-    a: "No — the exact phrase does not appear in the speech. The speech's argument is what the phrase stands for: refusing to give the Vanduul any more ground. 'I Held the Line' is the title CIG gave the 2023 feature-complete showcase, and 'hold the line' became the rallying cry long-time backers used through development. This site's name honors both.",
+    a: "Yes — in the fleet speech, not the Senate speech. In his prologue address to the 2nd Fleet and 42nd Squadron (CitizenCon 2954 demo), Bishop says the words 'I held the line.' The 2015 Senate cinematic's script does not contain the exact phrase — its famous closing is about victory and survival. 'Hold the line' also became the rallying cry long-time backers used through development, and CIG titled its 2023 feature-complete showcase 'I Held The Line.'",
   },
   {
-    q: "How long is Bishop's speech?",
-    a: 'The speech itself runs roughly a minute and a half inside a cinematic of about four minutes. The official standalone upload, including the scene around it, is 4 minutes 13 seconds.',
+    q: "How long are Bishop's speeches?",
+    a: 'The Senate speech runs roughly a minute and a half inside a cinematic of 4 minutes 13 seconds. The fleet speech segment in the CitizenCon 2954 prologue demo runs about two and three-quarter minutes (14:56–17:40).',
   },
 ]
 
@@ -96,7 +97,7 @@ export default function BishopsSpeechPage() {
         '@type': 'VideoObject',
         name: 'Squadron 42 CitizenCon 2954 Live Gameplay Reveal',
         description:
-          "The official CitizenCon 2954 live gameplay reveal of Squadron 42. Bishop's Senate speech appears in-engine in the prologue.",
+          "The official CitizenCon 2954 live gameplay reveal of Squadron 42. In the prologue, Bishop addresses the 2nd Fleet and the 42nd Squadron — the speech where he says 'I held the line.'",
         uploadDate: '2024-10-19',
         thumbnailUrl: 'https://img.youtube.com/vi/1H-0x4xk2Xk/maxresdefault.jpg',
         contentUrl: 'https://www.youtube.com/watch?v=1H-0x4xk2Xk',
@@ -104,7 +105,7 @@ export default function BishopsSpeechPage() {
         publisher: { '@type': 'Organization', name: 'Cloud Imperium Games' },
         hasPart: {
           '@type': 'Clip',
-          name: "Bishop's Senate speech (in-engine prologue)",
+          name: "Bishop's fleet speech — address to the 2nd Fleet and 42nd Squadron ('I held the line')",
           startOffset: 896,
           endOffset: 1060,
           url: PROLOGUE_URL,
@@ -129,9 +130,9 @@ export default function BishopsSpeechPage() {
       />
 
       <PageHeader
-        eyebrow="The Scene Behind the Name"
-        title={<>Bishop&apos;s Speech</>}
-        description="One address to the UEE Senate — performed by Gary Oldman — sets Squadron 42's entire war in motion. This is the scene this site is named for."
+        eyebrow="The Scenes Behind the Name"
+        title={<>Bishop&apos;s Speeches</>}
+        description="Two addresses, performed by Gary Oldman, frame Squadron 42: the Senate speech that declares the war, and the fleet speech where Bishop says the words this site is named for — 'I held the line.'"
         image="/images/headers/i-held-the-line-trailer.jpg"
         imageAlt="Squadron 42 — the I Held the Line era of Squadron 42 marketing"
       />
@@ -144,7 +145,7 @@ export default function BishopsSpeechPage() {
               What Is Bishop&apos;s Speech?
             </h2>
             <p className="text-muted text-sm leading-relaxed">
-              Bishop&apos;s speech is the address{' '}
+              &ldquo;Bishop&apos;s speech&rdquo; usually means the address{' '}
               <strong className="text-starwhite">Admiral Ernst Bishop</strong> — played by{' '}
               <strong className="text-starwhite">Gary Oldman</strong> — delivers to an emergency
               session of the UEE Senate in the opening cinematic of Squadron 42. Speaking after the
@@ -155,17 +156,23 @@ export default function BishopsSpeechPage() {
               Citizen YouTube channel on October 10, 2015, as &ldquo;the opening cinematic for
               Squadron 42.&rdquo;
             </p>
+            <p className="text-muted text-sm leading-relaxed mt-3">
+              But Bishop gives a <strong className="text-starwhite">second speech</strong> in the
+              game&apos;s prologue — an address to the 2nd Fleet and the 42nd Squadron, shown
+              in-engine at CitizenCon 2954 — and that is the one where he says{' '}
+              <em>&ldquo;I held the line.&rdquo;</em> Both are covered below.
+            </p>
           </section>
 
           {/* The speech, beat by beat */}
           <section>
             <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-              What the Speech Says
+              What the Senate Speech Says
             </h2>
             <p className="text-muted text-sm leading-relaxed mb-8">
-              The speech runs barely a minute and a half, and it moves in three beats. The words
-              below are brief excerpts — the performance belongs to CIG and to Oldman, and it is
-              worth watching in full (both official versions are linked below).
+              The Senate speech runs barely a minute and a half, and it moves in three beats. The
+              words below are brief excerpts — the performance belongs to CIG and to Oldman, and
+              it is worth watching in full (both speeches are linked below).
             </p>
 
             <div className="space-y-8">
@@ -209,15 +216,15 @@ export default function BishopsSpeechPage() {
             */}
           </section>
 
-          {/* Watch both versions */}
+          {/* The two speeches — watch both */}
           <section>
             <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
-              Watch Both Official Versions
+              The Two Speeches — Watch Both
             </h2>
             <p className="text-muted text-sm leading-relaxed mb-6">
-              CIG has shown the speech twice, nine years apart — first as the 2015 cinematic that
-              introduced Squadron 42&apos;s cast era, then running live in-engine as the game&apos;s
-              prologue at CitizenCon 2954.
+              Nine years apart, CIG has shown two Bishop speeches: the 2015 Senate cinematic that
+              declared the war, and — inside the CitizenCon 2954 live prologue demo — Bishop&apos;s
+              address to the 2nd Fleet and the 42nd Squadron as the campaign begins.
             </p>
 
             <div className="space-y-5">
@@ -263,46 +270,49 @@ export default function BishopsSpeechPage() {
                 </div>
                 <div className="p-5">
                   <p className="text-starwhite font-semibold text-sm">
-                    In-engine, inside the live prologue demo — CitizenCon 2954 (link starts at
-                    14:56)
+                    The fleet speech — Bishop addresses the 2nd Fleet &amp; 42nd Squadron
+                    (CitizenCon 2954 prologue demo, link starts at 14:56)
                   </p>
                   <p className="text-muted text-xs mt-1">
                     youtube.com — CIG official channel · published October 19, 2024 · speech runs
-                    to ~17:40
+                    14:56–17:40 — this is where Bishop says &ldquo;I held the line&rdquo;
                   </p>
                 </div>
               </a>
             </div>
           </section>
 
-          {/* The honest phrase-origin answer */}
+          {/* The phrase-origin answer — it's the fleet speech, not the Senate speech */}
           <section>
             <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
               Does Bishop Say &ldquo;I Held the Line&rdquo;?
             </h2>
             <div className="space-y-4 text-muted text-sm leading-relaxed">
               <p>
-                No — and this surprises people. The exact phrase never appears in the speech.
-                What the speech contains is the <em>idea</em>: Bishop&apos;s whole argument is
-                that humanity must stop giving ground. The line — the boundary the Vanduul will
-                not be allowed to cross — is drawn in this scene.
+                Yes — but in the <strong className="text-starwhite">fleet speech</strong>, not the
+                Senate speech, and that distinction trips people up. The famous 2015 Senate
+                cinematic never uses the exact phrase; its argument is the <em>idea</em> — no
+                more retreat, no more ceded ground. It is in the prologue&apos;s address to the
+                2nd Fleet and the 42nd Squadron, shown in-engine at CitizenCon 2954, that Bishop
+                says the words himself: <em>&ldquo;I held the line.&rdquo;</em> The game puts its
+                defining phrase in Bishop&apos;s mouth as the campaign opens.
               </p>
               <p>
-                The literal phrase came later, in two places. Long-time backers adopted
+                The phrase had a life outside the fiction too. Long-time backers adopted
                 &ldquo;hold the line&rdquo; as a rallying cry through Squadron 42&apos;s long
-                development. Then, at CitizenCon 2953 in October 2023, CIG titled its
+                development, and at CitizenCon 2953 in October 2023 CIG titled its
                 feature-complete showcase{' '}
                 <Link
                   href="/i-held-the-line-trailer"
                   className="text-gold hover:text-goldDark transition-colors"
                 >
                   &ldquo;Squadron 42: I Held The Line&rdquo;
-                </Link>{' '}
-                — honoring the community that waited.
+                </Link>
+                .
               </p>
               <p>
-                This site is named for all of it: the speech that drew the line, and the players
-                who held it.
+                This site is named for all of it: the admiral who held the line at Vega, and the
+                players who held it through the wait.
               </p>
             </div>
           </section>

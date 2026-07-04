@@ -118,9 +118,10 @@ export default function IHeldTheLineTrailerPage() {
                   the live CitizenCon 2954 gameplay demonstration in 2024.
                 </p>
                 <p className="text-muted text-sm leading-relaxed mt-3">
-                  The <em>idea</em> behind the phrase is older. It goes back to the scene that
-                  opens the game itself — Admiral Bishop&apos;s address to the UEE Senate, in which
-                  he demands humanity stop retreating before the Vanduul.
+                  In the game itself, the words belong to Admiral Bishop. His Senate address —
+                  the opening cinematic — demands humanity stop retreating before the Vanduul,
+                  and in the prologue&apos;s speech to the 2nd Fleet and the 42nd Squadron he
+                  says it outright: &ldquo;I held the line.&rdquo;
                 </p>
                 <SpeechQuote
                   quote="But I am here to tell you that we are at war!"

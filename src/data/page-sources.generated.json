@@ -48,7 +48,7 @@
       },
       {
         "id": "bishop-speech-in-sq42-prologue",
-        "claim": "Bishop's Senate speech appears in-engine in the Squadron 42 prologue — shown at approximately 14:56–17:40 of the official 'Squadron 42 CitizenCon 2954 Live Gameplay Reveal' video (Star Citizen YouTube channel, published October 19, 2024).",
+        "claim": "In the Squadron 42 prologue, Bishop delivers a SECOND speech — an address to the 2nd Fleet and the 42nd Squadron in which he says 'I held the line' — shown in-engine at approximately 14:56–17:40 of the official 'Squadron 42 CitizenCon 2954 Live Gameplay Reveal' video (Star Citizen YouTube channel, published October 19, 2024).",
         "status": "verified",
         "sources": [
           "https://www.youtube.com/watch?v=1H-0x4xk2Xk"
@@ -203,6 +203,14 @@
         "status": "verified",
         "sources": [
           "https://www.youtube.com/watch?v=8EC4WHPxnrk"
+        ]
+      },
+      {
+        "id": "bishop-speech-in-sq42-prologue",
+        "claim": "In the Squadron 42 prologue, Bishop delivers a SECOND speech — an address to the 2nd Fleet and the 42nd Squadron in which he says 'I held the line' — shown in-engine at approximately 14:56–17:40 of the official 'Squadron 42 CitizenCon 2954 Live Gameplay Reveal' video (Star Citizen YouTube channel, published October 19, 2024).",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=1H-0x4xk2Xk"
         ]
       },
       {
