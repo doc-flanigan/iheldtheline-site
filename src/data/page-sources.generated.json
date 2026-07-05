@@ -304,6 +304,23 @@
         ]
       },
       {
+        "id": "sq42-announced-oct-2012",
+        "claim": "Squadron 42 was announced together with Star Citizen by Chris Roberts at GDC Online in Austin on October 10, 2012, as the campaign's Wing Commander-style single-player component.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/12730-A-Message-From-Chris-Roberts",
+          "https://www.kickstarter.com/projects/cig/star-citizen"
+        ]
+      },
+      {
+        "id": "sq42-content-complete-may-2026-letter",
+        "claim": "In the May 25, 2026 Letter from the Chairman, Chris Roberts restated the goal to 'push Squadron 42 toward Beta and release in 2026' and said the game is content complete — all chapters fully playable from beginning to end with regular internal playthroughs — and over forty hours long, with polish, optimization, and bug fixing remaining.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman"
+        ]
+      },
+      {
         "id": "sq42-done-when-done-2020",
         "claim": "In an October 10, 2020 Letter from the Chairman, Chris Roberts said Squadron 42 would not release that year and gave no date: 'it will be done when it is done.'",
         "status": "verified",
@@ -325,6 +342,22 @@
         "status": "verified",
         "sources": [
           "https://www.gamespress.com/en-US/Cloud-Imperium-Games-Reveals-Over-an-Hour-of-Star-Studded-Space-Advent"
+        ]
+      },
+      {
+        "id": "sq42-separate-title-no-live-sp-mode",
+        "claim": "Squadron 42 is a separate, not-yet-released single-player title; the live Star Citizen PU has no dedicated single-player campaign mode.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/12730-A-Message-From-Chris-Roberts"
+        ]
+      },
+      {
+        "id": "sq42-vertical-slice-dec-2017",
+        "claim": "The first extended Squadron 42 gameplay — the 'vertical slice' demo — was shown publicly in CIG's Holiday Special, published on the official Star Citizen YouTube channel on December 22, 2017.",
+        "status": "verified",
+        "sources": [
+          "https://www.youtube.com/watch?v=tpVzJiarjvc"
         ]
       }
     ],
