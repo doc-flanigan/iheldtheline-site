@@ -49,6 +49,9 @@ not buyer intent. Treat as an authority/brand asset that links toward the hub.
 
 **Cross-links this site must send:**
 - → dayonecitizen.com only (footer + "new to Star Citizen?"). Do NOT link to satellites.
+- **Exception (added 2026-07-05):** → 42ndsquadron.com is allowed in body copy — it is the
+  SQ42 sister site (lore depth; this site owns release tracking/marketing history). Current
+  link: /vanduul → 42ndsquadron.com/vanduul. Same precedent as SCH's freeflyevent exception.
 - Referral CTA stays ACTIVE and prominent — driving enlist referrals is the primary
   business purpose of every SC site, this one included, even though on-page intent is
   informational. Target: https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC

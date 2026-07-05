@@ -163,6 +163,12 @@ export default function VanduulPage() {
                   >
                     Learn about the Odin System →
                   </Link>
+                  <a
+                    href="https://42ndsquadron.com/vanduul"
+                    className="text-gold text-xs hover:text-goldDark transition-colors"
+                  >
+                    Full Vanduul lore dossier at 42ndsquadron.com →
+                  </a>
                 </div>
               </section>
             </div>
