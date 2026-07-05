@@ -9,6 +9,7 @@
 - [Cast](https://iheldtheline.com/cast): The confirmed Squadron 42 cast — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies — with roles and official sources.
 - [Release Date Tracker](https://iheldtheline.com/release-date): Every official CIG statement on the Squadron 42 release window in one place; 2026 target confirmed.
 - [FAQ](https://iheldtheline.com/faq): Answers to common questions about Squadron 42 — what it is, when it ships, and how it relates to Star Citizen.
+- [Bishop's Speeches](https://iheldtheline.com/bishops-speech): Admiral Bishop's Squadron 42 speeches — the 2015 Senate address and the in-game prologue — with context and official sources.
 - [SQ42 vs Star Citizen](https://iheldtheline.com/sq42-vs-star-citizen): The key differences between the single-player campaign and the multiplayer game, from official CIG sources.
 - [Worth Buying](https://iheldtheline.com/worth-buying): Whether to pledge for Squadron 42 now, explained plainly.
 - [Gameplay](https://iheldtheline.com/gameplay): What Squadron 42 gameplay looks like based on official reveals.
