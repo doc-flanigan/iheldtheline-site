@@ -293,6 +293,33 @@
         ]
       }
     ],
+    "/odin-system": [
+      {
+        "id": "lore-odin-coil-debris-field",
+        "claim": "In official lore, the Coil (the Odin I Cluster) is thought to be the debris of Odin's destroyed first planet — a seemingly unending cloud of planetary fragments, minerals, and electromagnetic energy surges whose deadly 'arc charges' destroy ships; it is mined only in temporarily safe pockets, hosts a Shubin Interstellar station, and its labyrinthine tunnels are a long-standing pirate hiding spot.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/13815-Galactic-Guide-Odin-System"
+        ]
+      },
+      {
+        "id": "lore-odin-dead-white-dwarf-system",
+        "claim": "In official Star Citizen lore, Odin is a dead system centered on a white dwarf: first discovered in 2532 (in-universe), its star's red-giant expansion enveloped the first planet and boiled off the other worlds' biospheres before collapsing; with no terraforming candidates the system was given over to industrial mining, which later declined and drew in criminal elements.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/13815-Galactic-Guide-Odin-System"
+        ]
+      },
+      {
+        "id": "sq42-odin-primary-setting-q3-2025",
+        "claim": "The Q3 2025 Squadron 42 subscriber newsletter named the Odin system as the game's primary setting, with Fortune's Cross station and the Coil among its key locations, and described magnetic aurora phenomena in the system.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/comm-link/SCW/20745-API",
+          "https://robertsspaceindustries.com/en/comm-link/transmission/20745-Squadron-42-Q3-2025-Newsletter-Comm-Link"
+        ]
+      }
+    ],
     "/release-date": [
       {
         "id": "sq42-2016-window-missed",
@@ -361,6 +388,49 @@
         ]
       }
     ],
+    "/sq42-vs-star-citizen": [
+      {
+        "id": "sq42-announced-oct-2012",
+        "claim": "Squadron 42 was announced together with Star Citizen by Chris Roberts at GDC Online in Austin on October 10, 2012, as the campaign's Wing Commander-style single-player component.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/12730-A-Message-From-Chris-Roberts",
+          "https://www.kickstarter.com/projects/cig/star-citizen"
+        ]
+      },
+      {
+        "id": "sq42-content-complete-may-2026-letter",
+        "claim": "In the May 25, 2026 Letter from the Chairman, Chris Roberts restated the goal to 'push Squadron 42 toward Beta and release in 2026' and said the game is content complete — all chapters fully playable from beginning to end with regular internal playthroughs — and over forty hours long, with polish, optimization, and bug fixing remaining.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman"
+        ]
+      },
+      {
+        "id": "sq42-feature-complete-oct-2023",
+        "claim": "Squadron 42 was declared feature-complete in October 2023, announced at CitizenCon 2953 — all planned gameplay features implemented, project moved to polishing.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/19453-Squadron-42-I-Held-The-Line"
+        ]
+      },
+      {
+        "id": "sq42-launch-window-2026",
+        "claim": "CIG announced a 2026 launch window for Squadron 42 at CitizenCon 2954 (October 2024).",
+        "status": "verified",
+        "sources": [
+          "https://www.gamespress.com/en-US/Cloud-Imperium-Games-Reveals-Over-an-Hour-of-Star-Studded-Space-Advent"
+        ]
+      },
+      {
+        "id": "sq42-separate-title-no-live-sp-mode",
+        "claim": "Squadron 42 is a separate, not-yet-released single-player title; the live Star Citizen PU has no dedicated single-player campaign mode.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/12730-A-Message-From-Chris-Roberts"
+        ]
+      }
+    ],
     "/vanduul": [
       {
         "id": "bishop-speech-cinematic-2015",
@@ -371,11 +441,97 @@
         ]
       },
       {
+        "id": "lore-vanduul-fall-orion-tiber-virgil",
+        "claim": "In official Star Citizen lore, the UEE lost three systems to the Vanduul: Orion fell after the first Kingship humanity had ever encountered entered the system on February 16, 2712; the four-year Siege of Tiber ended when the line cracked in 2736 (earning Tiber the nickname 'the Grinder'); and the Vanduul then flooded into Virgil before a defense could be mounted, pulverizing Virgil I with catastrophic bombing raids.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/13061-Galactic-Guide-Orion-System",
+          "https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/13614-Galactic-Guide-Tiber-System",
+          "https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/14437-Galactic-Guide-Virgil-System"
+        ]
+      },
+      {
+        "id": "lore-vanduul-first-contact-2681-armitage",
+        "claim": "In official Star Citizen lore, humanity's first contact with the Vanduul was a raid on August 9, 2681, when a heavily armed Vanduul raiding party struck the main post on Armitage in the Orion system and slaughtered the colonists; the nomadic Vanduul clans considered Armitage a resource 'feeding world' of their own, and outposts in Orion were raided fifteen times in the first year.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/spectrum-dispatch/13061-Galactic-Guide-Orion-System"
+        ]
+      },
+      {
         "id": "sq42-cast-serkis-vanduul",
         "claim": "Andy Serkis plays a Vanduul character in Squadron 42 (specific character not officially named).",
         "status": "verified",
         "sources": [
           "https://robertsspaceindustries.com/comm-link/SCW/20401-API"
+        ]
+      },
+      {
+        "id": "sq42-odin-primary-setting-q3-2025",
+        "claim": "The Q3 2025 Squadron 42 subscriber newsletter named the Odin system as the game's primary setting, with Fortune's Cross station and the Coil among its key locations, and described magnetic aurora phenomena in the system.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/comm-link/SCW/20745-API",
+          "https://robertsspaceindustries.com/en/comm-link/transmission/20745-Squadron-42-Q3-2025-Newsletter-Comm-Link"
+        ]
+      }
+    ],
+    "/worth-buying": [
+      {
+        "id": "sq42-2016-window-missed",
+        "claim": "A 2016 release window for Squadron 42 was promoted at CitizenCon 2015; the game did not ship in 2016, its expected CitizenCon 2946 demo was pulled, and CIG adopted a no-hard-dates stance thereafter.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/15587-Monthly-Studio-Report-October-2016",
+          "https://robertsspaceindustries.com/comm-link/transmission/15603-Letter-From-The-Chairman"
+        ]
+      },
+      {
+        "id": "sq42-content-complete-may-2026-letter",
+        "claim": "In the May 25, 2026 Letter from the Chairman, Chris Roberts restated the goal to 'push Squadron 42 toward Beta and release in 2026' and said the game is content complete — all chapters fully playable from beginning to end with regular internal playthroughs — and over forty hours long, with polish, optimization, and bug fixing remaining.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman"
+        ]
+      },
+      {
+        "id": "sq42-done-when-done-2020",
+        "claim": "In an October 10, 2020 Letter from the Chairman, Chris Roberts said Squadron 42 would not release that year and gave no date: 'it will be done when it is done.'",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/17805-Letter-From-The-Chairman"
+        ]
+      },
+      {
+        "id": "sq42-feature-complete-oct-2023",
+        "claim": "Squadron 42 was declared feature-complete in October 2023, announced at CitizenCon 2953 — all planned gameplay features implemented, project moved to polishing.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/19453-Squadron-42-I-Held-The-Line"
+        ]
+      },
+      {
+        "id": "sq42-i-held-the-line-showcase",
+        "claim": "'I Held the Line' is the 26-minute Squadron 42 gameplay showcase released at CitizenCon 2953 (October 2023), alongside the feature-complete announcement.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/19453-Squadron-42-I-Held-The-Line"
+        ]
+      },
+      {
+        "id": "sq42-launch-window-2026",
+        "claim": "CIG announced a 2026 launch window for Squadron 42 at CitizenCon 2954 (October 2024).",
+        "status": "verified",
+        "sources": [
+          "https://www.gamespress.com/en-US/Cloud-Imperium-Games-Reveals-Over-an-Hour-of-Star-Studded-Space-Advent"
+        ]
+      },
+      {
+        "id": "sq42-separate-title-no-live-sp-mode",
+        "claim": "Squadron 42 is a separate, not-yet-released single-player title; the live Star Citizen PU has no dedicated single-player campaign mode.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/12730-A-Message-From-Chris-Roberts"
         ]
       }
     ]
