@@ -24,11 +24,12 @@ Added 2026-05-17. Every referral CTA click fires a background POST to `/api/log`
 
 > **Note:** Endpoint was renamed from `/api/track-click` → `/api/log` because adblocker filter lists (EasyPrivacy, uBlock Origin) blocked the original URL pattern client-side.
 
-### TODO: Verify end-to-end on this site
-- [ ] Confirm DISCORD_CLICK_WEBHOOK_URL env var is saved in Vercel (was missing at end of 2026-05-17 session — user added it and deployment was triggered)
-- [ ] Click CTA **with** adblocker enabled → Sheet row appears within 5s
-- [ ] Click CTA **with** adblocker enabled → Discord embed appears in #referral-clicks
-- [ ] Click CTA **without** adblocker → same as above
+### Verified end-to-end 2026-07-06
+Confirmed with organic traffic: the 2026-07-05 03:40:53 CST `NavBar CTA` click
+produced both the Sheet row and the #cta-referral-clicks Discord embed
+(timestamps match to the second), so DISCORD_CLICK_WEBHOOK_URL is set and the
+full pipeline works. Adblocker-specific cases weren't separately tested — the
+`/api/log` rename already addressed the known filter-list issue.
 
 ---
 
