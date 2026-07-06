@@ -1,5 +1,5 @@
 ﻿'use client'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { ArrowUpRight } from 'lucide-react'
 import { getRotatedReferralUrl, FALLBACK_REFERRAL_URL } from '@/lib/referral-rotator'
 
@@ -11,6 +11,43 @@ type Props = {
 export default function CTAButton({ trackingLabel, className = '' }: Props) {
   const [referralUrl, setReferralUrl] = useState(FALLBACK_REFERRAL_URL)
   useEffect(() => { setReferralUrl(getRotatedReferralUrl()) }, [])
+
+  const linkRef = useRef<HTMLAnchorElement>(null)
+  const impressionFired = useRef(false)
+  useEffect(() => {
+    const el = linkRef.current
+    if (!el) return
+    const observer = new IntersectionObserver(
+      (entries) => {
+        if (impressionFired.current) return
+        if (!entries.some((entry) => entry.isIntersecting)) return
+        impressionFired.current = true
+        observer.disconnect()
+        const href = el.href
+        const code = href.split('referral=')[1] ?? ''
+        fetch('/api/log', {
+          method: 'POST',
+          keepalive: true,
+          headers: { 'Content-Type': 'application/json' },
+          body: JSON.stringify({
+            label: `impression:${trackingLabel ?? 'unknown'}`,
+            referralCode: code,
+            page: window.location.pathname,
+            site: window.location.hostname,
+          }),
+        }).catch(() => {})
+        ;(window as Window & { gtag?: (...args: unknown[]) => void }).gtag?.('event', 'cta_impression', {
+          cta_label: trackingLabel ?? 'unknown',
+          referral_code: code,
+          page_path: window.location.pathname,
+          site: window.location.hostname,
+        })
+      },
+      { threshold: 0.5 }
+    )
+    observer.observe(el)
+    return () => observer.disconnect()
+  }, [trackingLabel])
 
   const handleClick = () => {
     const code = referralUrl.split('referral=')[1] ?? ''
@@ -34,6 +71,7 @@ export default function CTAButton({ trackingLabel, className = '' }: Props) {
 
   return (
     <a
+      ref={linkRef}
       href={referralUrl}
       target="_blank"
       rel="noopener noreferrer sponsored"
