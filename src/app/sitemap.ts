@@ -32,6 +32,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${SITE.url}/playtest-event`,
+      lastModified: new Date('2026-07-11T00:00:00Z'),
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${SITE.url}/bishops-speech`,
       changeFrequency: 'monthly',
       priority: 0.8,

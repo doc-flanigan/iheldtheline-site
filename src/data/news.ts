@@ -9,6 +9,16 @@ export type NewsEntry = {
 
 export const NEWS: NewsEntry[] = [
   {
+    slug: 'sq42-playtest-event-october-2026-manchester',
+    date: '2026-07-11',
+    headline:
+      'CIG Invites Longtime Backers to First Squadron 42 Hands-On — Manchester, October 9–11, 2026',
+    summary:
+      'Invitation emails from CIG began reaching selected longtime backers in July 2026, inviting "those who Held the Line" to an exclusive three-day event at the Manchester studio on October 9–11, 2026 — including the first hands-on experience with Squadron 42, a studio tour, and time with the development team. Travel and accommodation are at attendees\' own expense. CIG has not published a public comm-link about the event; the details come from the invitation emails recipients have shared, and our playtest-event page tracks everything known so far.',
+    sourceLabel: 'CIG invitation email — details & screenshot',
+    sourceUrl: 'https://iheldtheline.com/playtest-event',
+  },
+  {
     slug: 'sq42-q2-2026-newsletter-uees-stanton-crew',
     date: '2026-06-30',
     headline: 'SQ42 Q2 2026 Newsletter: More Crew of the UEES Stanton Introduced',

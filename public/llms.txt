@@ -8,6 +8,7 @@
 - [Development News](https://iheldtheline.com/news): Squadron 42 updates from official CIG sources — monthly reports, CitizenCon reveals, and milestone announcements, newest first.
 - [Cast](https://iheldtheline.com/cast): The confirmed Squadron 42 cast — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies — with roles and official sources.
 - [Release Date Tracker](https://iheldtheline.com/release-date): Every official CIG statement on the Squadron 42 release window in one place; 2026 target confirmed.
+- [Playtest Event](https://iheldtheline.com/playtest-event): The invite-only Squadron 42 hands-on event at CIG's Manchester studio, October 9–11, 2026 — who is invited, what happens, and what is known, based on the invitation emails sent to backers.
 - [FAQ](https://iheldtheline.com/faq): Answers to common questions about Squadron 42 — what it is, when it ships, and how it relates to Star Citizen.
 - [Bishop's Speeches](https://iheldtheline.com/bishops-speech): Admiral Bishop's Squadron 42 speeches — the 2015 Senate address and the in-game prologue — with context and official sources.
 - [SQ42 vs Star Citizen](https://iheldtheline.com/sq42-vs-star-citizen): The key differences between the single-player campaign and the multiplayer game, from official CIG sources.
@@ -25,6 +26,7 @@
 - Squadron 42 targets a 2026 release window, confirmed by CIG.
 - Squadron 42 is a standalone game separate from Star Citizen, the multiplayer game in the same universe.
 - The confirmed cast includes Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies.
+- The first hands-on Squadron 42 experience for players outside CIG is an invite-only event at the Manchester studio, October 9–11, 2026, communicated through private invitation emails to longtime backers ("those who Held the Line"); as of July 2026 CIG has not published a public comm-link about it.
 - Every factual claim on this site is drawn from official CIG sources (monthly reports, newsletters, CitizenCon showcases).
 
 ## Related

@@ -9,6 +9,7 @@ const NAV_LINKS = [
   { href: '/news', label: 'News' },
   { href: '/cast', label: 'Cast' },
   { href: '/release-date', label: 'Release Date' },
+  { href: '/playtest-event', label: 'Playtest Event' },
   { href: '/videos', label: 'Videos' },
   { href: '/faq', label: 'FAQ' },
   { href: '/about', label: 'About' },
