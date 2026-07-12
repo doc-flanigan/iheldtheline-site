@@ -11,7 +11,10 @@ export default function VideoCard({ video }: { video: VideoEntry }) {
     name: video.title,
     description: video.description,
     url: video.sourceUrl,
-    uploadDate: video.date,
+    // Full ISO 8601 with explicit timezone — Search Console flags date-only
+    // uploadDate values ("missing a timezone" / "invalid datetime").
+    uploadDate: `${video.date}T00:00:00Z`,
+    ...(video.thumbnailUrl ? { thumbnailUrl: video.thumbnailUrl } : {}),
     ...(video.duration ? { duration: video.duration } : {}),
   }
 

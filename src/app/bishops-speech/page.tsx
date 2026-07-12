@@ -87,7 +87,7 @@ export default function BishopsSpeechPage() {
         name: 'Squadron 42: Bishop Senate Speech',
         description:
           'Opening cinematic for Squadron 42, as seen during CitizenCon 2015. Admiral Ernst Bishop (Gary Oldman) addresses an emergency session of the UEE Senate.',
-        uploadDate: '2015-10-10',
+        uploadDate: '2015-10-10T00:00:00Z',
         thumbnailUrl: 'https://img.youtube.com/vi/8EC4WHPxnrk/maxresdefault.jpg',
         contentUrl: CINEMATIC_URL,
         duration: 'PT4M13S',
@@ -98,7 +98,7 @@ export default function BishopsSpeechPage() {
         name: 'Squadron 42 CitizenCon 2954 Live Gameplay Reveal',
         description:
           "The official CitizenCon 2954 live gameplay reveal of Squadron 42. In the prologue, Bishop addresses the 2nd Fleet and the 42nd Squadron — the speech where he says 'I held the line.'",
-        uploadDate: '2024-10-19',
+        uploadDate: '2024-10-19T00:00:00Z',
         thumbnailUrl: 'https://img.youtube.com/vi/1H-0x4xk2Xk/maxresdefault.jpg',
         contentUrl: 'https://www.youtube.com/watch?v=1H-0x4xk2Xk',
         duration: 'PT1H16M12S',
