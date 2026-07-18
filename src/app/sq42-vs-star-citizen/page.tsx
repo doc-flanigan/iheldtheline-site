@@ -110,6 +110,22 @@ export default function Sq42VsStarCitizenPage() {
               now in ongoing alpha. Buying one does not include the other.
             </p>
 
+            {/* At a glance — restates facts covered in the table and FAQ below */}
+            <section className="max-w-2xl mb-10 rounded-lg border border-white/10 bg-white/[0.03] p-5">
+              <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                At a Glance
+              </h2>
+              <ul className="text-muted text-sm leading-relaxed space-y-1.5 list-disc pl-4">
+                <li>Two separate games, sold separately — buying one does not include the other.</li>
+                <li>Squadron 42: standalone single-player campaign, playable offline, not yet released. CIG announced a 2026 target at CitizenCon 2954.</li>
+                <li>Star Citizen: online multiplayer universe, playable now in ongoing alpha.</li>
+                <li>Both are built by Cloud Imperium Games on Star Engine.</li>
+              </ul>
+              <p className="text-muted/70 text-xs mt-3">
+                Page reviewed July 18, 2026 — sourced from official CIG communications only.
+              </p>
+            </section>
+
             {/* Comparison table */}
             <div className="max-w-2xl mb-14 overflow-x-auto">
               <table className="w-full text-sm border-collapse">

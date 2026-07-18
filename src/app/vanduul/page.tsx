@@ -108,6 +108,22 @@ export default function VanduulPage() {
               2025 newsletter.
             </p>
 
+            {/* At a glance — restates facts covered in the sections below */}
+            <section className="max-w-2xl mb-10 rounded-lg border border-white/10 bg-white/[0.03] p-5">
+              <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
+                At a Glance
+              </h2>
+              <ul className="text-muted text-sm leading-relaxed space-y-1.5 list-disc pl-4">
+                <li>Primary enemy faction of the Squadron 42 single-player campaign.</li>
+                <li>Nomadic warrior clans — in official lore, first contact came at the Armitage colony in the Orion system in 2681.</li>
+                <li>Andy Serkis performs a Vanduul character in full motion capture.</li>
+                <li>The species has a constructed language of its own, revealed in an official 2025 newsletter.</li>
+              </ul>
+              <p className="text-muted/70 text-xs mt-3">
+                Page reviewed July 18, 2026 — sourced from official CIG communications only.
+              </p>
+            </section>
+
             <div className="max-w-2xl space-y-10">
               <section>
                 <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-3">
