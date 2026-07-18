@@ -16,6 +16,15 @@ const nextConfig = {
         destination: 'https://iheldtheline.com/:path*',
         permanent: true,
       },
+      {
+        // vercel.app alias served a full indexable duplicate — GSC flagged
+        // /vanduul + /sq42-vs-star-citizen "Duplicate without user-selected
+        // canonical" (2026-07-18). Exact match keeps preview URLs working.
+        source: '/:path*',
+        has: [{ type: 'host', value: 'iheldtheline-site.vercel.app' }],
+        destination: 'https://iheldtheline.com/:path*',
+        permanent: true,
+      },
     ];
   },
 }
