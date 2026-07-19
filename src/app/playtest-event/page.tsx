@@ -7,7 +7,7 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: 'Squadron 42 Playtest Event — October 2026 Manchester Weekend Explained',
+  title: 'SQ42 Playtest — Manchester, October 2026',
   description:
     'CIG is hosting the first hands-on Squadron 42 playtest at its Manchester studio, October 9–11, 2026. Who is invited, what happens, and what we know so far.',
   alternates: { canonical: '/playtest-event' },

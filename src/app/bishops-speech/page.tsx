@@ -7,9 +7,9 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: "Bishop's Speeches — Squadron 42's Senate Address & Fleet Speech, Explained",
+  title: "Bishop's Speeches in Squadron 42, Explained",
   description:
-    "Admiral Ernst Bishop — performed by Gary Oldman — gives Squadron 42 its two defining speeches: the Senate address that declares war on the Vanduul, and the fleet address where he says 'I held the line.' What each speech says, and where to watch both officially.",
+    "Admiral Bishop — played by Gary Oldman — delivers SQ42's two defining speeches: the Senate declaration of war and the 'I held the line' fleet address.",
   alternates: { canonical: '/bishops-speech' },
   keywords: [
     'bishop speech star citizen',

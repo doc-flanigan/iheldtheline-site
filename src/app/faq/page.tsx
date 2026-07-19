@@ -9,7 +9,7 @@ import { SITE } from '@/data/site'
 export const metadata: Metadata = {
   title: 'Squadron 42 FAQ — Release Date, Cast, Gameplay',
   description:
-    'Answers to the most common Squadron 42 questions — release date, cast (Mark Hamill, Gary Oldman, Gillian Anderson), differences from Star Citizen, system requirements, and more.',
+    'Common Squadron 42 questions answered — release date, cast, differences from Star Citizen, and system requirements.',
   alternates: { canonical: '/faq' },
   openGraph: {
     title: 'Squadron 42 FAQ — Release Date, Cast, Gameplay',

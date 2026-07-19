@@ -6,7 +6,7 @@ import { SITE } from '@/data/site'
 export const metadata: Metadata = {
   title: 'Squadron 42 Gameplay — Systems and Features',
   description:
-    'What gameplay systems does Squadron 42 have? Seamless transitions, AI companions, zero-G traversal, squad combat, and living NPC crew — confirmed from official CIG sources.',
+    'Squadron 42\'s confirmed gameplay systems: seamless transitions, AI companions, zero-G traversal, and squad combat — from official CIG sources.',
   alternates: { canonical: '/gameplay' },
   openGraph: {
     title: 'Squadron 42 Gameplay — Systems and Features',

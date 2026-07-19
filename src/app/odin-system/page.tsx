@@ -8,7 +8,7 @@ import { SITE } from '@/data/site'
 export const metadata: Metadata = {
   title: "Odin System — Squadron 42's Primary Setting",
   description:
-    "The Odin system is the primary star system setting for Squadron 42 — a white dwarf system containing Fortune's Cross station, The Coil tunnel network, and magnetic aurora phenomena.",
+    "The Odin system is Squadron 42's primary setting — a white dwarf system with Fortune's Cross station and The Coil.",
   alternates: { canonical: '/odin-system' },
   openGraph: {
     title: "Odin System — Squadron 42's Primary Setting",

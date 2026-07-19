@@ -5,7 +5,7 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: 'Squadron 42 Release Date — Every Official CIG Statement',
+  title: 'Squadron 42 Release Date — CIG Statements',
   description:
     'Every official Cloud Imperium Games statement on the Squadron 42 release date, in one place. 2026 target confirmed by Chris Roberts.',
   alternates: { canonical: '/release-date' },

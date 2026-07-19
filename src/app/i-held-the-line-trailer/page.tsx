@@ -8,7 +8,7 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: 'I Held the Line — Squadron 42 CitizenCon 2953 Showcase Breakdown',
+  title: 'I Held the Line — SQ42 Showcase Breakdown',
   description:
     'The 26-minute Squadron 42 showcase from CitizenCon 2953 — what was shown, the feature-complete announcement, and why it matters. Official CIG sources.',
   alternates: { canonical: '/i-held-the-line-trailer' },

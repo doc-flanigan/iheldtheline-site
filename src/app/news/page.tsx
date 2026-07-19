@@ -8,9 +8,9 @@ import { NEWS } from '@/data/news'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: 'Squadron 42 News — the Complete Development Timeline (2012–Present)',
+  title: 'Squadron 42 News — Development Timeline',
   description:
-    'Every major Squadron 42 news beat from the 2012 announcement to today — verified against official CIG sources — plus a complete archive of every official SQ42 comm-link, monthly report, and newsletter.',
+    'Every major Squadron 42 news beat from the 2012 announcement to today, verified against official CIG sources, plus the complete comm-link archive.',
   alternates: { canonical: '/news' },
   openGraph: {
     title: 'Squadron 42 News — the Complete Development Timeline (2012–Present)',

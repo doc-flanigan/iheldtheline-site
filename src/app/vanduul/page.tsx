@@ -7,9 +7,9 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: "The Vanduul — Squadron 42's Primary Enemy Faction",
+  title: "The Vanduul — Squadron 42's Enemy Faction",
   description:
-    "The Vanduul are the primary enemy alien faction in Squadron 42. Here's what CIG has officially revealed about them — language, intercepted communications, and their role in the campaign.",
+    "The Vanduul are Squadron 42's primary enemy — everything CIG has officially revealed: language, communications, and campaign role.",
   alternates: { canonical: '/vanduul' },
   openGraph: {
     title: "The Vanduul — Squadron 42's Primary Enemy Faction",

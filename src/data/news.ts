@@ -1,6 +1,7 @@
 export type NewsEntry = {
   date: string        // ISO 8601, e.g. '2025-05-01'
   headline: string
+  metaTitle?: string  // short <title> variant, <=46 chars (template appends " | iheldtheline.com")
   summary: string     // 2-3 sentences, plain English
   sourceLabel: string // e.g. 'RSI Comm-Link'
   sourceUrl: string
@@ -10,6 +11,7 @@ export type NewsEntry = {
 export const NEWS: NewsEntry[] = [
   {
     slug: 'sq42-playtest-event-october-2026-manchester',
+    metaTitle: 'SQ42 Manchester Playtest — Oct 2026',
     date: '2026-07-11',
     headline:
       'CIG Invites Longtime Backers to First Squadron 42 Hands-On — Manchester, October 9–11, 2026',
@@ -20,6 +22,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-q2-2026-newsletter-uees-stanton-crew',
+    metaTitle: 'SQ42 Q2 2026 Newsletter: Stanton Crew',
     date: '2026-06-30',
     headline: 'SQ42 Q2 2026 Newsletter: More Crew of the UEES Stanton Introduced',
     summary:
@@ -30,6 +33,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'chris-roberts-2026-target-gta6',
+    metaTitle: 'Chris Roberts Confirms 2026 SQ42 Target',
     date: '2026-05-06',
     headline: 'Chris Roberts Confirms 2026 Target, Cites Industry Scheduling Factors',
     summary:
@@ -40,6 +44,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'chairmans-letter-2025-40-hours-feature-playable',
+    metaTitle: "Chairman's Letter 2025: SQ42 Playable",
     date: '2025-12-22',
     headline: "Chairman's Letter 2025: All SQ42 Chapters Fully Playable, 40+ Hours Confirmed",
     summary:
@@ -49,6 +54,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'citizencon-direct-2955-no-sq42-segment',
+    metaTitle: 'CitizenCon Direct 2955: No SQ42 Segment',
     date: '2025-10-11',
     headline: 'CitizenCon Direct 2955: No Squadron 42 Segment; Team in Heads-Down Phase',
     summary:
@@ -58,6 +64,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'q3-2025-newsletter-odin-system',
+    metaTitle: 'SQ42 Q3 2025 Newsletter: Odin System',
     date: '2025-09-09',
     headline: "SQ42 Q3 2025 Newsletter: Odin System Revealed, Development Tracking Toward 2026",
     summary:
@@ -67,6 +74,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-newsletter-may-2025-42nd-squadron',
+    metaTitle: 'SQ42 Newsletter: The 42nd Squadron',
     date: '2025-05-01',
     headline: 'SQ42 Newsletter: Ships and Crew of the 42nd Squadron',
     summary:
@@ -76,6 +84,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-newsletter-march-2025-vanduul-contest',
+    metaTitle: 'SQ42 Newsletter: Vanduul Codebreaker',
     date: '2025-03-25',
     headline: 'SQ42 Newsletter: Vanduul Language Codebreaker Contest Launched',
     summary:
@@ -85,6 +94,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-newsletter-january-2025-abbey-road',
+    metaTitle: 'SQ42 Newsletter: Abbey Road Orchestra',
     date: '2025-01-01',
     headline: 'SQ42 Newsletter: Live Orchestra Recording of the Game Soundtrack Showcased',
     summary:
@@ -94,6 +104,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'citizencon-2954-gameplay-reveal-2026-window',
+    metaTitle: 'CitizenCon 2954: SQ42 Gameplay + 2026 Window',
     date: '2024-10-19',
     headline:
       'CitizenCon 2954: First-Ever Live Gameplay Reveal of Squadron 42; 2026 Release Window Announced',
@@ -104,6 +115,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'monthly-report-september-2024',
+    metaTitle: 'SQ42 Monthly Report — September 2024',
     date: '2024-10-09',
     headline: 'SQ42 Monthly Report — September 2024: Narrative Polish, Zero-G Traversal, Environment Art',
     summary:
@@ -113,6 +125,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'monthly-report-august-2024',
+    metaTitle: 'SQ42 Monthly Report — August 2024',
     date: '2024-09-11',
     headline: 'SQ42 Monthly Report — August 2024: AI Companion Polish and New Test System',
     summary:
@@ -122,6 +135,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'monthly-report-july-2024',
+    metaTitle: 'SQ42 Monthly Report — July 2024',
     date: '2024-08-14',
     headline: 'SQ42 Monthly Report — July 2024: AI Groups System and Combat Communication',
     summary:
@@ -131,6 +145,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'monthly-report-june-2024',
+    metaTitle: 'SQ42 Monthly Report — June 2024',
     date: '2024-07-10',
     headline: 'SQ42 Monthly Report — June 2024: NPC Interaction System and Ship AI',
     summary:
@@ -140,6 +155,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'monthly-report-may-2024',
+    metaTitle: 'SQ42 Monthly Report — May 2024',
     date: '2024-06-12',
     headline: 'SQ42 Monthly Report — May 2024: Opening Level Polish and Natural NPC Gaze',
     summary:
@@ -149,6 +165,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'citizencon-2953-i-held-the-line-feature-complete',
+    metaTitle: 'CitizenCon 2953: SQ42 Feature-Complete',
     date: '2023-10-21',
     headline: 'CitizenCon 2953: "I Held the Line" Trailer Released; Squadron 42 Declared Feature-Complete',
     summary:
@@ -252,6 +269,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'done-when-it-is-done-letter-2020',
+    metaTitle: "'Done When It Is Done' — 2020 Letter",
     date: '2020-10-10',
     headline: "Chris Roberts on SQ42: 'it will be done when it is done, and that will not be this year'",
     summary:
@@ -298,6 +316,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-citizencon-2948-trailer',
+    metaTitle: 'SQ42 Trailer Debuts at CitizenCon 2948',
     date: '2018-10-12',
     headline: 'Squadron 42 cinematic trailer debuts at CitizenCon 2948',
     summary:
@@ -316,6 +335,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-vertical-slice-holiday-special-2017',
+    metaTitle: 'SQ42 Vertical Slice — 2017 Holiday Special',
     date: '2017-12-22',
     headline: "Holiday Special debuts first extended Squadron 42 'vertical slice' gameplay",
     summary:
@@ -343,6 +363,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-2016-delay-citizencon-2946',
+    metaTitle: 'SQ42 2016 Release Slips — CitizenCon 2946',
     date: '2016-10-09',
     headline: 'Squadron 42 demo pulled from CitizenCon 2946 as hoped-for 2016 release slips',
     summary:
@@ -371,6 +392,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'sq42-cast-reveal-citizencon-2015',
+    metaTitle: 'SQ42 Cast Reveal — CitizenCon 2015',
     date: '2015-10-10',
     headline: 'CitizenCon 2015: Hollywood performance-capture cast revealed for Squadron 42',
     summary:
@@ -424,6 +446,7 @@ export const NEWS: NewsEntry[] = [
   },
   {
     slug: 'squadron-42-announced-gdc-2012',
+    metaTitle: 'Squadron 42 Announced at GDC 2012',
     date: '2012-10-10',
     headline: 'Chris Roberts unveils Star Citizen and Squadron 42 at GDC Online',
     summary:

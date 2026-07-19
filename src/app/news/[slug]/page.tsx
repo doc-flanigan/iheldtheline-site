@@ -19,7 +19,7 @@ export async function generateMetadata({
   if (!entry) return {}
 
   return {
-    title: `${entry.headline} — Squadron 42 News`,
+    title: entry.metaTitle ?? entry.headline,
     description: entry.summary.slice(0, 160),
     alternates: { canonical: `/news/${slug}` },
     openGraph: {

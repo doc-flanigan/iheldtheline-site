@@ -6,7 +6,7 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: "Squadron 42 vs Star Citizen — What's the Difference?",
+  title: "Squadron 42 vs Star Citizen — Differences",
   description:
     'Squadron 42 is a standalone single-player game. Star Citizen is an online multiplayer universe. Here are the key differences explained from official CIG sources.',
   alternates: { canonical: '/sq42-vs-star-citizen' },

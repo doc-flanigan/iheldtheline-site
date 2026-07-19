@@ -20,8 +20,8 @@ export async function generateMetadata({
   if (!member) return {}
 
   return {
-    title: `${member.actor} in Squadron 42 — ${member.character}`,
-    description: `${member.actor} plays ${member.character} in Squadron 42. ${member.bio.split('.')[0]}.`,
+    title: `${member.actor} in Squadron 42`,
+    description: `${member.actor} plays ${member.character} in Squadron 42.`,
     alternates: { canonical: `/cast/${slug}` },
     openGraph: {
       title: `${member.actor} in Squadron 42 — ${member.character}`,

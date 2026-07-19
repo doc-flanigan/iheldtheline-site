@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     absolute: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
   },
   description:
-    '"I held the line" — what long-time Star Citizen backers say while waiting for Squadron 42 to ship. Track the 2026 release window with live dev news, official trailers, cast FAQ, and a day-count. Unofficial fan site.',
+    '"I held the line" — what long-time backers say while waiting for Squadron 42. Track the 2026 release window with dev news, trailers, and cast FAQ.',
   alternates: { canonical: '/' },
   openGraph: {
     title: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
