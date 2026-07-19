@@ -32,6 +32,39 @@ export const NEWS: NewsEntry[] = [
       'https://robertsspaceindustries.com/en/comm-link/transmission/21226-This-Week-In-Star-Citizen',
   },
   {
+    slug: 'star-citizen-1-billion-funding-sq42-closing-stages',
+    metaTitle: '$1B Funding: SQ42 "Closing Stages"',
+    date: '2026-05-24',
+    headline: 'Star Citizen Crosses $1 Billion in Lifetime Funding; Roberts Says SQ42 in "Closing Stages"',
+    summary:
+      'Star Citizen passed $1 billion in cumulative crowdfunding on May 24, 2026 — roughly 6.5 million backers, fourteen years after the original campaign. Coverage tied to the milestone quoted Chris Roberts describing Squadron 42 as being in its "closing stages," while repeating that the 2026 target is not a locked guarantee and citing scheduling around other major industry releases (widely read as a reference to Grand Theft Auto VI) as a factor. No new release date was announced.',
+    sourceLabel: 'Variety',
+    sourceUrl:
+      'https://variety.com/2026/gaming/news/star-citizen-1-billion-funding-squadron-42-release-update-1236757420/',
+  },
+  {
+    slug: 'defensecon-2956-fleet-week-replacement',
+    metaTitle: 'DefenseCon 2956 Replaces Fleet Week',
+    date: '2026-05-14',
+    headline: 'DefenseCon 2956 Runs May 14–27, Standing In for Fleet Week as CIG Focuses on SQ42 and Alpha 4.8',
+    summary:
+      "Drake Interplanetary hosted DefenseCon 2956 at Area18's Bevic Convention Center from May 14 through 27, 2026, taking over the traditional Fleet Week slot with a free-fly period, new ship reveals, and coverage of the Alpha 4.8 patch (Tactical Strike Groups, new FPS gear). CIG framed the event as evidence it is concentrating resources on Star Citizen live content and Squadron 42 polish rather than a large CitizenCon-style production this year.",
+    sourceLabel: 'RSI Comm-Link',
+    sourceUrl:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/21134-Countdown-To-DefenseCon',
+  },
+  {
+    slug: 'citizencon-2026-cancelled',
+    metaTitle: 'No CitizenCon in 2026',
+    date: '2026-05-07',
+    headline: 'CIG Cancels CitizenCon for 2026, Citing Full Focus on Shipping Squadron 42',
+    summary:
+      "An Inside Star Citizen episode confirmed there would be no CitizenCon this year — neither in-person nor a digital \"Direct\" broadcast — so the studio can stay focused on Alpha 4.8 content and getting Squadron 42 out the door. It's the second year running without a dedicated SQ42 CitizenCon segment, following CitizenCon Direct 2955 in October 2025.",
+    sourceLabel: 'Massively Overpowered',
+    sourceUrl:
+      'https://massivelyop.com/2026/05/07/star-citizen-hypes-its-may-14-defensecon-event-alpha-4-8s-group-activity-and-april-dev-progress/',
+  },
+  {
     slug: 'chris-roberts-2026-target-gta6',
     metaTitle: 'Chris Roberts Confirms 2026 SQ42 Target',
     date: '2026-05-06',
