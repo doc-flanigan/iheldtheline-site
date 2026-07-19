@@ -100,7 +100,7 @@ export default function Footer() {
             assets © Cloud Imperium Rights LLC.
           </p>
           <p className="text-muted text-xs leading-relaxed">
-            Affiliate disclosure: If you create a Star Citizen account using referral code STAR-GCQJ-N6NC, the site owner may receive an in-game bonus. Your 50,000 aUEC new-player bonus is not affected.
+            Affiliate disclosure: If you create a Star Citizen account using referral code STAR-GCQJ-N6NC, the site owner may receive an in-game bonus. Your 50,000 UEC new-player bonus is not affected.
           </p>
           <p className="text-muted text-xs">
             © {year} iheldtheline.com — created by {SITE.author}
