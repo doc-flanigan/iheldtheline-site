@@ -45,6 +45,7 @@ export default function NavBar() {
           <CTAButton
             trackingLabel="NavBar CTA"
             className="!px-4 !py-1.5 !text-xs"
+            variants={{ a: 'Join Star Citizen While You Wait', b: 'Claim 50K UEC Bonus' }}
           />
         </div>
 
