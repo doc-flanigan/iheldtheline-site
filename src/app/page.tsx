@@ -215,7 +215,10 @@ export default function Home() {
             </p>
             <p className="text-starwhite/80 text-sm leading-relaxed max-w-2xl mx-auto mb-6">
               The phrase long-time backers use while waiting for Squadron 42 — honored on stage at
-              CitizenCon 2953, when CIG declared the game feature-complete.
+              CitizenCon 2953, when CIG declared the game feature-complete. Chris Roberts returned
+              to it in the August 2026 Letter from the Chairman, thanking the backers who took
+              crowdfunding past one billion dollars: &ldquo;All of you that have held the
+              line.&rdquo;
             </p>
             <div className="flex flex-wrap justify-center gap-x-8 gap-y-2">
               <Link

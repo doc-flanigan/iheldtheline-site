@@ -79,6 +79,12 @@ export default function AboutPage() {
                   of the wait.
                 </p>
                 <p>
+                  Chris Roberts used the phrase himself in the Letter from the Chairman of August
+                  27, 2026, marking the point where crowdfunding passed one billion dollars: the
+                  total, he wrote, is a celebration of the backers &ldquo;that have stood by
+                  through thick and thin. All of you that have held the line.&rdquo;
+                </p>
+                <p>
                   <Link
                     href="/bishops-speech"
                     className="text-gold hover:text-goldDark transition-colors"

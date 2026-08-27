@@ -29,7 +29,7 @@ const STATEMENTS = [
   {
     date: 'August 2026',
     summary:
-      'Letter from the Chairman (August 27, 2026): Squadron 42 is delayed out of 2026 to Q2 2027. Chris Roberts wrote: "We have taken a look at the release windows at the start of 2027, and decided that Q2 provides a better time for Squadron 42 to release." He gave Grand Theft Auto 6 as the reason — there is "no way" he wants his "spiritual successor to Wing Commander, a game that has had twelve years of blood, sweat and tears invested into it" launching "into the attention buzz saw of GTA 6," because "while GTA 6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage."',
+      'Letter from the Chairman (August 27, 2026): Squadron 42 is delayed out of 2026 to Q2 2027. Chris Roberts wrote: "We have taken a look at the release windows at the start of 2027, and decided that Q2 provides a better time for Squadron 42 to release." He gave Grand Theft Auto 6 as the reason — there is "no way" he wants his "spiritual successor to Wing Commander, a game that has had twelve years of blood, sweat and tears invested into it" launching "into the attention buzz saw of GTA6," because "While GTA6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage." Roberts confirmed the original plan had been to ship in Q4 2026 around IAE. He also said a small number of original backers and long-time content creators will play the game on October 9 and 10, that CIG will make "further announcements about our release plans during this time," and that a specific release date will follow "shortly afterwards."',
     sourceLabel: 'RSI Comm-Link — Letter From The Chairman',
     sourceUrl:
       'https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman',
@@ -110,7 +110,11 @@ const faqs = [
   },
   {
     q: 'Why was Squadron 42 delayed to 2027?',
-    a: 'To stay clear of Grand Theft Auto 6. In the August 27, 2026 Letter from the Chairman, Chris Roberts said there is "no way" he wants his "spiritual successor to Wing Commander, a game that has had twelve years of blood, sweat and tears invested into it" launching "into the attention buzz saw of GTA 6." He noted that "while GTA 6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage." The delay was framed as a marketing-calendar decision rather than a development one.',
+    a: 'To stay clear of Grand Theft Auto 6. In the August 27, 2026 Letter from the Chairman, Chris Roberts said there is "no way" he wants his "spiritual successor to Wing Commander, a game that has had twelve years of blood, sweat and tears invested into it" launching "into the attention buzz saw of GTA6." He noted that "While GTA6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage." The delay was framed as a marketing-calendar decision rather than a development one.',
+  },
+  {
+    q: 'When will CIG announce an exact Squadron 42 release date?',
+    a: 'Shortly after October 10, 2026. In the August 27, 2026 Letter from the Chairman, Chris Roberts said a small number of original backers and long-time content creators will play Squadron 42 on October 9 and 10, that CIG will make "further announcements about our release plans during this time," and that "a specific release date" will follow "shortly afterwards."',
   },
   {
     q: 'Has Squadron 42 been delayed before?',
@@ -175,9 +179,11 @@ export default function ReleaseDatePage() {
               </strong>{' '}
               — set by Chris Roberts in the Letter from the Chairman of August
               27, 2026, which moved the game out of its 2026 window to avoid
-              launching alongside Grand Theft Auto 6. The game is content
-              complete, every chapter is fully playable internally, and the
-              studio is preparing it for Beta.
+              launching alongside Grand Theft Auto 6. In the same letter Roberts
+              said an exact release date will be announced shortly after a
+              backer and content-creator play session on October 9 and 10, 2026.
+              The game is content complete, every chapter is fully playable
+              internally, and the studio is preparing it for Beta.
             </p>
 
             {/* What we know summary */}
@@ -194,7 +200,7 @@ export default function ReleaseDatePage() {
                   The game was{' '}
                   <span className="text-starwhite font-semibold">delayed out of 2026</span> to
                   avoid launching into what Chris Roberts called &ldquo;the attention buzz saw
-                  of GTA 6.&rdquo;
+                  of GTA6.&rdquo;
                 </li>
                 <li>
                   Campaign is{' '}
@@ -212,6 +218,17 @@ export default function ReleaseDatePage() {
                   Feature-complete status was reached in{' '}
                   <span className="text-starwhite font-semibold">October 2023</span>;
                   the game is now content complete and being prepared for Beta.
+                </li>
+                <li>
+                  A{' '}
+                  <span className="text-starwhite font-semibold">specific release date</span> is
+                  due &ldquo;shortly after&rdquo; the October 9&ndash;10, 2026 backer and
+                  content-creator play sessions, per the same letter.
+                </li>
+                <li>
+                  The original plan was to ship in{' '}
+                  <span className="text-starwhite font-semibold">Q4 2026 around IAE</span> —
+                  Roberts confirmed this when announcing the move to Q2 2027.
                 </li>
                 <li>No public beta date, demo, or Steam release has been announced.</li>
               </ul>
