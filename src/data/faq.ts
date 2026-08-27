@@ -20,8 +20,9 @@ export const FAQ: FaqItem[] = [
   {
     question: 'When does Squadron 42 release?',
     answer:
-      'Cloud Imperium Games has confirmed 2026 as their target release window. No specific date or quarter has been announced. Chris Roberts has stated the studio will not run a long marketing campaign ahead of launch — when the date is set, players will hear more at that time.',
-    sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20960-API',
+      'Cloud Imperium Games is targeting Q2 2027 — April to June 2027. Chris Roberts set that window in the August 27, 2026 Letter from the Chairman, moving Squadron 42 out of its previous 2026 target to avoid launching alongside Grand Theft Auto 6. No specific day has been announced, and Roberts has said the studio will not run a long marketing campaign ahead of launch.',
+    sourceUrl:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman',
   },
   {
     question: 'Who is in the cast of Squadron 42?',

@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: 'Can I play Squadron 42 right now?',
-    a: 'No. Squadron 42 has not released — CIG is targeting a 2026 release window, announced at CitizenCon 2954. Star Citizen, by contrast, is playable now in ongoing alpha.',
+    a: 'No. Squadron 42 has not released — CIG is targeting Q2 2027, set in the August 2026 Letter from the Chairman after the earlier 2026 window was dropped. Star Citizen, by contrast, is playable now in ongoing alpha.',
   },
   {
     q: 'Does buying Star Citizen include Squadron 42?',
@@ -105,7 +105,7 @@ export default function Sq42VsStarCitizenPage() {
                 same universe, made by the same studio, and sold separately.
               </strong>{' '}
               Squadron 42 is a single-player, story-driven campaign you can play
-              offline; it has not released yet, and CIG is targeting 2026. Star
+              offline; it has not released yet, and CIG is targeting Q2 2027. Star
               Citizen is an online multiplayer universe that is playable right
               now in ongoing alpha. Buying one does not include the other.
             </p>
@@ -117,12 +117,12 @@ export default function Sq42VsStarCitizenPage() {
               </h2>
               <ul className="text-muted text-sm leading-relaxed space-y-1.5 list-disc pl-4">
                 <li>Two separate games, sold separately — buying one does not include the other.</li>
-                <li>Squadron 42: standalone single-player campaign, playable offline, not yet released. CIG announced a 2026 target at CitizenCon 2954.</li>
+                <li>Squadron 42: standalone single-player campaign, playable offline, not yet released. CIG is targeting Q2 2027, announced August 2026.</li>
                 <li>Star Citizen: online multiplayer universe, playable now in ongoing alpha.</li>
                 <li>Both are built by Cloud Imperium Games on Star Engine.</li>
               </ul>
               <p className="text-muted/70 text-xs mt-3">
-                Page reviewed July 18, 2026 — sourced from official CIG communications only.
+                Page reviewed August 27, 2026 — sourced from official CIG communications only.
               </p>
             </section>
 
@@ -146,7 +146,7 @@ export default function Sq42VsStarCitizenPage() {
                   {[
                     ['Mode', 'Single-player', 'Multiplayer (online)'],
                     ['Internet required', 'No — offline capable', 'Yes — always online'],
-                    ['Status', 'Targeting 2026 release', 'Playable now (Alpha)'],
+                    ['Status', 'Targeting Q2 2027 release', 'Playable now (Alpha)'],
                     ['Purchase', 'Sold separately', 'Sold separately'],
                     ['Setting', 'Same universe', 'Same universe'],
                     ['Engine', 'Star Engine (shared)', 'Star Engine (shared)'],
@@ -211,19 +211,20 @@ export default function Sq42VsStarCitizenPage() {
                   This is the difference that trips people up most. Star Citizen is playable today
                   — it has been in continuous, publicly playable alpha development for years, with
                   a live server you can log into right now. Squadron 42 has never been released in any form. CIG
-                  announced a 2026 launch window at CitizenCon 2954 (October 2024), and the May
-                  2026 Letter from the Chairman said the game is content complete — every chapter
-                  playable from beginning to end internally — with polish, optimization, and bug
-                  fixing remaining. No exact date has been announced.
+                  announced a 2026 launch window at CitizenCon 2954 (October 2024), then moved it
+                  to Q2 2027 in the August 27, 2026 Letter from the Chairman to avoid launching
+                  alongside GTA 6. The game is content complete — every chapter playable from
+                  beginning to end internally — with polish, optimization, and bug fixing
+                  remaining. No exact date has been announced.
                 </p>
                 <p className="mt-3">
                   <a
-                    href="https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman"
+                    href="https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gold text-xs hover:text-goldDark transition-colors"
                   >
-                    Source: RSI Comm-Link — Letter From The Chairman (May 2026) →
+                    Source: RSI Comm-Link — Letter From The Chairman (August 2026) →
                   </a>
                 </p>
               </section>
@@ -306,7 +307,7 @@ export default function Sq42VsStarCitizenPage() {
                 </h2>
                 <p className="text-muted text-sm leading-relaxed mb-4">
                   If what you want is the story campaign, there is nothing to play yet — Squadron
-                  42 releases when it releases, and the only official window is 2026. If you want
+                  42 releases when it releases, and the only official window is Q2 2027. If you want
                   to fly in this universe today, Star Citizen is the game that exists. Use a
                   referral code when creating your account to start with bonus in-game credits.
                   Brand-new to Star Citizen? The plain-English getting-started guide at{' '}

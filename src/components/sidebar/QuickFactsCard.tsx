@@ -1,5 +1,5 @@
 const FACTS = [
-  { label: 'Release window', value: '2026' },
+  { label: 'Release window', value: 'Q2 2027' },
   { label: 'Type', value: 'Single-player campaign' },
   { label: 'Studio', value: 'Cloud Imperium Games' },
   { label: 'Engine', value: 'Star Engine (shared with Star Citizen)' },

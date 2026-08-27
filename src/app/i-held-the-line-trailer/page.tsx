@@ -201,7 +201,8 @@ export default function IHeldTheLineTrailerPage() {
                   The &quot;I Held the Line&quot; showcase was the last major Squadron 42 content
                   reveal before the first live gameplay demonstration at CitizenCon 2954 in October
                   2024. Together, the two events — feature-complete in 2023, live prologue demo in
-                  2024 — defined the development arc that led to the current 2026 release target.
+                  2024 — defined the development arc that led to the current Q2 2027 release
+                  target, set in August 2026 after the original 2026 window was dropped.
                 </p>
                 <div className="mt-4">
                   <Link

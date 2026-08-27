@@ -3,12 +3,14 @@ export const SITE = {
   tagline: 'Tracking Squadron 42 — the single-player campaign from Cloud Imperium Games',
   url: 'https://iheldtheline.com',
   description:
-    'The unofficial Squadron 42 fan site. Development news, official trailers, a complete FAQ, and a 2026 release-window tracker.',
+    'The unofficial Squadron 42 fan site. Development news, official trailers, a complete FAQ, and a Q2 2027 release-window tracker.',
   author: 'Doc_Flanigan',
   keywords: [
     'Squadron 42',
     'Squadron 42 release date',
-    'Squadron 42 2026',
+    'Squadron 42 2027',
+    'Squadron 42 delayed',
+    'Squadron 42 release window',
     'Squadron 42 news',
     'Squadron 42 trailers',
     'Squadron 42 vs Star Citizen',
