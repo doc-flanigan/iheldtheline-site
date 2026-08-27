@@ -144,7 +144,7 @@ export default async function CastMemberPage({
                 </h2>
                 <p className="text-muted text-sm leading-relaxed">
                   Squadron 42 is a standalone single-player campaign set in the Star Citizen
-                  universe. CIG has confirmed a 2026 release target. All cast performances were
+                  universe. CIG is targeting a Q2 2027 release. All cast performances were
                   recorded with full motion-capture technology.
                 </p>
                 <Link

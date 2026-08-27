@@ -2,38 +2,66 @@
 import { useEffect, useState } from 'react'
 import { RELEASE } from '@/data/release'
 
-function getDaysRemaining(): number {
-  const now = new Date()
-  const end = new Date(RELEASE.windowEnd + 'T23:59:59')
-  const diff = end.getTime() - now.getTime()
-  return Math.max(0, Math.ceil(diff / (1000 * 60 * 60 * 24)))
+const DAY_MS = 1000 * 60 * 60 * 24
+
+function startMs(): number {
+  return new Date(RELEASE.windowStart + 'T00:00:00').getTime()
 }
 
-function getProgressPercent(): number {
-  const now = new Date()
-  const start = new Date(RELEASE.windowStart)
-  const end = new Date(RELEASE.windowEnd + 'T23:59:59')
-  const total = end.getTime() - start.getTime()
-  const elapsed = now.getTime() - start.getTime()
-  return Math.min(100, Math.max(0, (elapsed / total) * 100))
+function endMs(): number {
+  return new Date(RELEASE.windowEnd + 'T23:59:59').getTime()
 }
 
-function isWindowPassed(): boolean {
-  return new Date().getTime() > new Date(RELEASE.windowEnd + 'T23:59:59').getTime()
+function announcedMs(): number {
+  return new Date(RELEASE.announced + 'T00:00:00').getTime()
+}
+
+type Phase = 'before' | 'during' | 'after'
+
+function getPhase(now: number): Phase {
+  if (now < startMs()) return 'before'
+  if (now > endMs()) return 'after'
+  return 'during'
+}
+
+// Before the window opens the bar tracks the run-up from the announcement to
+// the start of the window; once it opens it tracks the window itself.
+function getProgressPercent(now: number, phase: Phase): number {
+  if (phase === 'after') return 100
+  const [from, to] = phase === 'before' ? [announcedMs(), startMs()] : [startMs(), endMs()]
+  return Math.min(100, Math.max(0, ((now - from) / (to - from)) * 100))
+}
+
+function getDaysUntil(target: number, now: number): number {
+  return Math.max(0, Math.ceil((target - now) / DAY_MS))
 }
 
 export default function ReleaseWindow() {
-  const [daysRemaining, setDaysRemaining] = useState<number | null>(null)
+  // Seeded with the pre-window phase rather than the live one: server and first
+  // client render must agree, so the real phase is resolved after mount.
+  const [phase, setPhase] = useState<Phase>('before')
+  const [days, setDays] = useState<number | null>(null)
   const [progress, setProgress] = useState(0)
-  const [windowPassed, setWindowPassed] = useState(false)
 
   useEffect(() => {
-    setDaysRemaining(getDaysRemaining())
-    setWindowPassed(isWindowPassed())
+    const now = Date.now()
+    const p = getPhase(now)
+    setPhase(p)
+    setDays(getDaysUntil(p === 'before' ? startMs() : endMs(), now))
     // Small delay lets the CSS transition animate on mount
-    const id = setTimeout(() => setProgress(getProgressPercent()), 50)
+    const id = setTimeout(() => setProgress(getProgressPercent(now, p)), 50)
     return () => clearTimeout(id)
   }, [])
+
+  const leftLabel = phase === 'before' ? RELEASE.announcedLabel : RELEASE.startLabel
+  const rightLabel = phase === 'before' ? RELEASE.startLabel : RELEASE.endLabel
+
+  let status = `${RELEASE.label} window`
+  if (phase === 'after') status = 'Window ended — awaiting new date'
+  else if (days !== null) {
+    const unit = `${days} day${days !== 1 ? 's' : ''}`
+    status = phase === 'before' ? `${unit} until window opens` : `${unit} remaining`
+  }
 
   return (
     <section
@@ -55,19 +83,13 @@ export default function ReleaseWindow() {
       {/* Progress bar panel */}
       <div className="w-full max-w-lg bg-navyLight border border-gold/30 rounded-xl p-6 shadow-[0_0_40px_rgba(200,160,74,0.06)]">
         <p className="text-gold text-xs uppercase tracking-[0.2em] font-semibold mb-5">
-          {RELEASE.year} Release Window
+          {RELEASE.label} Release Window
         </p>
 
-        <div className="flex justify-between text-xs text-muted mb-2">
-          <span>Jan {RELEASE.year}</span>
-          <span>
-            {windowPassed
-              ? 'Window ended — awaiting new date'
-              : daysRemaining !== null
-                ? `${daysRemaining} day${daysRemaining !== 1 ? 's' : ''} remaining`
-                : `${RELEASE.year} window`}
-          </span>
-          <span>Dec {RELEASE.year}</span>
+        <div className="flex justify-between text-xs text-muted mb-2 gap-3">
+          <span>{leftLabel}</span>
+          <span>{status}</span>
+          <span>{rightLabel}</span>
         </div>
 
         <div
@@ -76,7 +98,11 @@ export default function ReleaseWindow() {
           aria-valuenow={Math.round(progress)}
           aria-valuemin={0}
           aria-valuemax={100}
-          aria-label={`${Math.round(progress)}% through CIG's ${RELEASE.year} release window`}
+          aria-label={
+            phase === 'before'
+              ? `${Math.round(progress)}% of the wait until CIG's ${RELEASE.label} release window opens`
+              : `${Math.round(progress)}% through CIG's ${RELEASE.label} release window`
+          }
         >
           <div
             className="h-full bg-gradient-to-r from-gold to-goldDark rounded-full transition-[width] duration-1000 ease-out"
@@ -85,7 +111,7 @@ export default function ReleaseWindow() {
         </div>
 
         <p className="text-muted text-xs mt-4 leading-relaxed">
-          {windowPassed ? RELEASE.windowPassedNote : RELEASE.disclaimer}
+          {phase === 'after' ? RELEASE.windowPassedNote : RELEASE.disclaimer}
         </p>
       </div>
     </section>

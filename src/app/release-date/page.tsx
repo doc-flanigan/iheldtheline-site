@@ -5,14 +5,14 @@ import { PageSources } from '@/components/PageSources'
 import { SITE } from '@/data/site'
 
 export const metadata: Metadata = {
-  title: 'Squadron 42 Release Date — CIG Statements',
+  title: 'Squadron 42 Release Date — Q2 2027',
   description:
-    'Every official Cloud Imperium Games statement on the Squadron 42 release date, in one place. 2026 target confirmed by Chris Roberts.',
+    'Squadron 42 is delayed to Q2 2027. Every official Cloud Imperium Games statement on the release date, in one place, newest first.',
   alternates: { canonical: '/release-date' },
   openGraph: {
-    title: 'Squadron 42 Release Date — Every Official CIG Statement',
+    title: 'Squadron 42 Delayed to Q2 2027 — Every Official CIG Statement',
     description:
-      'All official CIG release-window statements for Squadron 42, from feature-complete in 2023 to the 2026 target.',
+      'All official CIG release-window statements for Squadron 42, from feature-complete in 2023 to the Q2 2027 target.',
     url: '/release-date',
     images: [
       {
@@ -26,6 +26,14 @@ export const metadata: Metadata = {
 }
 
 const STATEMENTS = [
+  {
+    date: 'August 2026',
+    summary:
+      'Letter from the Chairman (August 27, 2026): Squadron 42 is delayed out of 2026 to Q2 2027. Chris Roberts wrote: "We have taken a look at the release windows at the start of 2027, and decided that Q2 provides a better time for Squadron 42 to release." He gave Grand Theft Auto 6 as the reason — there is "no way" he wants his "spiritual successor to Wing Commander, a game that has had twelve years of blood, sweat and tears invested into it" launching "into the attention buzz saw of GTA 6," because "while GTA 6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage."',
+    sourceLabel: 'RSI Comm-Link — Letter From The Chairman',
+    sourceUrl:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman',
+  },
   {
     date: 'May 2026',
     summary:
@@ -86,23 +94,27 @@ const STATEMENTS = [
 const faqs = [
   {
     q: 'When does Squadron 42 come out?',
-    a: 'Squadron 42 targets a 2026 release. CIG announced the 2026 launch window at CitizenCon 2954 in October 2024 and restated it in the May 2026 Letter from the Chairman ("push Squadron 42 toward Beta and release in 2026"). No specific day, month, or quarter has been announced.',
+    a: 'Squadron 42 targets Q2 2027 — between April and June 2027. Chris Roberts set that window in the August 27, 2026 Letter from the Chairman, moving the game out of its 2026 target: "We have taken a look at the release windows at the start of 2027, and decided that Q2 provides a better time for Squadron 42 to release." No specific day has been announced.',
   },
   {
     q: 'Does Squadron 42 have an exact release date?',
-    a: 'No. The only official commitment is the 2026 window. CIG has avoided hard dates since the promoted 2016 window was missed — from late 2016 to late 2024 the studio\'s only answer on timing was "it will be done when it is done."',
+    a: 'No — only the Q2 2027 window, announced in August 2026. CIG has avoided hard dates since the promoted 2016 window was missed; from late 2016 to late 2024 the studio\'s only answer on timing was "it will be done when it is done."',
   },
   {
     q: 'Is Squadron 42 finished?',
-    a: 'It is feature complete (announced October 2023) and, per the May 2026 Letter from the Chairman, content complete — all chapters fully playable from beginning to end, with the team running regular internal playthroughs. Remaining work is polish, optimization, and bug fixing as the game is prepared for Beta.',
+    a: 'It is feature complete (announced October 2023) and, per the May 2026 Letter from the Chairman, content complete — all chapters fully playable from beginning to end, with the team running regular internal playthroughs. Remaining work is polish, optimization, and bug fixing as the game is prepared for Beta. The August 2026 delay to Q2 2027 was attributed to the competitive launch calendar around GTA 6, not to unfinished content.',
   },
   {
     q: 'How long is Squadron 42?',
     a: 'Over forty hours, per the May 2026 Letter from the Chairman. At CitizenCon 2954 the campaign was described as 30 to 40 hours.',
   },
   {
+    q: 'Why was Squadron 42 delayed to 2027?',
+    a: 'To stay clear of Grand Theft Auto 6. In the August 27, 2026 Letter from the Chairman, Chris Roberts said there is "no way" he wants his "spiritual successor to Wing Commander, a game that has had twelve years of blood, sweat and tears invested into it" launching "into the attention buzz saw of GTA 6." He noted that "while GTA 6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage." The delay was framed as a marketing-calendar decision rather than a development one.',
+  },
+  {
     q: 'Has Squadron 42 been delayed before?',
-    a: 'Yes. A 2016 release window promoted at CitizenCon 2015 was missed, and in October 2020 Chris Roberts confirmed there would be no release that year and gave no new date. The 2026 window announced in October 2024 is the current — and only — official target.',
+    a: 'Yes, repeatedly. A 2016 release window promoted at CitizenCon 2015 was missed; in October 2020 Chris Roberts confirmed there would be no release that year and gave no new date; and the 2026 window announced at CitizenCon 2954 was dropped in August 2026 in favour of Q2 2027, which is now the official target.',
   },
   {
     q: 'Do I need Star Citizen to play Squadron 42?',
@@ -159,12 +171,13 @@ export default function ReleaseDatePage() {
             <p className="max-w-2xl text-base leading-relaxed text-muted mb-10">
               <strong className="text-starwhite">
                 Squadron 42 does not have an exact release date. The official
-                target is a 2026 release
+                target is Q2 2027
               </strong>{' '}
-              — announced by Cloud Imperium Games at CitizenCon 2954 in October
-              2024 and restated by Chris Roberts in the May 2026 Letter from the
-              Chairman. The game is content complete, every chapter is fully
-              playable internally, and the studio is preparing it for Beta.
+              — set by Chris Roberts in the Letter from the Chairman of August
+              27, 2026, which moved the game out of its 2026 window to avoid
+              launching alongside Grand Theft Auto 6. The game is content
+              complete, every chapter is fully playable internally, and the
+              studio is preparing it for Beta.
             </p>
 
             {/* What we know summary */}
@@ -174,8 +187,14 @@ export default function ReleaseDatePage() {
               </p>
               <ul className="space-y-2 text-sm text-muted leading-relaxed list-disc list-inside">
                 <li>
-                  <span className="text-starwhite font-semibold">2026</span> is the confirmed
-                  release target — no specific date or quarter announced.
+                  <span className="text-starwhite font-semibold">Q2 2027</span> is the current
+                  release target, set August 27, 2026 — no specific day announced.
+                </li>
+                <li>
+                  The game was{' '}
+                  <span className="text-starwhite font-semibold">delayed out of 2026</span> to
+                  avoid launching into what Chris Roberts called &ldquo;the attention buzz saw
+                  of GTA 6.&rdquo;
                 </li>
                 <li>
                   Campaign is{' '}
@@ -198,12 +217,12 @@ export default function ReleaseDatePage() {
               </ul>
               <p className="mt-4">
                 <a
-                  href="https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman"
+                  href="https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-gold text-xs hover:text-goldDark transition-colors"
                 >
-                  Source: RSI Comm-Link — Letter From The Chairman (May 2026) →
+                  Source: RSI Comm-Link — Letter From The Chairman (August 2026) →
                 </a>
               </p>
             </div>

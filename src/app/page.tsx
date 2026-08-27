@@ -9,15 +9,15 @@ import { PageSources } from '@/components/PageSources'
 
 export const metadata: Metadata = {
   title: {
-    absolute: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
+    absolute: 'I Held the Line — Squadron 42 Release Date & Q2 2027 Tracker',
   },
   description:
-    '"I held the line" — what long-time backers say while waiting for Squadron 42. Track the 2026 release window with dev news, trailers, and cast FAQ.',
+    '"I held the line" — what long-time backers say while waiting for Squadron 42. Track the Q2 2027 release window with dev news, trailers, and cast FAQ.',
   alternates: { canonical: '/' },
   openGraph: {
-    title: 'I Held the Line — Squadron 42 Release Date & 2026 Tracker',
+    title: 'I Held the Line — Squadron 42 Release Date & Q2 2027 Tracker',
     description:
-      '"I held the line" — the Star Citizen backer pledge to wait for Squadron 42. Live dev news, trailers, cast FAQ, and 2026 release window tracker.',
+      '"I held the line" — the Star Citizen backer pledge to wait for Squadron 42. Live dev news, trailers, cast FAQ, and Q2 2027 release window tracker.',
     url: '/',
     images: [
       {
@@ -49,7 +49,7 @@ const SECTION_CARDS = [
     href: '/release-date',
     label: 'Release Date Tracker',
     description:
-      'Every official CIG statement on the Squadron 42 release window, in one place. 2026 target confirmed.',
+      'Every official CIG statement on the Squadron 42 release window, in one place. Delayed to Q2 2027.',
     cta: 'Track the date →',
   },
   {
@@ -170,8 +170,10 @@ export default function Home() {
                 </p>
                 <p>
                   Unlike Star Citizen&apos;s persistent multiplayer universe, Squadron 42 is a
-                  standalone, offline-capable campaign. CIG has confirmed a 2026 release target —
-                  no specific date has been announced.
+                  standalone, offline-capable campaign. CIG is targeting a{' '}
+                  <strong className="text-starwhite">Q2 2027</strong> release, moved from 2026
+                  in the August 2026 Letter from the Chairman — no specific date has been
+                  announced.
                 </p>
               </div>
               <SpeechQuote

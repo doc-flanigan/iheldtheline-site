@@ -30,7 +30,7 @@ export const metadata: Metadata = {
 const faqs = [
   {
     q: 'Can you play Squadron 42 right now?',
-    a: 'No. Squadron 42 has not been released in any form. CIG is targeting a 2026 release window, announced at CitizenCon 2954. Buying it today means paying now and playing later.',
+    a: 'No. Squadron 42 has not been released in any form. CIG is targeting Q2 2027, moved from 2026 in the August 2026 Letter from the Chairman. Buying it today means paying now and playing later.',
   },
   {
     q: 'How long is the Squadron 42 campaign?',
@@ -42,11 +42,11 @@ const faqs = [
   },
   {
     q: 'Will Squadron 42 be on Steam or consoles?',
-    a: 'No such release has been announced. As of mid-2026, Squadron 42 is sold exclusively through the Roberts Space Industries store for PC.',
+    a: 'No such release has been announced. As of August 2026, Squadron 42 is sold exclusively through the Roberts Space Industries store for PC.',
   },
   {
     q: 'When does Squadron 42 release?',
-    a: 'The only official commitment is a 2026 release window. No specific day, month, or quarter has been announced. The game is content complete, with polish, optimization, and bug fixing remaining.',
+    a: 'The only official commitment is a Q2 2027 window — April to June 2027 — announced August 27, 2026. No specific day has been announced. The game is content complete, with polish, optimization, and bug fixing remaining.',
   },
 ]
 
@@ -104,7 +104,8 @@ export default function WorthBuyingPage() {
               What you would be paying for is well defined: a single-player
               campaign officially confirmed at over forty hours, content
               complete per CIG&apos;s May 2026 Letter from the Chairman, and
-              targeting a 2026 release. If you want a finished game with
+              targeting a Q2 2027 release after the August 2026 delay out of
+              2026. If you want a finished game with
               reviews, nothing is lost by waiting for launch. If you want to
               play something in this universe today, that game is Star Citizen
               — not Squadron 42.
@@ -213,20 +214,22 @@ export default function WorthBuyingPage() {
                   features implemented, announced at CitizenCon 2953 alongside the 26-minute
                   &ldquo;I Held the Line&rdquo; showcase. A year later, at CitizenCon 2954, CIG
                   committed to a 2026 launch window during the first live gameplay demonstration.
-                  The most recent milestone came in the May 2026 Letter from the Chairman: the game
-                  is content complete, every chapter is playable from beginning to end in regular
-                  internal playthroughs, and the remaining work is polish, optimization, and bug
-                  fixing. That is a meaningfully late stage of development — but it is not a
-                  release date, and CIG has not announced one.
+                  The May 2026 Letter from the Chairman reported the game content complete, with
+                  every chapter playable from beginning to end in regular internal playthroughs
+                  and only polish, optimization, and bug fixing remaining. Then, on August 27,
+                  2026, Chris Roberts moved the launch to Q2 2027 — a scheduling decision to
+                  stay clear of GTA 6, not a development one. That is a meaningfully late stage
+                  of development, but it is still not a release date, and CIG has not announced
+                  one.
                 </p>
                 <p className="mt-3">
                   <a
-                    href="https://robertsspaceindustries.com/en/comm-link/transmission/20960-Letter-From-The-Chairman"
+                    href="https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-gold text-xs hover:text-goldDark transition-colors"
                   >
-                    Source: RSI Comm-Link — Letter From The Chairman (May 2026) →
+                    Source: RSI Comm-Link — Letter From The Chairman (August 2026) →
                   </a>
                 </p>
               </section>
@@ -240,7 +243,9 @@ export default function WorthBuyingPage() {
                   release window was promoted at CitizenCon 2015 and missed; in October 2020 Chris
                   Roberts declined to give any new date — &ldquo;it will be done when it is
                   done&rdquo; — and that stance held until the feature-complete announcement of
-                  2023. None of that history says the 2026 window will slip. It does say that a
+                  2023. In August 2026 the pattern repeated: the 2026 window CIG had committed
+                  to at CitizenCon 2954 became Q2 2027. None of that history says the Q2 2027
+                  window will slip too. It does say that a
                   cautious buyer loses nothing by waiting: the game will be reviewable at launch,
                   and no official statement gives preorder buyers anything you cannot get by
                   purchasing on release day. If you buy now, you are buying because you want to
@@ -288,7 +293,7 @@ export default function WorthBuyingPage() {
                   Squadron 42 is sold exclusively through the Roberts Space Industries store.
                   Check the RSI store for current pricing and package options — prices are set by
                   CIG and may change. Squadron 42 is not available on Steam or consoles as of
-                  mid-2026 — no such release has been announced.
+                  August 2026 — no such release has been announced.
                 </p>
                 <a
                   href="https://robertsspaceindustries.com/en/store/pledge/browse/sq42"

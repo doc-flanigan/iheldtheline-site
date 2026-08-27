@@ -10,6 +10,18 @@ export type NewsEntry = {
 
 export const NEWS: NewsEntry[] = [
   {
+    slug: 'sq42-delayed-q2-2027-chairmans-letter',
+    metaTitle: 'SQ42 Delayed to Q2 2027',
+    date: '2026-08-27',
+    headline:
+      'Squadron 42 Delayed to Q2 2027 — Chris Roberts Cites the GTA 6 Launch Window',
+    summary:
+      'Cloud Imperium Games has moved Squadron 42 off its 2026 target. In a Letter from the Chairman published August 27, 2026, Chris Roberts wrote: "We have taken a look at the release windows at the start of 2027, and decided that Q2 provides a better time for Squadron 42 to release." The reason is Grand Theft Auto 6: Roberts said there is "no way" he wants his "spiritual successor to Wing Commander, a game that has had twelve years of blood, sweat and tears invested into it" launching "into the attention buzz saw of GTA 6," adding that "while GTA 6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage." The game remains content complete, and the invite-only hands-on sessions for longtime backers and content creators are still set for October 2026.',
+    sourceLabel: 'RSI Comm-Link — Letter From The Chairman',
+    sourceUrl:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman',
+  },
+  {
     slug: 'sq42-playtest-event-october-2026-manchester',
     metaTitle: 'SQ42 Manchester Playtest — Oct 2026',
     date: '2026-07-11',

@@ -69,7 +69,7 @@ const faqs = [
   },
   {
     q: 'Does the October 2026 playtest mean the release date is close?',
-    a: 'CIG has not tied the event to a launch date. The official target remains a 2026 release, restated by Chris Roberts in the May 2026 Letter from the Chairman. A hands-on backer event in October is consistent with a late-stage polish phase, but CIG has announced no specific release day — see our release date tracker for every official statement.',
+    a: 'No. CIG has not tied the event to a launch date, and on August 27, 2026 — before the event — Chris Roberts moved the release from 2026 to Q2 2027 to avoid launching alongside GTA 6. The October hands-on weekend still goes ahead, and it is consistent with a late-stage polish phase, but the release is now nine months or more out and CIG has announced no specific day. See our release date tracker for every official statement.'
   },
   {
     q: 'Will the playtest be streamed or shown publicly?',
@@ -245,9 +245,11 @@ export default function PlaytestEventPage() {
                 2954, where the 2026 release window was announced. CIG has not
                 announced a CitizenCon 2956 or connected this event to any
                 broader reveal — but an October weekend of first hands-on
-                sessions, one year after the 2026 window was set, speaks for
-                itself about where the game is. The official release target
-                remains 2026;{' '}
+                sessions speaks for itself about where the game is. The release
+                target itself moved on August 27, 2026, when Chris Roberts
+                pushed Squadron 42 from 2026 to{' '}
+                <strong className="text-starwhite">Q2 2027</strong> to stay clear
+                of GTA 6 — the event is unaffected;{' '}
                 <Link href="/release-date" className="text-gold hover:text-goldDark transition-colors">
                   every official statement is tracked here
                 </Link>
