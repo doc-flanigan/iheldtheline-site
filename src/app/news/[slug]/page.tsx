@@ -73,8 +73,20 @@ export default async function NewsEntryPage({
     '@context': 'https://schema.org',
     '@type': 'NewsArticle',
     headline: entry.headline,
-    datePublished: entry.date,
+    // Full ISO 8601 with timezone — GSC rejects bare dates here the same way
+    // it flagged VideoObject.uploadDate.
+    datePublished: `${entry.date}T00:00:00Z`,
+    dateModified: `${entry.date}T00:00:00Z`,
     description: entry.summary,
+    mainEntityOfPage: {
+      '@type': 'WebPage',
+      '@id': `${SITE.url}/news/${slug}`,
+    },
+    author: {
+      '@type': 'Person',
+      name: SITE.author,
+      url: `${SITE.url}/about`,
+    },
     publisher: {
       '@type': 'Organization',
       name: 'I Held the Line',

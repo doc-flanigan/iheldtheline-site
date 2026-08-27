@@ -25,6 +25,13 @@ export const FAQ: FaqItem[] = [
       'https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman',
   },
   {
+    question: 'Why was Squadron 42 delayed to 2027?',
+    answer:
+      'To avoid launching alongside Grand Theft Auto 6. In the Letter from the Chairman of August 27, 2026, Chris Roberts moved Squadron 42 from 2026 to Q2 2027, saying there is "no way" he wants his "spiritual successor to Wing Commander" launching "into the attention buzz saw of GTA6" — because "While GTA6 isn’t launching on PC this November, pretty much all outlets and most content creators will be all over it, not leaving a lot of room for other coverage." CIG had originally planned to ship in Q4 2026 around IAE. The delay is a launch-calendar decision, not a development one: the game is content complete.',
+    sourceUrl:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman',
+  },
+  {
     question: 'Who is in the cast of Squadron 42?',
     answer:
       'CIG has officially confirmed the following actors: Mark Hamill as Steve "Old Man" Colton, Gary Oldman as Admiral Ernst Bishop, Gillian Anderson as Captain Rachel MacLaren, Henry Cavill as Commander Ryan Enright, Andy Serkis as a Vanduul character, plus Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies in roles not yet officially named. All performances were recorded with full motion-capture technology.',
@@ -41,12 +48,6 @@ export const FAQ: FaqItem[] = [
     answer:
       'Yes. Squadron 42 is a fully single-player experience — it is not multiplayer and does not require an internet connection to play the campaign. It is a separate product from Star Citizen, which is the online multiplayer game in the same universe.',
     sourceUrl: 'https://robertsspaceindustries.com/en/store/pledge/browse/sq42',
-  },
-  {
-    question: 'How long is the Squadron 42 campaign?',
-    answer:
-      'CIG has not published an official runtime. Based on statements made at CitizenCon 2954, the campaign is expected to span multiple chapters and deliver a substantial play time. Chris Roberts has described it as a full-length game comparable to a cinematic single-player blockbuster.',
-    sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20262-API',
   },
   {
     question: 'What is the story of Squadron 42?',
