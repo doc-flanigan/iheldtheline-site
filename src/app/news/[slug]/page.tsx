@@ -5,6 +5,13 @@ import Sidebar from '@/components/sidebar/Sidebar'
 import { NEWS } from '@/data/news'
 import { SITE } from '@/data/site'
 
+// Cut the summary at a word boundary so meta descriptions never end mid-word
+// and stay under the ~155-char snippet limit.
+function metaDescription(summary: string): string {
+  if (summary.length <= 155) return summary
+  return summary.slice(0, summary.lastIndexOf(' ', 150)).replace(/[,;:—-]+$/, '') + '…'
+}
+
 export function generateStaticParams() {
   return NEWS.filter((e) => e.slug).map((e) => ({ slug: e.slug as string }))
 }
@@ -20,11 +27,11 @@ export async function generateMetadata({
 
   return {
     title: entry.metaTitle ?? entry.headline,
-    description: entry.summary.slice(0, 160),
+    description: metaDescription(entry.summary),
     alternates: { canonical: `/news/${slug}` },
     openGraph: {
       title: entry.headline,
-      description: entry.summary.slice(0, 160),
+      description: metaDescription(entry.summary),
       url: `/news/${slug}`,
       images: [
         {
