@@ -17,6 +17,9 @@
 - [Official Videos](https://iheldtheline.com/videos): Every official Squadron 42 video from CIG — trailers, gameplay reveals, and CitizenCon presentations.
 - [The Vanduul](https://iheldtheline.com/vanduul): The nomadic alien faction Squadron 42's campaign is fought against.
 - [Odin System](https://iheldtheline.com/odin-system): The system that serves as Squadron 42's theater of operations.
+- [42nd Squadron](https://iheldtheline.com/42nd-squadron): The UEE Navy unit at the centre of Squadron 42 — its in-universe history, the May 2025 newsletter, formation flying, and the player's role.
+- [Ships of the 42nd Squadron](https://iheldtheline.com/ships): The fighters and capital ships featured in Squadron 42, including the Idris-class frigate, from official CIG sources.
+- [Answer the Call](https://iheldtheline.com/answer-the-call): The origin and meaning of Squadron 42's "answer the call" recruitment line, from the October 12, 2018 CitizenCon trailer.
 - [I Held the Line Trailer](https://iheldtheline.com/i-held-the-line-trailer): The trailer and moment behind the "I held the line" phrase.
 - [About](https://iheldtheline.com/about): Source policy and site information.
 
@@ -34,4 +37,3 @@
 ## Related
 
 - [dayonecitizen.com](https://dayonecitizen.com): Plain-English getting-started guide for brand-new Star Citizen players.
-- [42ndsquadron.com](https://42ndsquadron.com): Lore archive for the 42nd Squadron — the UEE Navy unit at the heart of Squadron 42 — its history, ships, the Odin system, and the Vanduul.

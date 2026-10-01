@@ -299,12 +299,12 @@ export default function VanduulPage() {
                   >
                     Learn about the Odin System →
                   </Link>
-                  <a
-                    href="https://42ndsquadron.com/vanduul"
+                  <Link
+                    href="/42nd-squadron"
                     className="text-gold text-xs hover:text-goldDark transition-colors"
                   >
-                    Full Vanduul lore dossier at 42ndsquadron.com →
-                  </a>
+                    The 42nd Squadron — the unit that fights them →
+                  </Link>
                 </div>
               </section>
 

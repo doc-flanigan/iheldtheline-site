@@ -37,6 +37,24 @@
         ]
       }
     ],
+    "/42nd-squadron": [
+      {
+        "id": "referral-enlistment-bonus-50k-uec",
+        "claim": "New RSI accounts created with a referral code receive a 50,000 UEC enlistment bonus.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/referral-program"
+        ]
+      },
+      {
+        "id": "sq42-launch-window-2026",
+        "claim": "CIG announced a 2026 launch window for Squadron 42 at CitizenCon 2954 (October 2024).",
+        "status": "verified",
+        "sources": [
+          "https://www.gamespress.com/en-US/Cloud-Imperium-Games-Reveals-Over-an-Hour-of-Star-Studded-Space-Advent"
+        ]
+      }
+    ],
     "/about": [
       {
         "id": "bishop-speech-cinematic-2015",
@@ -52,6 +70,32 @@
         "status": "verified",
         "sources": [
           "https://www.youtube.com/watch?v=1H-0x4xk2Xk"
+        ]
+      }
+    ],
+    "/answer-the-call": [
+      {
+        "id": "answer-the-call-official-phrase",
+        "claim": "'Answer the call' is Squadron 42's signature recruitment line, originating in the official Squadron 42 CitizenCon trailer published by CIG on October 12, 2018 (comm-link 16801).",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/16801-Squadron-42-CitizenCon-Trailer"
+        ]
+      },
+      {
+        "id": "referral-enlistment-bonus-50k-uec",
+        "claim": "New RSI accounts created with a referral code receive a 50,000 UEC enlistment bonus.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/referral-program"
+        ]
+      },
+      {
+        "id": "sq42-launch-window-2026",
+        "claim": "CIG announced a 2026 launch window for Squadron 42 at CitizenCon 2954 (October 2024).",
+        "status": "verified",
+        "sources": [
+          "https://www.gamespress.com/en-US/Cloud-Imperium-Games-Reveals-Over-an-Hour-of-Star-Studded-Space-Advent"
         ]
       }
     ],
