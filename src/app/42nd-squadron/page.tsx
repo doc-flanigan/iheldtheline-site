@@ -53,7 +53,7 @@ const faqs = [
   },
   {
     q: 'What star system is Squadron 42 set in?',
-    a: 'The Odin system — a white dwarf binary system that serves as the 42nd Squadron’s theater of operations against the Vanduul.',
+    a: 'The Odin system — a white dwarf system that serves as the 42nd Squadron’s theater of operations against the Vanduul.',
   },
   {
     q: 'Who are the Vanduul?',
