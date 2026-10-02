@@ -24,8 +24,7 @@ Content (news, videos, FAQ) lives in `src/data/`. To update:
 ## Assets Needed Before Launch
 
 - [ ] Hero background images → `public/images/hero/hero-01.jpg` (etc.)
-- [ ] OG image (1200×630) → `public/images/brand/og-image.png`
-- [ ] Real favicon → replace `public/images/brand/favicon.svg`
+- [x] OG image (1200×630) → `public/images/brand/og-image.png`
 - [ ] DNS: point `iheldtheline.com` to Vercel
 
 ## Disclaimer

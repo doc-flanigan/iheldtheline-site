@@ -38,9 +38,6 @@ export const metadata: Metadata = {
   publisher: SITE.author,
   keywords: SITE.keywords,
   alternates: { canonical: '/' },
-  icons: {
-    icon: [{ url: '/images/brand/favicon.svg', type: 'image/svg+xml' }],
-  },
   openGraph: {
     type: 'website',
     siteName: SITE.name,
