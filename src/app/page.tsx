@@ -95,6 +95,13 @@ const SECTION_CARDS = [
     cta: 'Know the enemy →',
   },
   {
+    href: '/42nd-squadron',
+    label: 'The 42nd Squadron',
+    description:
+      'The UEE Navy unit at the centre of Squadron 42 — its in-universe history, its ships, and the recruitment line behind the campaign.',
+    cta: 'Meet the unit →',
+  },
+  {
     href: '/odin-system',
     label: 'The Odin System',
     description:

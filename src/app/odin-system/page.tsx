@@ -282,6 +282,12 @@ export default function OdinSystemPage() {
                   >
                     Learn about the Vanduul →
                   </Link>
+                  <Link
+                    href="/42nd-squadron"
+                    className="text-gold text-xs hover:text-goldDark transition-colors"
+                  >
+                    The 42nd Squadron →
+                  </Link>
                   <a
                     href="https://robertsspaceindustries.com/comm-link/SCW/20745-API"
                     target="_blank"

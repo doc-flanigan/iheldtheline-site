@@ -79,7 +79,16 @@ export default function CastPage() {
               ))}
             </div>
 
-            <p className="mt-10 text-xs text-muted">
+            <p className="mt-10 max-w-3xl text-sm leading-relaxed text-muted">
+              In the campaign, the player enlists as a UEE Navy recruit and serves alongside the
+              cast in the{' '}
+              <Link href="/42nd-squadron" className="text-gold hover:text-goldDark transition-colors">
+                42nd Squadron
+              </Link>
+              , the unit that gives Squadron 42 its name.
+            </p>
+
+            <p className="mt-6 text-xs text-muted">
               Source:{' '}
               <a
                 href="https://robertsspaceindustries.com/comm-link/SCW/20401-API"
