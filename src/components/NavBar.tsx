@@ -45,7 +45,9 @@ export default function NavBar() {
           <CTAButton
             trackingLabel="NavBar CTA"
             className="!px-4 !py-1.5 !text-xs"
-            variants={{ a: 'Join Star Citizen While You Wait', b: 'Claim 50K UEC Bonus' }}
+            // A/B test ended 2026-10-02 (0/173 vs 1/159, no verdict possible
+            // before the IAE freeze); ships the copy that won SCH's nav test.
+            label="Claim 50K UEC Bonus"
           />
         </div>
 
@@ -77,7 +79,7 @@ export default function NavBar() {
             ))}
           </ul>
           <div className="pt-3 pb-1">
-            <CTAButton trackingLabel="NavBar Mobile CTA" className="!text-xs w-full justify-center" />
+            <CTAButton trackingLabel="NavBar Mobile CTA" label="Claim 50K UEC Bonus" className="!text-xs w-full justify-center" />
           </div>
         </div>
       )}

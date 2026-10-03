@@ -28,9 +28,11 @@ type Props = {
   className?: string
   /** A/B copy test: two button-text variants. Assignment is sticky per visitor. */
   variants?: { a: string; b: string }
+  /** Fixed button text (no test). Ignored when `variants` is set. */
+  label?: string
 }
 
-export default function CTAButton({ trackingLabel, className = '', variants }: Props) {
+export default function CTAButton({ trackingLabel, className = '', variants, label }: Props) {
   const [referralUrl, setReferralUrl] = useState(FALLBACK_REFERRAL_URL)
   const [abVariant, setAbVariant] = useState<'a' | 'b'>('a')
   useEffect(() => {
@@ -97,7 +99,7 @@ export default function CTAButton({ trackingLabel, className = '', variants }: P
       onClick={handleClick}
       className={`inline-flex items-center gap-2 rounded-full bg-gold text-navy font-semibold px-6 py-3 hover:bg-goldDark transition-colors ${className}`}
     >
-      {variants ? variants[abVariant] : 'Join Star Citizen While You Wait'}
+      {variants ? variants[abVariant] : (label ?? 'Join Star Citizen While You Wait')}
       <ArrowUpRight size={16} aria-hidden />
     </a>
   )

@@ -31,9 +31,10 @@ export default function Footer() {
       <div className="border-b border-gold/10 py-10">
         <div className="container-wide flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-muted text-sm text-center sm:text-left">
-            Squadron 42 is coming — Star Citizen is playable right now.
+            Squadron 42 arrives Q2 2027. Star Citizen is playable today, and new
+            accounts start with 50,000 UEC.
           </p>
-          <CTAButton trackingLabel="Footer CTA" className="shrink-0" />
+          <CTAButton trackingLabel="Footer CTA" label="Claim 50K UEC Bonus" className="shrink-0" />
         </div>
       </div>
 
