@@ -88,7 +88,7 @@ export const FAQ: FaqItem[] = [
   {
     question: 'How long is the Squadron 42 campaign?',
     answer:
-      'Chris Roberts confirmed in the Chairman\'s Letter 2025 that the campaign is over 40 hours in length, with the team regularly running complete internal playthroughs from beginning to end. At CitizenCon 2954 in October 2024, Roberts stated the campaign would be 30 to 40 hours.',
+      'Chris Roberts confirmed in the May 2026 Letter from the Chairman that the campaign is over 40 hours in length, with the team regularly running complete internal playthroughs from beginning to end. At CitizenCon 2954 in October 2024, Roberts stated the campaign would be 30 to 40 hours.',
     sourceUrl: 'https://robertsspaceindustries.com/comm-link/SCW/20960-API',
   },
   {
