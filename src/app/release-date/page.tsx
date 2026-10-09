@@ -1,4 +1,5 @@
 import type { Metadata } from 'next'
+import Link from 'next/link'
 import PageHeader from '@/components/PageHeader'
 import Sidebar from '@/components/sidebar/Sidebar'
 import { PageSources } from '@/components/PageSources'
@@ -114,7 +115,7 @@ const faqs = [
   },
   {
     q: 'When will CIG announce an exact Squadron 42 release date?',
-    a: 'Shortly after October 10, 2026. In the August 27, 2026 Letter from the Chairman, Chris Roberts said a small number of original backers and long-time content creators will play Squadron 42 on October 9 and 10, that CIG will make "further announcements about our release plans during this time," and that "a specific release date" will follow "shortly afterwards."',
+    a: 'CIG said shortly after the October playtest. In the August 27, 2026 Letter from the Chairman, Chris Roberts wrote: "We\'ll be making further announcements about our release plans during this time and a specific release date shortly afterwards." The playtest for a small number of original backers and long-time content creators is underway October 9–11, 2026 (October 9 and 10 are the named play days). As of October 9 no date has been announced and the Q2 2027 window stands. See the playtest event page for details.',
   },
   {
     q: 'Has Squadron 42 been delayed before?',
@@ -181,7 +182,15 @@ export default function ReleaseDatePage() {
               27, 2026, which moved the game out of its 2026 window to avoid
               launching alongside Grand Theft Auto 6. In the same letter Roberts
               said an exact release date will be announced shortly after a
-              backer and content-creator play session on October 9 and 10, 2026.
+              backer and content-creator play session on October 9 and 10, 2026,
+              which is now underway (see the{' '}
+              <Link href="/playtest-event" className="text-gold hover:text-goldDark transition-colors">
+                playtest event page
+              </Link>
+              ). CIG&rsquo;s words: &ldquo;We&rsquo;ll be making further
+              announcements about our release plans during this time and a
+              specific release date shortly afterwards.&rdquo; As of October 9
+              no date has been announced.
               The game is content complete, every chapter is fully playable
               internally, and the studio is preparing it for Beta.
             </p>
