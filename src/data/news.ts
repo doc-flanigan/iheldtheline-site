@@ -10,6 +10,18 @@ export type NewsEntry = {
 
 export const NEWS: NewsEntry[] = [
   {
+    slug: 'sq42-playtest-underway-release-date-watch',
+    metaTitle: 'SQ42 Playtest Underway — Date Watch',
+    date: '2026-10-09',
+    headline:
+      'Squadron 42 Backer Playtest Is Underway in Manchester — CIG Said a Release Date Follows Shortly Afterwards',
+    summary:
+      'The invite-only Squadron 42 playtest at CIG\'s Manchester studio began October 9, 2026 (the invitation covers October 9–11). CIG confirmed it in the August 27 Letter from the Chairman, which named October 9 and 10 as the play days for a small number of original backers and long-time content creators, and said: "We\'ll be making further announcements about our release plans during this time and a specific release date shortly afterwards." As of October 9 no release date has been announced, and the Q2 2027 window stands.',
+    sourceLabel: 'RSI Comm-Link — Letter From The Chairman',
+    sourceUrl:
+      'https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman',
+  },
+  {
     slug: 'sq42-delayed-q2-2027-chairmans-letter',
     metaTitle: 'SQ42 Delayed to Q2 2027',
     date: '2026-08-27',

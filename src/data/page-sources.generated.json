@@ -39,11 +39,28 @@
     ],
     "/42nd-squadron": [
       {
+        "id": "answer-the-call-official-phrase",
+        "claim": "'Answer the call' is Squadron 42's signature recruitment line, originating in the official Squadron 42 CitizenCon trailer published by CIG on October 12, 2018 (comm-link 16801).",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/16801-Squadron-42-CitizenCon-Trailer"
+        ]
+      },
+      {
         "id": "referral-enlistment-bonus-50k-uec",
         "claim": "New RSI accounts created with a referral code receive a 50,000 UEC enlistment bonus.",
         "status": "verified",
         "sources": [
           "https://robertsspaceindustries.com/en/referral-program"
+        ]
+      },
+      {
+        "id": "sq42-cast-hamill-colton",
+        "claim": "Mark Hamill plays Steve 'Old Man' Colton in Squadron 42.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/comm-link/SCW/20401-API",
+          "https://robertsspaceindustries.com/en/comm-link/transmission/15069-Squadron-42-Behind-The-Scenes-Mark-Hamill"
         ]
       },
       {
@@ -292,6 +309,17 @@
         ]
       }
     ],
+    "/llms": [
+      {
+        "id": "sq42-manchester-playtest-oct-2026",
+        "claim": "CIG is hosting an invite-only three-day Squadron 42 event at its Manchester studio, October 9–11, 2026, for selected original backers and long-time content creators; the August 27, 2026 Letter from the Chairman confirms they will play Squadron 42 on October 9 and 10.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman",
+          "iheldtheline-site/public/images/news/sq42-playtest-invite-email-oct-2026.png (CIG invitation email, recipient redacted)"
+        ]
+      }
+    ],
     "/news": [
       {
         "id": "sq42-2016-window-missed",
@@ -320,12 +348,29 @@
         ]
       },
       {
+        "id": "sq42-manchester-playtest-oct-2026",
+        "claim": "CIG is hosting an invite-only three-day Squadron 42 event at its Manchester studio, October 9–11, 2026, for selected original backers and long-time content creators; the August 27, 2026 Letter from the Chairman confirms they will play Squadron 42 on October 9 and 10.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman",
+          "iheldtheline-site/public/images/news/sq42-playtest-invite-email-oct-2026.png (CIG invitation email, recipient redacted)"
+        ]
+      },
+      {
         "id": "sq42-monthly-reports-series",
         "claim": "Dedicated Squadron 42 Monthly Reports ran as an official comm-link series from the September 2018 edition (cross-posted November 2018, comm-link 16792) through September 2024, publishing continuously — including through 2022–2023, when it was cross-posted from the SQ42 newsletter.",
         "status": "verified",
         "sources": [
           "https://robertsspaceindustries.com/en/comm-link/transmission/16792-Squadron-42-Monthly-Report-September-2018",
           "https://robertsspaceindustries.com/en/comm-link/transmission/18547-Squadron-42-Monthly-Report-January-2022"
+        ]
+      },
+      {
+        "id": "sq42-release-date-announcement-after-playtest",
+        "claim": "In the August 27, 2026 Letter from the Chairman, CIG said it would make further announcements about Squadron 42's release plans during the October 9–10 backer playtest and announce a specific release date shortly afterwards.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman"
         ]
       },
       {
@@ -361,6 +406,25 @@
         "sources": [
           "https://robertsspaceindustries.com/comm-link/SCW/20745-API",
           "https://robertsspaceindustries.com/en/comm-link/transmission/20745-Squadron-42-Q3-2025-Newsletter-Comm-Link"
+        ]
+      }
+    ],
+    "/playtest-event": [
+      {
+        "id": "sq42-manchester-playtest-oct-2026",
+        "claim": "CIG is hosting an invite-only three-day Squadron 42 event at its Manchester studio, October 9–11, 2026, for selected original backers and long-time content creators; the August 27, 2026 Letter from the Chairman confirms they will play Squadron 42 on October 9 and 10.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman",
+          "iheldtheline-site/public/images/news/sq42-playtest-invite-email-oct-2026.png (CIG invitation email, recipient redacted)"
+        ]
+      },
+      {
+        "id": "sq42-release-date-announcement-after-playtest",
+        "claim": "In the August 27, 2026 Letter from the Chairman, CIG said it would make further announcements about Squadron 42's release plans during the October 9–10 backer playtest and announce a specific release date shortly afterwards.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman"
         ]
       }
     ],
@@ -413,6 +477,14 @@
         "status": "verified",
         "sources": [
           "https://www.gamespress.com/en-US/Cloud-Imperium-Games-Reveals-Over-an-Hour-of-Star-Studded-Space-Advent"
+        ]
+      },
+      {
+        "id": "sq42-release-date-announcement-after-playtest",
+        "claim": "In the August 27, 2026 Letter from the Chairman, CIG said it would make further announcements about Squadron 42's release plans during the October 9–10 backer playtest and announce a specific release date shortly afterwards.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman"
         ]
       },
       {
