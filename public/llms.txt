@@ -9,6 +9,7 @@
 - [Cast](https://iheldtheline.com/cast): The confirmed Squadron 42 cast — Mark Hamill, Gary Oldman, Gillian Anderson, Henry Cavill, Andy Serkis, Liam Cunningham, Mark Strong, Sophie Wu, Ben Mendelsohn, and John Rhys-Davies — with roles and official sources.
 - [Release Date Tracker](https://iheldtheline.com/release-date): Every official CIG statement on the Squadron 42 release window in one place; delayed from 2026 to Q2 2027 in August 2026.
 - [Playtest Event](https://iheldtheline.com/playtest-event): The invite-only Squadron 42 hands-on event at CIG's Manchester studio, October 2026 — who is invited, what happens, and what is known. CIG confirmed the sessions publicly in the August 2026 Letter from the Chairman and said a specific release date follows shortly afterwards.
+- [Squadron 42 on Steam](https://iheldtheline.com/steam): Squadron 42's Steam page went live October 10, 2026 - wishlist only, planned release Q2 2027, Windows only, with the minimum system requirements Steam lists.
 - [FAQ](https://iheldtheline.com/faq): Answers to common questions about Squadron 42 — what it is, when it ships, and how it relates to Star Citizen.
 - [Bishop's Speeches](https://iheldtheline.com/bishops-speech): Admiral Bishop's Squadron 42 speeches — the 2015 Senate address and the in-game prologue — with context and official sources.
 - [SQ42 vs Star Citizen](https://iheldtheline.com/sq42-vs-star-citizen): The key differences between the single-player campaign and the multiplayer game, from official CIG sources.
@@ -34,6 +35,7 @@
 - The first hands-on Squadron 42 experience for players outside CIG is an invite-only event at the Manchester studio in October 2026, communicated through private invitation emails to longtime backers ("those who Held the Line"). The invitation describes a three-day weekend of October 9–11; the August 27, 2026 Letter from the Chairman, the first public CIG confirmation of the sessions, names October 9 and 10 as the days people play.
 - The invite-only Squadron 42 playtest at CIG's Manchester studio is underway October 9–11, 2026 (invitation span); CIG's August 27, 2026 Letter from the Chairman confirmed it and named October 9 and 10 as the play days for a small number of original backers and long-time content creators.
 - CIG said: "We'll be making further announcements about our release plans during this time and a specific release date shortly afterwards." As of October 9, 2026 no release date has been announced; the Q2 2027 window stands.
+- Squadron 42's official Steam page (app 4045720, publisher Roberts Space Industries) went live October 10, 2026. It is wishlist only: no price, no pre-purchase, no demo. Steam lists a planned release of Q2 2027 (a window, not a date), Windows only, and says Roberts Space Industries supports linking a Steam account. Star Citizen (the multiplayer game) is not on Steam.
 - Every factual claim on this site is drawn from official CIG sources (monthly reports, newsletters, CitizenCon showcases).
 
 ## Related
