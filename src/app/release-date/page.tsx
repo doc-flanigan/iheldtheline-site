@@ -239,7 +239,14 @@ export default function ReleaseDatePage() {
                   <span className="text-starwhite font-semibold">Q4 2026 around IAE</span> —
                   Roberts confirmed this when announcing the move to Q2 2027.
                 </li>
-                <li>No public beta date, demo, or Steam release has been announced.</li>
+                <li>
+                  Squadron 42&rsquo;s Steam page is live with a Q2 2027 planned-release label, but no
+                  beta, demo or exact date has been announced yet. See{' '}
+                  <Link href="/steam" className="text-gold hover:text-goldDark transition-colors">
+                    Squadron 42 on Steam
+                  </Link>
+                  .
+                </li>
               </ul>
               <p className="mt-4">
                 <a

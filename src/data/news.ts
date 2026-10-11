@@ -10,6 +10,16 @@ export type NewsEntry = {
 
 export const NEWS: NewsEntry[] = [
   {
+    slug: 'squadron-42-steam-page-live-wishlist',
+    metaTitle: 'SQ42 Steam Page Live — Wishlist Only',
+    date: '2026-10-10',
+    headline: 'Squadron 42\'s Steam Page Is Live: Wishlist Now, Planned Release Q2 2027',
+    summary:
+      'Squadron 42\'s official Steam page (published by Roberts Space Industries) went live on October 10, 2026. You can wishlist the game, but there is no price, no pre-purchase and no demo. Steam lists a planned release of Q2 2027, Windows only, and says Roberts Space Industries supports linking a Steam account. CIG has not detailed how existing pledges would carry over.',
+    sourceLabel: 'Steam — Squadron 42 store page',
+    sourceUrl: 'https://store.steampowered.com/app/4045720/',
+  },
+  {
     slug: 'sq42-playtest-underway-release-date-watch',
     metaTitle: 'SQ42 Playtest Underway — Date Watch',
     date: '2026-10-09',

@@ -33,6 +33,12 @@ export default function sitemap(): MetadataRoute.Sitemap {
       priority: 0.9,
     },
     {
+      url: `${SITE.url}/steam`,
+      lastModified: newestNewsDate,
+      changeFrequency: 'weekly',
+      priority: 0.9,
+    },
+    {
       url: `${SITE.url}/playtest-event`,
       lastModified: newestNewsDate,
       changeFrequency: 'weekly',
