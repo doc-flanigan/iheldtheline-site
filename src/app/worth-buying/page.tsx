@@ -42,7 +42,7 @@ const faqs = [
   },
   {
     q: 'Will Squadron 42 be on Steam or consoles?',
-    a: 'No such release has been announced. As of August 2026, Squadron 42 is sold exclusively through the Roberts Space Industries store for PC.',
+    a: 'Steam: yes, as a wishlist page. Squadron 42\'s Steam page has been live since October 10, 2026, but the game cannot be bought or pre-ordered there yet; today it is sold through the Roberts Space Industries store for PC. Consoles: no console release has been announced.',
   },
   {
     q: 'When does Squadron 42 release?',
@@ -290,10 +290,14 @@ export default function WorthBuyingPage() {
                   How to Buy
                 </h2>
                 <p className="text-muted text-sm leading-relaxed mb-4">
-                  Squadron 42 is sold exclusively through the Roberts Space Industries store.
+                  Today, Squadron 42 is bought through the Roberts Space Industries store.
                   Check the RSI store for current pricing and package options — prices are set by
-                  CIG and may change. Squadron 42 is not available on Steam or consoles as of
-                  August 2026 — no such release has been announced.
+                  CIG and may change. Squadron 42&rsquo;s Steam page has been live since October 10,
+                  2026, but it is wishlist only until release (see{' '}
+                  <Link href="/steam" className="text-gold hover:text-goldDark transition-colors">
+                    Squadron 42 on Steam
+                  </Link>
+                  ). No console release has been announced.
                 </p>
                 <a
                   href="https://robertsspaceindustries.com/en/store/pledge/browse/sq42"

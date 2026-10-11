@@ -58,7 +58,7 @@ export const FAQ: FaqItem[] = [
   {
     question: 'Will Squadron 42 be on Steam or consoles?',
     answer:
-      'No Steam or console release has been announced by CIG. The game is currently sold through the Roberts Space Industries store at robertsspaceindustries.com. CIG has made no official statement about a Steam listing or any console platforms.',
+      'Steam: yes, as a wishlist page. Squadron 42\'s Steam page has been live since October 10, 2026, but the game can only be wishlisted there; it cannot be bought or pre-ordered and there is no demo (details at iheldtheline.com/steam). Consoles: no console release has been announced by CIG.',
     sourceUrl: 'https://robertsspaceindustries.com/en/store/pledge/browse/sq42',
   },
   {
@@ -136,7 +136,7 @@ export const FAQ: FaqItem[] = [
   {
     question: 'Where can I buy Squadron 42?',
     answer:
-      'Squadron 42 is sold exclusively through the Roberts Space Industries store at robertsspaceindustries.com. As of June 2026, it is not available on Steam, console platforms, or any other storefront — no such release has been announced by CIG.',
+      'Today, Squadron 42 is bought through the Roberts Space Industries store at robertsspaceindustries.com. Its Steam page (live since October 10, 2026) is wishlist only until release, and no console release has been announced by CIG.',
     sourceUrl: 'https://robertsspaceindustries.com/en/store/pledge/browse/sq42',
   },
 ]
