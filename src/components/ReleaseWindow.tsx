@@ -16,19 +16,33 @@ function announcedMs(): number {
   return new Date(RELEASE.announced + 'T00:00:00').getTime()
 }
 
-type Phase = 'before' | 'during' | 'after'
+// An announced exact day replaces the window: count down to it, then "out now".
+const DATE = RELEASE.date
+const DATE_LABEL = RELEASE.dateLabel ?? RELEASE.date
+
+function dateMs(): number {
+  return new Date(DATE + 'T00:00:00').getTime()
+}
+
+type Phase = 'before' | 'during' | 'after' | 'released'
 
 function getPhase(now: number): Phase {
+  if (DATE) return now < dateMs() ? 'before' : 'released'
   if (now < startMs()) return 'before'
   if (now > endMs()) return 'after'
   return 'during'
 }
 
 // Before the window opens the bar tracks the run-up from the announcement to
-// the start of the window; once it opens it tracks the window itself.
+// the start of the window; once it opens it tracks the window itself. With an
+// exact date it tracks the run-up from the announcement to that day.
 function getProgressPercent(now: number, phase: Phase): number {
-  if (phase === 'after') return 100
-  const [from, to] = phase === 'before' ? [announcedMs(), startMs()] : [startMs(), endMs()]
+  if (phase === 'after' || phase === 'released') return 100
+  const [from, to] = DATE
+    ? [announcedMs(), dateMs()]
+    : phase === 'before'
+      ? [announcedMs(), startMs()]
+      : [startMs(), endMs()]
   return Math.min(100, Math.max(0, ((now - from) / (to - from)) * 100))
 }
 
@@ -47,20 +61,27 @@ export default function ReleaseWindow() {
     const now = Date.now()
     const p = getPhase(now)
     setPhase(p)
-    setDays(getDaysUntil(p === 'before' ? startMs() : endMs(), now))
+    setDays(getDaysUntil(DATE ? dateMs() : p === 'before' ? startMs() : endMs(), now))
     // Small delay lets the CSS transition animate on mount
     const id = setTimeout(() => setProgress(getProgressPercent(now, p)), 50)
     return () => clearTimeout(id)
   }, [])
 
-  const leftLabel = phase === 'before' ? RELEASE.announcedLabel : RELEASE.startLabel
-  const rightLabel = phase === 'before' ? RELEASE.startLabel : RELEASE.endLabel
+  const leftLabel = DATE || phase === 'before' ? RELEASE.announcedLabel : RELEASE.startLabel
+  const rightLabel = DATE ? DATE_LABEL : phase === 'before' ? RELEASE.startLabel : RELEASE.endLabel
+  const heading = DATE ? `Release Date: ${DATE_LABEL}` : `${RELEASE.label} Release Window`
+  const note = DATE
+    ? RELEASE.dateNote ?? `CIG has announced ${DATE_LABEL} as the Squadron 42 release date.`
+    : phase === 'after'
+      ? RELEASE.windowPassedNote
+      : RELEASE.disclaimer
 
-  let status = `${RELEASE.label} window`
-  if (phase === 'after') status = 'Window ended — awaiting new date'
+  let status = DATE ? `Launches ${DATE_LABEL}` : `${RELEASE.label} window`
+  if (phase === 'released') status = 'Out now'
+  else if (phase === 'after') status = 'Window ended — awaiting new date'
   else if (days !== null) {
     const unit = `${days} day${days !== 1 ? 's' : ''}`
-    status = phase === 'before' ? `${unit} until window opens` : `${unit} remaining`
+    status = DATE ? `${unit} until launch` : phase === 'before' ? `${unit} until window opens` : `${unit} remaining`
   }
 
   return (
@@ -83,7 +104,7 @@ export default function ReleaseWindow() {
       {/* Progress bar panel */}
       <div className="w-full max-w-lg bg-navyLight border border-gold/30 rounded-xl p-6 shadow-[0_0_40px_rgba(200,160,74,0.06)]">
         <p className="text-gold text-xs uppercase tracking-[0.2em] font-semibold mb-5">
-          {RELEASE.label} Release Window
+          {heading}
         </p>
 
         <div className="flex justify-between text-xs text-muted mb-2 gap-3">
@@ -99,9 +120,11 @@ export default function ReleaseWindow() {
           aria-valuemin={0}
           aria-valuemax={100}
           aria-label={
-            phase === 'before'
-              ? `${Math.round(progress)}% of the wait until CIG's ${RELEASE.label} release window opens`
-              : `${Math.round(progress)}% through CIG's ${RELEASE.label} release window`
+            DATE
+              ? `${Math.round(progress)}% of the wait until Squadron 42 launches on ${DATE_LABEL}`
+              : phase === 'before'
+                ? `${Math.round(progress)}% of the wait until CIG's ${RELEASE.label} release window opens`
+                : `${Math.round(progress)}% through CIG's ${RELEASE.label} release window`
           }
         >
           <div
@@ -111,7 +134,7 @@ export default function ReleaseWindow() {
         </div>
 
         <p className="text-muted text-xs mt-4 leading-relaxed">
-          {phase === 'after' ? RELEASE.windowPassedNote : RELEASE.disclaimer}
+          {note}
         </p>
       </div>
     </section>
