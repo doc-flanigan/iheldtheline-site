@@ -9,12 +9,12 @@ import { SITE } from '@/data/site'
 export const metadata: Metadata = {
   title: 'SQ42 Playtest — Manchester, October 2026',
   description:
-    'The invite-only Squadron 42 playtest is underway at CIG’s Manchester studio, October 9–11, 2026. Who was invited, what CIG said comes next, and why no release date has been announced yet.',
+    'The invite-only Squadron 42 playtest ran at CIG’s Manchester studio, October 9–11, 2026. Who was invited, what CIG said comes next, and why no release date has been announced yet.',
   alternates: { canonical: '/playtest-event' },
   openGraph: {
     title: 'Squadron 42 Playtest Event — October 2026 Manchester Weekend Explained',
     description:
-      'The invite-only Squadron 42 playtest is underway at CIG Manchester, October 9–11, 2026. What CIG has confirmed and what comes next.',
+      'The invite-only Squadron 42 playtest ran at CIG Manchester, October 9–11, 2026. What CIG has confirmed and what comes next.',
     url: '/playtest-event',
     images: [
       {
@@ -31,7 +31,7 @@ const KNOWN_FACTS = [
   {
     label: 'Status',
     value:
-      'Underway. Day one was Friday, October 9, 2026. As of October 9, CIG has not announced a Squadron 42 release date; the Q2 2027 window stands.',
+      'Over. The event ran Friday, October 9 through Sunday, October 11, 2026. As of October 12, CIG has not published an official recap or announced a Squadron 42 release date; the Q2 2027 window stands.',
   },
   {
     label: 'What',
@@ -51,7 +51,7 @@ const KNOWN_FACTS = [
   {
     label: 'Who',
     value:
-      'Invite-only: “a small number of original backers and long-time Star Citizen content creators,” in CIG’s words. The invitation was addressed to “those who Held the Line.” It is not open to the public and there is no sign-up page.',
+      'Invite-only: “a small number of original backers and long-time Star Citizen content creators,” in CIG’s words. The invitation was addressed to “those who Held the Line.” It was not open to the public and there was no sign-up page.',
   },
   {
     label: 'Cost',
@@ -63,11 +63,11 @@ const KNOWN_FACTS = [
 const faqs = [
   {
     q: 'What is the Squadron 42 playtest event?',
-    a: 'It is an invite-only, three-day event at Cloud Imperium Games’ Manchester studio, running Friday, October 9 through Sunday, October 11, 2026, and underway as of October 9. According to the invitation email, attendees get the first hands-on experience with Squadron 42, a studio tour, and time with the development team. CIG’s August 27, 2026 Letter from the Chairman names October 9 and 10 as the days people play.',
+    a: 'It was an invite-only, three-day event at Cloud Imperium Games’ Manchester studio that ran Friday, October 9 through Sunday, October 11, 2026. According to the invitation email, attendees were promised the first hands-on experience with Squadron 42, a studio tour, and time with the development team. CIG’s August 27, 2026 Letter from the Chairman names October 9 and 10 as the days people play.',
   },
   {
     q: 'Can I play Squadron 42 now?',
-    a: 'No. The Manchester playtest is invite-only and there is no public sign-up. CIG has not announced a public playtest, and Squadron 42 has not been released. The official release window is Q2 2027 (April to June 2027).',
+    a: 'No. The Manchester playtest was invite-only and had no public sign-up. CIG has not announced a public playtest, and Squadron 42 has not been released. The official release window is Q2 2027 (April to June 2027).',
   },
   {
     q: 'Who was invited?',
@@ -75,7 +75,7 @@ const faqs = [
   },
   {
     q: 'When will CIG announce the Squadron 42 release date?',
-    a: 'CIG said shortly after this playtest. In the same letter: "We’ll be making further announcements about our release plans during this time and a specific release date shortly afterwards." As of October 9, 2026 no release date has been announced, and the Q2 2027 window stands. We update this page when CIG announces one.',
+    a: 'CIG said shortly after this playtest. In the same letter: "We’ll be making further announcements about our release plans during this time and a specific release date shortly afterwards." As of October 12, 2026, the day after the event ended, no release date has been announced, and the Q2 2027 window stands. We update this page when CIG announces one.',
   },
   {
     q: 'Does the October 2026 playtest mean the release date is close?',
@@ -86,8 +86,8 @@ const faqs = [
     a: 'It is the first announced hands-on opportunity for players outside the studio. Until now, Squadron 42 has only ever been shown as presentations — the 2017 “vertical slice,” the 2018 Morrow Tour demo, and the live gameplay demonstration at CitizenCon 2954 in October 2024 were all played by CIG staff, not attendees.',
   },
   {
-    q: 'Will the playtest be streamed or shown publicly?',
-    a: 'CIG has not said. The invitation promised further details closer to the event, and CIG has not announced that any part of it will be public or recorded. This page will be updated as official information appears.',
+    q: 'Was the playtest streamed or shown publicly?',
+    a: 'CIG did not announce any public stream or recording of the event, and as of October 12, 2026 it has not published an official recap or footage. This page will be updated as official information appears.',
   },
   {
     q: 'Is the event officially confirmed by CIG?',
@@ -129,7 +129,7 @@ export default function PlaytestEventPage() {
       url: 'https://cloudimperiumgames.com',
     },
     description:
-      'Invite-only three-day event at CIG Manchester, October 9–11, 2026, now underway: the first hands-on Squadron 42 experience for original backers and long-time content creators, a studio tour, and time with the development team. CIG named October 9 and 10 as the play days. Not open to the public.',
+      'Invite-only three-day event at CIG Manchester, October 9–11, 2026: the first hands-on Squadron 42 experience for original backers and long-time content creators, a studio tour, and time with the development team. CIG named October 9 and 10 as the play days. Not open to the public.',
   }
 
   const breadcrumbJsonLd = {
@@ -161,9 +161,9 @@ export default function PlaytestEventPage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <PageHeader
-        eyebrow="Underway · October 9–11, 2026 · Manchester"
+        eyebrow="Wrapped · October 9–11, 2026 · Manchester"
         title="The Squadron 42 Playtest Event"
-        description="The invite-only Squadron 42 playtest is underway at CIG's Manchester studio, October 9–11, 2026. Here is what CIG has confirmed, and what it said comes next."
+        description="The invite-only Squadron 42 playtest ran at CIG's Manchester studio, October 9–11, 2026. Here is what CIG has confirmed, and what it said comes next."
         image="/images/headers/gameplay.jpg"
         imageAlt="A Squadron 42 pilot in full flight gear seated in a fighter cockpit, instrument panels glowing against the black of space."
       />
@@ -174,17 +174,18 @@ export default function PlaytestEventPage() {
             <p className="max-w-2xl text-base leading-relaxed text-muted mb-10">
               <strong className="text-starwhite">
                 Cloud Imperium Games&rsquo; invite-only Squadron 42 event at its
-                Manchester studio is underway: Friday, October 9 through Sunday,
-                October 11, 2026
+                Manchester studio ran Friday, October 9 through Sunday, October
+                11, 2026
               </strong>{' '}
-              — the first time people outside the studio get hands-on time with
+              — the first time people outside the studio got hands-on time with
               the game. CIG confirmed it publicly in the August 27, 2026 Letter
               from the Chairman: &ldquo;We are allowing a small number of
               original backers and long-time Star Citizen content creators an
               opportunity to play Squadron 42 this October 9th and 10th.&rdquo;
-              The event is invite-only: there is no sign-up page and no ticket
-              sale. As of October 9, no release date has been announced and the
-              Q2 2027 window stands.
+              The event was invite-only, with no sign-up page and no ticket
+              sale. As of October 12, CIG has not published an official recap,
+              no release date has been announced, and the Q2 2027 window
+              stands.
             </p>
 
             {/* What we know summary */}
@@ -220,7 +221,7 @@ export default function PlaytestEventPage() {
               </blockquote>
               <p className="text-muted text-sm leading-relaxed">
                 That is CIG&rsquo;s stated intention, not an announcement. As of
-                October 9, 2026 no Squadron 42 release date has been announced,
+                October 12, 2026 no Squadron 42 release date has been announced,
                 and the{' '}
                 <strong className="text-starwhite">Q2 2027</strong> window set in
                 that letter stands. We update this page and the{' '}
@@ -249,8 +250,8 @@ export default function PlaytestEventPage() {
                 The email promises three things for the weekend: time with the
                 development team, a tour of the Manchester studio, and
                 participation in the first hands-on experience with Squadron 42.
-                Further details on the weekend&rsquo;s activities are promised
-                closer to the event. Travel and accommodation are at attendees&rsquo;
+                Further details on the weekend&rsquo;s activities were promised
+                closer to the event. Travel and accommodation were at attendees&rsquo;
                 own expense, with CIG planning to share discounted nearby hotel
                 options.
               </p>
