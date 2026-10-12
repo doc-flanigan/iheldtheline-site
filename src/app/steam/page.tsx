@@ -10,7 +10,7 @@ const IMG_ALT =
   'A grey heavy fighter with a manned top turret and open side hatch races low over an orange desert blurred by speed.'
 
 export const metadata: Metadata = {
-  title: 'Squadron 42 on Steam: Wishlist Now, Release Window, Requirements',
+  title: 'Squadron 42 on Steam: Wishlist & Release Window',
   description:
     'Squadron 42’s Steam page went live October 10, 2026. You can wishlist it, but not buy it yet. Release window, system requirements, and RSI account linking explained.',
   alternates: { canonical: '/steam' },

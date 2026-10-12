@@ -11,7 +11,7 @@ const HEADER_ALT =
   'Star Citizen — an Idris-class frigate landed on Euterpe. Screenshot via hasgaha.com.'
 
 export const metadata: Metadata = {
-  title: '42nd Squadron — The UEE Navy Unit at the Heart of Squadron 42',
+  title: '42nd Squadron — The Navy Unit of Squadron 42',
   description:
     'The 42nd Squadron is the UEE Navy unit at the centre of Squadron 42. Its in-universe history, battles, and ships, from official CIG sources.',
   alternates: { canonical: '/42nd-squadron' },
