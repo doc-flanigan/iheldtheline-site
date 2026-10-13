@@ -31,7 +31,7 @@ const KNOWN_FACTS = [
   {
     label: 'Status',
     value:
-      'Over. The event ran Friday, October 9 through Sunday, October 11, 2026. As of October 12, CIG has not published an official recap or announced a Squadron 42 release date; the Q2 2027 window stands.',
+      'Over. The event ran Friday, October 9 through Sunday, October 11, 2026. CIG’s October 12 recap says around 140 community members attended and played Squadron 42 for five hours, plus an extra hour of a story chapter aboard an adrift Xi’an ship. As of October 13, no release date has been announced; the Q2 2027 window stands.',
   },
   {
     label: 'What',
@@ -87,7 +87,7 @@ const faqs = [
   },
   {
     q: 'Was the playtest streamed or shown publicly?',
-    a: 'CIG did not announce any public stream or recording of the event, and as of October 12, 2026 it has not published an official recap or footage. This page will be updated as official information appears.',
+    a: 'No. CIG did not stream or record the event publicly. Its October 12, 2026 This Week in Star Citizen recap describes the sessions and says photos from the weekend will be shared soon. Attendees are sharing their own impressions, but those are not official sources.',
   },
   {
     q: 'Is the event officially confirmed by CIG?',
@@ -183,9 +183,10 @@ export default function PlaytestEventPage() {
               original backers and long-time Star Citizen content creators an
               opportunity to play Squadron 42 this October 9th and 10th.&rdquo;
               The event was invite-only, with no sign-up page and no ticket
-              sale. As of October 12, CIG has not published an official recap,
-              no release date has been announced, and the Q2 2027 window
-              stands.
+              sale. In CIG&rsquo;s October 12 recap, around 140 community
+              members attended and played Squadron 42 for five hours. As of
+              October 13, no release date has been announced, and the Q2 2027
+              window stands.
             </p>
 
             {/* What we know summary */}
@@ -204,6 +205,40 @@ export default function PlaytestEventPage() {
                 ))}
               </dl>
             </div>
+
+            {/* What CIG said after the event */}
+            <section className="max-w-2xl mb-14">
+              <h2 className="text-xs font-semibold uppercase tracking-[0.2em] text-gold mb-4">
+                What CIG said after the event
+              </h2>
+              <p className="text-muted text-sm leading-relaxed mb-4">
+                CIG recapped the weekend in its{' '}
+                <a href="https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen" target="_blank" rel="noopener" className="text-gold hover:text-goldDark transition-colors">
+                  October 12 This Week in Star Citizen
+                </a>
+                :
+              </p>
+              <ul className="text-muted text-sm leading-relaxed list-disc pl-5 space-y-2 mb-4">
+                <li>
+                  <span className="text-starwhite font-semibold">Around 140</span> community
+                  members came to Manchester for the first hands-on experience.
+                </li>
+                <li>
+                  Attendees played <span className="text-starwhite font-semibold">five hours</span>{' '}
+                  of Squadron 42, then spent an extra hour in a unique story chapter aboard
+                  an adrift Xi&rsquo;an ship.
+                </li>
+                <li>CIG says photos from the weekend will be shared soon.</li>
+              </ul>
+              <p className="text-muted text-sm leading-relaxed">
+                The recap gives no release date. CIG closed it by pointing players to the
+                Squadron 42 trailer and asking them to{' '}
+                <Link href="/steam" className="text-gold hover:text-goldDark transition-colors">
+                  wishlist on Steam
+                </Link>
+                .
+              </p>
+            </section>
 
             {/* What CIG said comes next */}
             <section className="max-w-2xl mb-14">

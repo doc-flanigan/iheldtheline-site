@@ -204,8 +204,12 @@ export default function SteamPage() {
                 <a href={STEAM_URL} target="_blank" rel="noopener" className={link}>
                   Squadron 42 Steam store page
                 </a>
-                , checked October 11, 2026. We found no CIG comm-link about the page yet, so this page
-                reports what Steam shows.
+                , checked October 11, 2026. CIG has since pointed players to it in its{' '}
+                <a href="https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen" target="_blank" rel="noopener" className={link}>
+                  October 12 This Week in Star Citizen
+                </a>{' '}
+                (&ldquo;Wishlist on Steam!&rdquo;), but no CIG post announced the page itself, so the
+                details here are what Steam shows.
               </p>
             </section>
 
