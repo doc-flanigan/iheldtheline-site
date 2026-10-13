@@ -279,6 +279,7 @@
         "claim": "Squadron 42 has an official Steam store page (app 4045720, published by Roberts Space Industries, developed by Cloud Imperium Games) that went live on October 10, 2026; it can be wishlisted but not bought, lists a planned release of Q2 2027, Windows only, and notes support for linking a Roberts Space Industries account to a Steam account.",
         "status": "verified",
         "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen",
           "https://store.steampowered.com/app/4045720/",
           "https://store.steampowered.com/api/appdetails?appids=4045720&cc=us&l=en"
         ]
@@ -327,6 +328,14 @@
           "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman",
           "https://iheldtheline.com/images/news/sq42-playtest-invite-email-oct-2026.png"
         ]
+      },
+      {
+        "id": "sq42-manchester-playtest-recap-oct-2026",
+        "claim": "CIG's October 12, 2026 This Week in Star Citizen says around 140 community members attended the Squadron 42 hands-on event in Manchester; attendees played Squadron 42 for five hours, followed by an additional hour of a unique story chapter aboard an adrift Xi'an ship. CIG said photos from the event would be shared soon.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen"
+        ]
       }
     ],
     "/news": [
@@ -366,6 +375,14 @@
         ]
       },
       {
+        "id": "sq42-manchester-playtest-recap-oct-2026",
+        "claim": "CIG's October 12, 2026 This Week in Star Citizen says around 140 community members attended the Squadron 42 hands-on event in Manchester; attendees played Squadron 42 for five hours, followed by an additional hour of a unique story chapter aboard an adrift Xi'an ship. CIG said photos from the event would be shared soon.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen"
+        ]
+      },
+      {
         "id": "sq42-monthly-reports-series",
         "claim": "Dedicated Squadron 42 Monthly Reports ran as an official comm-link series from the September 2018 edition (cross-posted November 2018, comm-link 16792) through September 2024, publishing continuously — including through 2022–2023, when it was cross-posted from the SQ42 newsletter.",
         "status": "verified",
@@ -387,6 +404,7 @@
         "claim": "Squadron 42 has an official Steam store page (app 4045720, published by Roberts Space Industries, developed by Cloud Imperium Games) that went live on October 10, 2026; it can be wishlisted but not bought, lists a planned release of Q2 2027, Windows only, and notes support for linking a Roberts Space Industries account to a Steam account.",
         "status": "verified",
         "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen",
           "https://store.steampowered.com/app/4045720/",
           "https://store.steampowered.com/api/appdetails?appids=4045720&cc=us&l=en"
         ]
@@ -435,6 +453,14 @@
         "sources": [
           "https://robertsspaceindustries.com/en/comm-link/transmission/21301-Letter-From-The-Chairman",
           "https://iheldtheline.com/images/news/sq42-playtest-invite-email-oct-2026.png"
+        ]
+      },
+      {
+        "id": "sq42-manchester-playtest-recap-oct-2026",
+        "claim": "CIG's October 12, 2026 This Week in Star Citizen says around 140 community members attended the Squadron 42 hands-on event in Manchester; attendees played Squadron 42 for five hours, followed by an additional hour of a unique story chapter aboard an adrift Xi'an ship. CIG said photos from the event would be shared soon.",
+        "status": "verified",
+        "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen"
         ]
       },
       {
@@ -518,6 +544,7 @@
         "claim": "Squadron 42 has an official Steam store page (app 4045720, published by Roberts Space Industries, developed by Cloud Imperium Games) that went live on October 10, 2026; it can be wishlisted but not bought, lists a planned release of Q2 2027, Windows only, and notes support for linking a Roberts Space Industries account to a Steam account.",
         "status": "verified",
         "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen",
           "https://store.steampowered.com/app/4045720/",
           "https://store.steampowered.com/api/appdetails?appids=4045720&cc=us&l=en"
         ]
@@ -589,6 +616,7 @@
         "claim": "Squadron 42 has an official Steam store page (app 4045720, published by Roberts Space Industries, developed by Cloud Imperium Games) that went live on October 10, 2026; it can be wishlisted but not bought, lists a planned release of Q2 2027, Windows only, and notes support for linking a Roberts Space Industries account to a Steam account.",
         "status": "verified",
         "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen",
           "https://store.steampowered.com/app/4045720/",
           "https://store.steampowered.com/api/appdetails?appids=4045720&cc=us&l=en"
         ]
@@ -702,6 +730,7 @@
         "claim": "Squadron 42 has an official Steam store page (app 4045720, published by Roberts Space Industries, developed by Cloud Imperium Games) that went live on October 10, 2026; it can be wishlisted but not bought, lists a planned release of Q2 2027, Windows only, and notes support for linking a Roberts Space Industries account to a Steam account.",
         "status": "verified",
         "sources": [
+          "https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen",
           "https://store.steampowered.com/app/4045720/",
           "https://store.steampowered.com/api/appdetails?appids=4045720&cc=us&l=en"
         ]

@@ -10,6 +10,16 @@ export type NewsEntry = {
 
 export const NEWS: NewsEntry[] = [
   {
+    slug: 'sq42-manchester-playtest-recap',
+    metaTitle: 'SQ42 Playtest Recap: ~140 Attendees',
+    date: '2026-10-12',
+    headline: 'CIG Recaps the Squadron 42 Playtest: Around 140 Attendees, Five Hours Hands-On',
+    summary:
+      'In its October 12 This Week in Star Citizen, CIG said around 140 community members attended the Squadron 42 hands-on event in Manchester. Attendees played Squadron 42 for five hours, then spent an extra hour in a unique story chapter aboard an adrift Xi’an ship. CIG gave no release date, said photos from the weekend are coming soon, and pointed players to the trailer and the Steam wishlist.',
+    sourceLabel: 'RSI Comm-Link — This Week in Star Citizen',
+    sourceUrl: 'https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen',
+  },
+  {
     slug: 'squadron-42-steam-page-live-wishlist',
     metaTitle: 'SQ42 Steam Page Live — Wishlist Only',
     date: '2026-10-10',
