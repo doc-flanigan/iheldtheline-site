@@ -9,7 +9,7 @@ import { SITE } from '@/data/site'
 export const metadata: Metadata = {
   title: 'SQ42 Playtest — Manchester, October 2026',
   description:
-    'The invite-only Squadron 42 playtest ran at CIG’s Manchester studio, October 9–11, 2026. Who was invited, what CIG said comes next, and why no release date has been announced yet.',
+    'The invite-only Squadron 42 playtest ran at CIG’s Manchester studio, October 9–11, 2026. Who was invited, and what CIG said about the release date.',
   alternates: { canonical: '/playtest-event' },
   openGraph: {
     title: 'Squadron 42 Playtest Event — October 2026 Manchester Weekend Explained',
