@@ -127,6 +127,18 @@ export default function SteamPage() {
             </section>
 
             <section className="max-w-2xl mb-14">
+              <h2 className={h2}>The new trailer</h2>
+              <p className={p}>
+                The Steam page carries a new Squadron 42 trailer, &ldquo;The Oath,&rdquo; published
+                alongside the wishlist page on October 10, 2026. You can watch it on the{' '}
+                <a href={STEAM_URL} target="_blank" rel="noopener" className={link}>
+                  Steam store page
+                </a>
+                .
+              </p>
+            </section>
+
+            <section className="max-w-2xl mb-14">
               <h2 className={h2}>The release window Steam shows</h2>
               <p className={p}>
                 Steam says &ldquo;Planned Release Date: Q2 2027.&rdquo; That is a window, not a day. It

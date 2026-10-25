@@ -20,6 +20,16 @@ export const NEWS: NewsEntry[] = [
     sourceUrl: 'https://robertsspaceindustries.com/en/comm-link/transmission/21374-This-Week-In-Star-Citizen',
   },
   {
+    slug: 'squadron-42-the-oath-trailer-steam',
+    metaTitle: 'SQ42 "The Oath" Trailer on Steam',
+    date: '2026-10-10',
+    headline: 'Squadron 42 Steam Page Debuts a New Trailer, "The Oath"',
+    summary:
+      'Squadron 42\'s Steam page carries a new trailer titled "The Oath," which went up alongside the wishlist page on October 10, 2026. The page lists a planned release of Q2 2027 with no price or exact date.',
+    sourceLabel: 'Steam — Squadron 42 store page',
+    sourceUrl: 'https://store.steampowered.com/app/4045720/',
+  },
+  {
     slug: 'squadron-42-steam-page-live-wishlist',
     metaTitle: 'SQ42 Steam Page Live — Wishlist Only',
     date: '2026-10-10',
