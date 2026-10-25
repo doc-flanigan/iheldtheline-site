@@ -134,6 +134,15 @@ export default function SteamPage() {
                 <a href={STEAM_URL} target="_blank" rel="noopener" className={link}>
                   Steam store page
                 </a>
+                . A copy is also on YouTube, uploaded by IGN:{' '}
+                <a
+                  href="https://www.youtube.com/watch?v=pTHEkEZhMgM"
+                  target="_blank"
+                  rel="noopener"
+                  className={link}
+                >
+                  Squadron 42 &ndash; Official Wishlist Trailer
+                </a>
                 .
               </p>
             </section>
