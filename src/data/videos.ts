@@ -9,6 +9,14 @@ export type VideoEntry = {
 
 export const VIDEOS: VideoEntry[] = [
   {
+    date: '2026-11-11',
+    title: 'Squadron 42 | Inside CIG: Community Gameplay Event',
+    description:
+      'An "Inside CIG" behind-the-scenes video from the official Squadron 42 channel covering the Community Gameplay Event — the hands-on session where invited backers and content creators played Squadron 42 in the lead-up to its Q2 2027 release.',
+    thumbnailUrl: 'https://img.youtube.com/vi/6JHK6KPap-M/maxresdefault.jpg',
+    sourceUrl: 'https://www.youtube.com/watch?v=6JHK6KPap-M',
+  },
+  {
     date: '2024-10-19',
     title: 'Squadron 42 — Official Gameplay Reveal | CitizenCon 2954',
     description:
