@@ -6,7 +6,7 @@ Domain:         iheldtheline.com
 Referral code:  STAR-GCQJ-N6NC (single — rotation discontinued 2026-06-28)
 Enlist URL:     https://www.robertsspaceindustries.com/enlist?referral=STAR-GCQJ-N6NC
 Hub:            https://dayonecitizen.com
-Conventions:    E:\Claude Code\sc-portfolio\SHARED_CONVENTIONS.md
+Conventions:    ../SHARED_CONVENTIONS.md
 ```
 
 ## Click Tracking
@@ -69,8 +69,8 @@ not buyer intent. Treat as an authority/brand asset that links toward the hub.
 - Invent lore, dates, or quotes — community facts must be accurate to be cited.
 - Cross-link to any satellite other than the hub.
 
-**Full strategy:** `E:\Claude Code\sc-portfolio\docs\seo\README.md`
+**Full strategy:** `../docs/seo/README.md`
 
 ## Claims ledger (network-wide)
 
-Fact-checked claims are tracked in the portfolio claims ledger: `E:\Claude Code\sc-portfolio\docs\claims\` — one md file per claim (canonical text, status, official sources, lastVerified, usage map). Before adding or rewording a factual claim on this site, grep the ledger; a `verified` entry is network canon. Any edit that adds, changes, or removes a factual claim must update the matching claim file's `usage` list (or create the file — see the ledger README.md).
+Fact-checked claims are tracked in the portfolio claims ledger: `../docs/claims/` — one md file per claim (canonical text, status, official sources, lastVerified, usage map). Before adding or rewording a factual claim on this site, grep the ledger; a `verified` entry is network canon. Any edit that adds, changes, or removes a factual claim must update the matching claim file's `usage` list (or create the file — see the ledger README.md).
